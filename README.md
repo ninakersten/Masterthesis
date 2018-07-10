@@ -32,3 +32,6 @@ WORKFLOW:
       >>> primes = FileExchange.bnet2primes("converted_Boolean2bnet_TS2B_output.bnet")
       >>> igraph = IGs.primes2igraph(primes)
       >>> IGs.igraph2image(igraph, "InteractionGraph.pdf")
+      
+ - Do this for all cell lines and inhibitor combination: This results in about 32 networks
+ - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tool and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
