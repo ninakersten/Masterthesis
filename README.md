@@ -24,14 +24,14 @@ WORKFLOW:
 
 - Run The PyBoolNet-Tool:
 
-  e.g.: 
-        $ cd <directory of the converted file.bnet placed in the PyBoolNet-2.2.5 file>
-        $ python3
-      >>> from PyBoolNet import FileExchange
-      >>> from PyBoolNet import import InteractionGraphs as IGs
-      >>> primes = FileExchange.bnet2primes("converted_Boolean2bnet_TS2B_output.bnet")
-      >>> igraph = IGs.primes2igraph(primes)
-      >>> IGs.igraph2image(igraph, "InteractionGraph.pdf")
+  e.g.:<br/> 
+        $ cd \"directory of the converted file.bnet placed in the PyBoolNet-2.2.5 file\"<br/>
+        $ python3<br/> 
+      >>> from PyBoolNet import FileExchange<br/> 
+      >>> from PyBoolNet import import InteractionGraphs as IGs<br/> 
+      >>> primes = FileExchange.bnet2primes(\"converted_Boolean2bnet_TS2B_output.bnet\")<br/> 
+      >>> igraph = IGs.primes2igraph(primes)<br/> 
+      >>> IGs.igraph2image(igraph, \"InteractionGraph.pdf\")<br/> 
       
  - Do this for all cell lines and inhibitor combination: This results in about 32 networks
  - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tool and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
