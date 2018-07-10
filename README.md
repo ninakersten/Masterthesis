@@ -33,5 +33,6 @@ WORKFLOW:
       >>> igraph = IGs.primes2igraph(primes)<br/> 
       >>> IGs.igraph2image(igraph, \"InteractionGraph.pdf\")<br/> 
       
+ - In this git repository the first successful trial with BT20_full_Insulin.pdf can be regarded.   
  - Do this for all cell lines and inhibitor combination: This results in about 32 networks
  - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tool and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
