@@ -1,0 +1,307 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Berestovsky%
+\ \BBA {} Nakhleh%
+}{%
+Berestovsky%
+\ \BBA {} Nakhleh%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+10.1371/journal.pone.0066031}
+\APACinsertmetastar {%
+10.1371/journal.pone.0066031}%
+\begin{APACrefauthors}%
+Berestovsky, N.%
+\BCBT {}\ \BBA {} Nakhleh, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{06}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Evaluation of Methods for Inferring Boolean Networks
+  from Time-Series Data} {An evaluation of methods for inferring boolean
+  networks from time-series data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLOS ONE}{8}{6}{1-9}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1371/journal.pone.0066031}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pone.0066031} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chai%
+\ \protect \BOthers {.}}{%
+Chai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+CHAI201455}
+\APACinsertmetastar {%
+CHAI201455}%
+\begin{APACrefauthors}%
+Chai, L\BPBI E.%
+, Loh, S\BPBI K.%
+, Low, S\BPBI T.%
+, Mohamad, M\BPBI S.%
+, Deris, S.%
+\BCBL {}\ \BBA {} Zakaria, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review on the computational approaches for gene
+  regulatory network construction} {A review on the computational approaches
+  for gene regulatory network construction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers in Biology and Medicine}{48}{}{55 - 65}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0010482514000420}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.compbiomed.2014.02.011}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Las~Rivas%
+\ \BBA {} Fontanillo%
+}{%
+De~Las~Rivas%
+\ \BBA {} Fontanillo%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+10.1371/journal.pcbi.1000807}
+\APACinsertmetastar {%
+10.1371/journal.pcbi.1000807}%
+\begin{APACrefauthors}%
+De~Las~Rivas, J.%
+\BCBT {}\ \BBA {} Fontanillo, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{06}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Protein–Protein Interactions Essentials: Key Concepts
+  to Building and Analyzing Interactome Networks} {Protein–protein
+  interactions essentials: Key concepts to building and analyzing interactome
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLOS Computational Biology}{6}{6}{1-8}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1371/journal.pcbi.1000807}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pcbi.1000807} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Elena S.~Dimitrova%
+}{%
+Elena S.~Dimitrova%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+DISCRETIZATION}
+\APACinsertmetastar {%
+DISCRETIZATION}%
+\begin{APACrefauthors}%
+Elena S.~Dimitrova, J., M. Paola Vera~Licona.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Discretization of Time Series Data} {Discretization of
+  time series data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Computational Biology}{}{1}{853 - 868}.
+\newblock
+\begin{APACrefURL} \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3203514/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{http://doi.org/10.1089/cmb.2008.0023} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kestler%
+, Wawra%
+, Kracher%
+\BCBL {}\ \BBA {} Kuehl%
+}{%
+Kestler%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+BIES:BIES20834}
+\APACinsertmetastar {%
+BIES:BIES20834}%
+\begin{APACrefauthors}%
+Kestler, H\BPBI A.%
+, Wawra, C.%
+, Kracher, B.%
+\BCBL {}\ \BBA {} Kuehl, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Network modeling of signal transduction: establishing
+  the global view} {Network modeling of signal transduction: establishing the
+  global view}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{BioEssays}{30}{11-12}{1110--1125}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1002/bies.20834} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1002/bies.20834} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lee%
+\ \protect \BOthers {.}}{%
+Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+Lee799}
+\APACinsertmetastar {%
+Lee799}%
+\begin{APACrefauthors}%
+Lee, T\BPBI I.%
+, Rinaldi, N\BPBI J.%
+, Robert, F.%
+, Odom, D\BPBI T.%
+, Bar-Joseph, Z.%
+, Gerber, G\BPBI K.%
+\BDBL {}Young, R\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Transcriptional Regulatory Networks in Saccharomyces
+  cerevisiae} {Transcriptional regulatory networks in saccharomyces
+  cerevisiae}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{298}{5594}{799--804}.
+\newblock
+\begin{APACrefURL} \url{http://science.sciencemag.org/content/298/5594/799}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1126/science.1075090} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pellegrini%
+, Haynor%
+\BCBL {}\ \BBA {} Johnson%
+}{%
+Pellegrini%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+doi:10.1586/14789450.1.2.239}
+\APACinsertmetastar {%
+doi:10.1586/14789450.1.2.239}%
+\begin{APACrefauthors}%
+Pellegrini, M.%
+, Haynor, D.%
+\BCBL {}\ \BBA {} Johnson, J\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Protein Interaction Networks} {Protein interaction
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Expert Review of Proteomics}{1}{2}{239-249}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1586/14789450.1.2.239}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{PMID: 15966818}
+\newblock
+\begin{APACrefDOI} \doi{10.1586/14789450.1.2.239} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saadatpour%
+\ \BBA {} Albert%
+}{%
+Saadatpour%
+\ \BBA {} Albert%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+SAADATPOUR20133}
+\APACinsertmetastar {%
+SAADATPOUR20133}%
+\begin{APACrefauthors}%
+Saadatpour, A.%
+\BCBT {}\ \BBA {} Albert, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Boolean modeling of biological regulatory networks: A
+  methodology tutorial} {Boolean modeling of biological regulatory networks: A
+  methodology tutorial}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Methods}{62}{1}{3 - 12}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S1046202312002770}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Modeling Gene Expression}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.ymeth.2012.10.012}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Élisabeth Remy%
+, Ruet%
+\BCBL {}\ \BBA {} Thieffry%
+}{%
+Élisabeth Remy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+REMY2008335}
+\APACinsertmetastar {%
+REMY2008335}%
+\begin{APACrefauthors}%
+Élisabeth Remy%
+, Ruet, P.%
+\BCBL {}\ \BBA {} Thieffry, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Graphic requirements for multistability and attractive
+  cycles in a Boolean dynamical framework} {Graphic requirements for
+  multistability and attractive cycles in a boolean dynamical
+  framework}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Applied Mathematics}{41}{3}{335 - 350}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0196885808000146}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.aam.2007.11.003}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
