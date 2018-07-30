@@ -38,8 +38,8 @@ stimulilist<- c("Insulin", "IGF1", "FGF1", "EGF", "HGF" , "Serum", "NRG1" , "PBS
       split_newdata4 <- newdata4
       #split_newdata4 <- newdata4[,20]# Working with a smaller dataset
       e <- c("!", "$", as.character("%"),"+", "-", ".","0","1","2","3","4","5","6","7","8","9", ":", ";", "?", "@","A","B","C","D","E","F","G","H","I","J","K", "L", "M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z", "_", "~") #All possible single characters working with the TS2B model
-      #g <- c("NON", e[1:ncol(split_newdata4)-1])
-      g <- c(i, "NON", e[1:ncol(split_newdata4)-1])# Control: Shows wether the loop works by putting (i) in the headerof the .txt-file
+      g <- c("NON", e[1:ncol(split_newdata4)-1])
+      #g <- c(i, "NON", e[1:ncol(split_newdata4)-1])# Control: Shows wether the loop works by putting (i) in the headerof the .txt-file
       b <- (paste(g, collapse =" "))
       c <- as.data.frame(b)
       f <- rbind.fill(list(c,split_newdata4))
