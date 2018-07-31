@@ -28,7 +28,7 @@ WORKFLOW:
         $ cd \"directory of the converted file.bnet placed in the PyBoolNet-2.2.5 file\"<br/>
         $ python3<br/> 
       >>> from PyBoolNet import FileExchange<br/> 
-      >>> from PyBoolNet import import InteractionGraphs as IGs<br/> 
+      >>> from PyBoolNet import InteractionGraphs as IGs<br/> 
       >>> primes = FileExchange.bnet2primes(\"converted_Boolean2bnet_TS2B_output.bnet\")<br/> 
       >>> igraph = IGs.primes2igraph(primes)<br/> 
       >>> IGs.igraph2image(igraph, \"InteractionGraph.pdf\")<br/> 
