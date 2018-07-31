@@ -42,30 +42,21 @@ boolean2bnet2[boolean2bnet2 == "="] = ","
 #Ersetze alle Buchstaben durch den Knotennamen
 #Lese input-file.txt für TS2B als data frame ein
 name2node <- read.table("/home/nina/Schreibtisch/Masterarbeit/Algorithmen/TS2B/BooleanModeling2post/examples/PBS.txt", fill= TRUE, header= FALSE, stringsAsFactors = FALSE, comment.char = "") 
-name2node2 <- as.vector(name2node[2,-1])
+name2node2 <- as.character(as.vector(name2node[2,-1]))
 symbollist <- c("!", "$", as.character("%"),"+", "-", ".","0","1","2","3","4","5","6","7","8","9", ":", ";", "?", "@","A","B","C","D","E","F","G","H","I","J","K", "L", "M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z", "_", "~") #All possible single characters working with the TS2B model
 symbollist2 <- c("!*", "$*", as.character("%*"),"+*", "-*", ".*","0*","1*","2*","3*","4*","5*","6*","7*","8*","9*", ":*", ";*", "?*", "@*","A*","B*","C*","D*","E*","F*","G*","H*","I*","J*","K*", "L*", "M*","N*","O*","P*","Q*","R*","S*","T*","U*","V*","W*","X*","Y*","Z*", "_*", "~*") #All possible single characters  with "*" working with the TS2B model
 
 
 for (i in symbollist){
-      boolean2bnet2[boolean2bnet2 == "i"] = as.character(name2node2[which(symbollist == "i")])
-    
-      #boolean2bnet2[boolean2bnet2 == "j"]= name2node2[which(symbollist2 == "j")]
+  for (j in symbollist2){
+      boolean2bnet2[boolean2bnet2 == i] = as.character(name2node2[which(symbollist == i)])
+      boolean2bnet2[boolean2bnet2 == j] = as.character(name2node2[which(symbollist2 == j)])
+      
+  }
 }
-
-boolean2bnet2[boolean2bnet2 == "A*"] = as.character(name2node2[which(symbollist2 == "A*")])
-
-#boolean2bnet2[boolean2bnet2 == "A*"] = name2node[2,2]# alternative without a loop
 
 new <- as.data.frame(sapply(boolean2bnet2,gsub,pattern="\\.",replacement="_"))
 
-#character <- as.data.frame(as.character(boolean2bnet2))
-
-#boolean2bnet2$V1 <- sub("^[^[:graph:]]", "", boolean2bnet2$V1)
-#boolean2bnet2$V1 <- sub("^[\\*-]", "", boolean2bnet2$V1)
-
-
-# Von oben nach unten Buchstaben lexikographisch ersetzen
 write.table(new, file = "output2.bnet", quote = FALSE, row.names=FALSE, col.names = FALSE)
 
 
