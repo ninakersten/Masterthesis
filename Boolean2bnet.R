@@ -55,8 +55,8 @@ for (i in symbollist){
   }
 }
 
-#Replace all "." in a protein's name by "_", because in PyBoolNet "." in a protein's name cause trouble
-new <- as.data.frame(sapply(boolean2bnet2,gsub,pattern="\\.",replacement="_"))
+#In case of PyBoolNet: Replace all "." in a protein's name by "_", because in PyBoolNet "." in a protein's name cause trouble
+#new <- as.data.frame(sapply(boolean2bnet2,gsub,pattern="\\.",replacement="_"))
 
 write.table(new, file = "output2.bnet", quote = FALSE, row.names=FALSE, col.names = FALSE, sep = " ")
 
