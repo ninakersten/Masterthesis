@@ -22,29 +22,34 @@ mybiglist <- list()
 
 for (protein in proteinlist){
   
-  indexlist <- which(bnet_subdata == protein, arr.ind=TRUE)
   name <- paste(protein,":",sep=" ")
-  mybiglist[[name]] <- indexlist
-  #print(index)
-  
+  mybiglist[[name]] <- which(bnet_subdata == protein, arr.ind=TRUE)
+ 
   #dir.create("/BnetData")
   #write.table(indexlist,paste(protein,sep = ".","txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
 }
 
-
-for (x in mybiglist){
-  for(y in 1:nrow(mybiglist[[x]])){
-    for(z in mybiglist[[y]]){
-    if (bnet_subdata[y[1,],y[,1-1]] == "!"){
-      
-      print("Inactive")
-      
-    }else if(bnet_subdata[y[1,],y[,1-1]] == "|"){
-      
-      print("Active")
-      }
-    }
+for (j in mybiglist){
+  if ((bnet_subdata[mybiglist[[j]][1:nrow(mybiglist[[1]]),1], mybiglist[[j]][1:nrow(mybiglist[[1]]),2]]) == "!"){
+    print ("Inactive")
+  }else if ((bnet_subdata[mybiglist[[j]][1:nrow(mybiglist[[1]]),1], mybiglist[[j]][1:nrow(mybiglist[[1]]),2]]) == " "){
+    print ("aktive")
   }
+  
+}
+row <- mybiglist[[1]][1:nrow(mybiglist[[1]]),1]
+col <- mybiglist[[1]][1:nrow(mybiglist[[1]]),2]
+index <- bnet_subdata[row, col]
+
+
+s<-mybiglist[[name]]
+t<-s[["EIF4EBP1_pT37_pT46"]]
+index<-bnet_subdata[t[2,1],t[2,2]-1]
+
+if (index == "!"){
+  write.table(paste(protein[1],"-1",sep= " "),file="bnet2sif.sif", row.names = FALSE, col.names = FALSE, sep = "\n")
+}else if (index == "&"| index == "|" | index == "," | index == " "){
+  write.table(paste(protein[1],"1",sep= " "),file="bnet2sif.sif", row.names = FALSE, col.names = FALSE, sep = "\n")
 }
 
 
