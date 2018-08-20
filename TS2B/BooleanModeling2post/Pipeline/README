@@ -1,0 +1,89 @@
+### README for DREAMChallenge C8D1 ### (Nina Kersten)
+
+#Systems Requirements:	Python 3.5.2 (default, Nov 23 2017, 16:37:01)
+#			Python 2.7.14 ; Anaconda, Inc. (default, Dec  7 2017, 17:05:42) 
+#			R version 3.4.3 (2017-11-30)
+
+#Register on Synapse (https://www.synapse.org/)
+#Register on Git (https://github.com/)
+#Download the trainig data set of the DreamChallenge C8D1 (https://www.synapse.org/#!Synapse:syn5924123)
+#	directory to the data in the training data set folder:  "/Training data/experimental/experimental/CSV/["CellLineName"]_full.csv"
+#	4 "celllines" with 8 stimuli in each cellline, means: 8 experiments with each cellline yields 32 networks
+#Install TS2B (https://bioinfocs.rice.edu/ts2b)
+
+########### INSTALLATION REQUIREMENTS FOR TS2B ###########
+In order to be able to execute the code you need:
+1. Python 2.7
+2. Python bitarray package (http://pypi.python.org/pypi/bitarray)
+3. boolean2 package associated with Booleannet modeling tool (http://code.google.com/p/booleannet/)
+##########################################################
+
+#Install PyBoolNet (https://github.com/hklarner/PyBoolNet/releases)
+#Install Python Synapse Client (https://github.com/Sage-Bionetworks/synapsePythonClient)
+
+sudo pip3 install synapseclient[pandas,pysftp]
+
+
+################################################################################################################################################
+
+#HomeDIR = ./TS2B/BooleanModeling2post/
+
+
+
+### STEP 1: CREATING A BOOLEAN NETWORK ###
+
+#Go to  ./Pipeline$
+
+Rscript CSV2TXT.r
+
+#Output should be stored in "./Pipeline/CSV2TXT_output" 
+
+
+#Run the TS2B-program:
+#Til now, networks can be just created one after another
+
+#Go to ./BooleanModeling2Post$
+
+#Run TS2B (by typing in the commandline): E.g.:
+python BinInfer.py input=./Pipeline/CSV2TXT_output/[file_name].txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3 > ./Pipeline/TS2B_output/output.txt
+
+#Run the TS2B with at least 3 solutions and a min error of 5. The best combination is BESTFIT in combination with the k-means clustering algorithm.
+
+#The computation the network may take a while. For about 48nodes and the example above about 10minutes.
+
+
+
+### STEP 2: CREATING THE INTERACTION GRAPH ###
+
+#Go back to  ./Pipeline$
+#Run the Boolean2bnet.r
+
+Rscript Boolean2bnet.r
+ 
+#The product of Boolean2bnet.R is stored in the "/PyBoolNet-2.2.5" -folder
+
+#Run InteractionGraph.py
+
+#./Pipeline/PyBoolNet-2.2.5/
+# Run InteractionGraph.py
+
+python3 InteractionGraph.py [directory of the inputfile]
+
+#e.g.: python3 InteractionGraph.py /TS2B/BooleanModeling2post/Pipeline/TS2B_output/output2.bnet > InteractionGraph.sif
+
+#The created .sif file provides information about the edges,like A 1 B (A activates B) and B -1 A (B inactivates A)
+#.sif-file is stored in PyBoolNet-2.2.5
+
+
+
+
+### STEP 3: ASSESSING THE NETWORK ###
+
+#Install DREAMTools (http://dreamchallenges.org/tools/)
+
+git clone git@github.com:dreamtools/dreamtools.git
+cd dreamtools                            
+pip3 install dreamtools
+   
+
+
