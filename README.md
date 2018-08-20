@@ -11,6 +11,8 @@ The goal is to connect all these steps in a more fluently way by programming two
 
 Furthemore the models of the real-life course-time data are evaluated by a AUROC-Score (Area Under the Curve). Therefore a tool of the DREAM-Challenge platformis provided called DREAMTools, a python package for scoring collaborative challenges. 
 
+First the WORKFLOW for the Example-data is shown and second is the WORKFLOW for the real-life course-time data of the DREAMCHALLENGE.
+
 Requirements:
 
 - Python 3.5.2 (default, Nov 23 2017, 16:37:01)
@@ -24,6 +26,7 @@ WORKFLOW: for DREAM CHALLENGE data set
 
 ### STEP 1: CREATING A BOOLEAN NETWORK ###
 
+#After all installations download the TS2B-folder from this git repository:
 #Go to  ./Pipeline$
 
 Rscript CSV2TXT.r
