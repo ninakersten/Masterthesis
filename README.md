@@ -67,23 +67,6 @@ python3 InteractionGraph.py [directory of the inputfile]
 
 #The created .sif file provides information about the edges,like A 1 B (A activates B) and B -1 A (B inactivates A)
 #.sif-file is stored in PyBoolNet-2.2.5
-
-
-
-- Run The PyBoolNet-Tool:
-
-  e.g.:<br/> 
-        $ cd \"directory of the converted file.bnet placed in the PyBoolNet-2.2.5 file\"<br/>
-        $ python3<br/> 
-      >>> from PyBoolNet import FileExchange<br/> 
-      >>> from PyBoolNet import InteractionGraphs as IGs<br/> 
-      >>> primes = FileExchange.bnet2primes(\"converted_Boolean2bnet_TS2B_output.bnet\")<br/> 
-      >>> igraph = IGs.primes2igraph(primes)<br/> 
-      >>> IGs.igraph2image(igraph, \"InteractionGraph.pdf\")<br/> 
-      
- - In this git repository the first successful trial with BT20_full_Insulin.pdf can be regarded.   
- - Do this for all cell lines and inhibitor combination: This results in about 32 networks
- - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tools (http://dreamchallenges.org/tools/) and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
  
  ### STEP 3: ASSESSING THE NETWORK ###
 
@@ -92,3 +75,10 @@ python3 InteractionGraph.py [directory of the inputfile]
 git clone git@github.com:dreamtools/dreamtools.git
 cd dreamtools                            
 pip3 install dreamtools
+
+
+## WORKFLOW: for an ExampleData set ##
+
+## Quick Practice in PyBoolNet ##
+
+
