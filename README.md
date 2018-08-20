@@ -1,4 +1,5 @@
-# Masterthesis
+
+# Masterthesis #
 
 In this masterthesis the goal is to show a sufficient way to process microarray real-life course-time data and a smaller fictional data set to get a boolean model and analyze the model in an aysnchronous and synchronous manner.
 
@@ -22,7 +23,7 @@ Requirements:
 - Install TS2B (https://bioinfocs.rice.edu/ts2b)
 - Install PyBoolNet (https://github.com/hklarner/PyBoolNet/releases)
 
-WORKFLOW: for DREAM CHALLENGE data set
+## WORKFLOW: for DREAM CHALLENGE data set ##
 
 ### STEP 1: CREATING A BOOLEAN NETWORK ###
 
@@ -44,7 +45,7 @@ python BinInfer.py input=./Pipeline/CSV2TXT_output/[file_name].txt bin-method=KM
 #Run the TS2B with at least 3 solutions and a min error of 5. The best combination is BESTFIT in combination with the k-means clustering algorithm.
 
 #The computation the network may take a while. For about 48nodes and the example above about 10minutes.
-set textfont {Monaco 10}(ProblemSolvingInProcess: Taking the output of TS2B from the terminal is an ugly way to work with such that a solution is in process to transform the TS2B_output into .bnet format directly in the TS2B-algorithm. The progress of this process is stored in a BinInfer.py-file in this git repository.)
+**ProblemSolvingInProcess: Taking the output of TS2B from the terminal is an ugly way to work with such that a solution is in process to transform the TS2B_output into .bnet format directly in the TS2B-algorithm. The progress of this process is stored in a BinInfer.py-file in this git repository.**
 
 ### STEP 2: CREATING THE INTERACTION GRAPH ###
 
