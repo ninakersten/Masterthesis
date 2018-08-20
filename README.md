@@ -14,11 +14,23 @@ Furthemore the models of the real-life course-time data are evaluated by a AUROC
 
 WORKFLOW:
 
+Requirements:
+
+- Python 3.5.2 (default, Nov 23 2017, 16:37:01)
+- Python 2.7.14 ; Anaconda, Inc. (default, Dec  7 2017, 17:05:42)
+- R version 3.4.3 (2017-11-30)
 - Download the training data set of the DREAM8 - HPN DREAM Breast Cancer Challenge (https://www.synapse.org/#!Synapse:syn5924123).      Here the main not the full experimental data is used. The "main"- dataset has less nodes than the "full"-dataset.
 - Install TS2B (https://bioinfocs.rice.edu/ts2b)
 - Install PyBoolNet (https://github.com/hklarner/PyBoolNet/releases)
 
-- Run the CSV2TXT-Parser on the one of the 4 cell lines (BT20_main.csv) main experimental data set
+### STEP 1: CREATING A BOOLEAN NETWORK ###
+
+#Go to  ./Pipeline$
+
+Rscript CSV2TXT.r
+
+#Output should be stored in "./Pipeline/CSV2TXT_output" 
+
 - Run the TS2B with at least 3 solutions and a min error of 5. The best combination is BESTFIT in combination with the k-means clustering algorithm.
 - Take the output of the TS2B and run the Boolean2bnet- Parser to convert the the TS2B-output to a PyBoolNet-input-format
 
