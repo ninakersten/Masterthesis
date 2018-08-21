@@ -17,9 +17,12 @@ from time import time
 originalSeries = {}	# original series stored here as a list
 binarySeries = {}	# structure same as the original but with binary series
 inputoutput = {}	# keys are combinations, with a list of compbinations that are outputs of it
+nametoNode= {}
 debug = False
 binz = Binarization()
 F = open("outfile.txt","w") 
+
+
 
 
 
@@ -78,12 +81,15 @@ def main(argv=sys.argv):
 			order.append(t)
 		for line in f:
 			if line.startswith("#"):
+				proteinnames = line.rstrip("\n").split("\t")
+				proteinnames.pop(0)
 				continue
+
 			words = line.split()
 			for i in range(len(words)):
 				originalSeries[order[i]].append(float(words[i]))
+	
 
-	print argumentsValues
 	allConvergence = []
 	allTimes = []
 	bMethod = argumentsValues['bin-method']
@@ -120,16 +126,23 @@ def main(argv=sys.argv):
 				if output['score'] <= bestofallscores:
 					bestofallscores = output['score']
 					tmpnodes = output['text']
-					print tmpnodes
+					
 					
 	F.write(str(bestofallscores)+"\n")
 	supi = tmpnodes.replace("=",",").replace("not","!").replace("and","&").replace("or","|")
-
+	
 	test =	supi.split("\n")
+	print test
+	nodes = [x[:1] for x in test]
+	for i,e in enumerate(proteinnames):
+		nametoNode[nodes[i]] = proteinnames[i]
+	print nametoNode
+
+	
 	for i in test:
 		if "*" in i:
 			#print "ein stern!"
-			#print i
+			#print i		
 			F.write(i+"\n")
 				#print output[tp]
 			#F.write("\n"+"\n"+str(output[tp]))
