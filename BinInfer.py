@@ -17,10 +17,10 @@ from time import time
 originalSeries = {}	# original series stored here as a list
 binarySeries = {}	# structure same as the original but with binary series
 inputoutput = {}	# keys are combinations, with a list of compbinations that are outputs of it
-nametoNode= {}
+nametoNode= {}	# dictionary to store the Symbols with the nodenames
 debug = False
 binz = Binarization()
-F = open("outfile.txt","w") 
+F = open("TS2B_outputfile.txt","w") 
 
 
 
@@ -117,42 +117,56 @@ def main(argv=sys.argv):
 		allConvergence.append(conv)
 		output['allScores'] = conv
 		#findKMeansSolution(output)
-		print "\nSolution found:"
+		#print "\nSolution found:"
+		print "A Boolean Network is successfully created !"
 		toPrint = argumentsValues['output']
-		print output
+		#print output
 		for tp in toPrint:
 			if tp in output:
 				#hier genau hier muss die Umformung rein 
 				if output['score'] <= bestofallscores:
 					bestofallscores = output['score']
 					tmpnodes = output['text']
-					
-					
-	F.write(str(bestofallscores)+"\n")
-	supi = tmpnodes.replace("=",",").replace("not","!").replace("and","&").replace("or","|")
-	
-	test =	supi.split("\n")
-	print test
-	nodes = [x[:1] for x in test]
-	for i,e in enumerate(proteinnames):
-		nametoNode[nodes[i]] = proteinnames[i]
-	print nametoNode
 
-	
-	for i in test:
-		if "*" in i:
-			#print "ein stern!"
-			#print i		
-			F.write(i+"\n")
-				#print output[tp]
-			#F.write("\n"+"\n"+str(output[tp]))
-		# reset solution
 		output['score'] = None
 		output['sums'] = None
 		output['text'] = None
 		output['binSer'] = None
 		output['stt'] = None
 		output['allScores'] = None
+					
+	# here the score of the network can be written into the file				
+	#F.write(str(bestofallscores)+"\n")
+	supi = tmpnodes.replace("=",",").replace("not","!").replace("and","&").replace("or","|")
+	
+	test =	supi.split("\n")
+	#print test
+	nodes = [x[:1] for x in test]
+	for i,e in enumerate(proteinnames):
+		nametoNode[nodes[i]] = proteinnames[i]
+	
+	tempresult = []
+	
+	for i in test:
+		if "*" in i:
+			j = i.replace("*","")
+			tempresult.append(j)
+			
+	
+		#for i,j in nametoNode.iteritems():
+		#	for lst in word_list:
+		#		if i in set(lst):
+		#			lst[lst.index(i)] = j
+
+	#replace_all(f, nametoNode)
+	for listitem in tempresult:
+		for character in listitem:
+			if character in nametoNode:
+
+				listitem = listitem.replace(character,nametoNode[character])
+		F.write(listitem+"\n")
+
+
 	#print allConvergence
 	idxOfDot = argumentsValues['input'].index('.')
 	# can be used to dump convergence data
@@ -181,6 +195,10 @@ def main(argv=sys.argv):
 		else:
 			print 'Unidentified binariztion method. See README.'
 	'''
+
+
+
+
 	
 			
 def findOne_REVEALSolution(maxIters, goodScore, output,binarySeries=None):
