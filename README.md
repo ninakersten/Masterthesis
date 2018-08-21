@@ -1,3 +1,7 @@
+# Goal until 26.08 #
+- Taking the output of TS2B from the terminal is an ugly way to work with such that a solution is in process to transform the TS2B_output into .bnet format directly in the TS2B-algorithm. The progress of this process is stored in a BinInfer.py-file in this git repository. For now this BinInfer.py works and can replace the Boolean2bnet.r script.
+- Validating the Interaction.py script for user interface
+- Connecting the pipeline by a bash-script
 
 # Masterthesis #
 
@@ -45,7 +49,6 @@ python BinInfer.py input=./Pipeline/CSV2TXT_output/[file_name].txt bin-method=KM
 #Run the TS2B with at least 3 solutions and a min error of 5. The best combination is BESTFIT in combination with the k-means clustering algorithm.
 
 #The computation the network may take a while. For about 48nodes and the example above about 10minutes.
-**ProblemSolvingInProcess: Taking the output of TS2B from the terminal is an ugly way to work with such that a solution is in process to transform the TS2B_output into .bnet format directly in the TS2B-algorithm. The progress of this process is stored in a BinInfer.py-file in this git repository.**
 
 ### STEP 2: CREATING THE INTERACTION GRAPH ###
 
