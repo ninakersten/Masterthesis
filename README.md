@@ -70,6 +70,9 @@ python3 InteractionGraph.py [directory of the inputfile]
 
 #The created .sif file provides information about the edges,like A 1 B (A activates B) and B -1 A (B inactivates A)
 #.sif-file is stored in PyBoolNet-2.2.5
+
+#In this git repository the first successful trial with BT20_full_Insulin.pdf can be regarded.   
+#Do this for all cell lines and inhibitor combination: This results in about 32 networks
  
  ### STEP 3: ASSESSING THE NETWORK ###
 
@@ -78,6 +81,8 @@ python3 InteractionGraph.py [directory of the inputfile]
 git clone git@github.com:dreamtools/dreamtools.git
 cd dreamtools                            
 pip3 install dreamtools
+
+ - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tools (http://dreamchallenges.org/tools/) and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
 
 
 ## WORKFLOW: for an ExampleData set ##
@@ -95,6 +100,4 @@ pip3 install dreamtools
        >>> igraph = IGs.primes2igraph(primes)<br/> 
        >>> IGs.igraph2image(igraph, \"InteractionGraph.pdf\")<br/> 
        
-  - In this git repository the first successful trial with BT20_full_Insulin.pdf can be regarded.   
-  - Do this for all cell lines and inhibitor combination: This results in about 32 networks
- - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tools (http://dreamchallenges.org/tools/) and take the mean score of all to compare the result to the other DREAM-Challenge particpants.
+
