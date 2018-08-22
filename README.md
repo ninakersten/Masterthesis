@@ -1,8 +1,3 @@
-# Goal until 26.08 #
-- Taking the output of TS2B from the terminal is an ugly way to work with such that a solution is in process to transform the TS2B_output into .bnet format directly in the TS2B-algorithm. The progress of this process is stored in a BinInfer.py-file in this git repository. For now this BinInfer.py works and can replace the Boolean2bnet.r script.
-- Validating the Interaction.py script for user interface
-- Connecting the pipeline by a bash-script
-
 # Masterthesis #
 
 In this masterthesis the goal is to show a sufficient way to process microarray real-life course-time data and a smaller fictional data set to get a boolean model and analyze the model in an aysnchronous and synchronous manner.
