@@ -81,7 +81,7 @@ def main(argv=sys.argv):
 			order.append(t)
 		for line in f:
 			if line.startswith("#"):
-				templine = line.replace(".","-")
+				templine = line.replace(".","__")
 				proteinnames = templine.rstrip("\n").split("\t")
 				proteinnames.pop(0)
 				
