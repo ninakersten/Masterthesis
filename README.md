@@ -71,6 +71,9 @@ Requirements:
 
 ## WORKFLOW: for an ExampleData set ##
 
+- Download the "TS2B_Example"- folder 
+- Run this Workflow like with the DreamChallenge-data set above with one exception: ./TS2B_Example/... instead of ./TS2B/...
+
 ## Quick Practice in PyBoolNet ##
 
 - Run The PyBoolNet-Tool:
