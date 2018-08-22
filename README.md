@@ -50,12 +50,12 @@ Requirements:
 
 ```./Pipeline/PyBoolNet-2.2.5/$ python3 InteractionGraph.py [argument]```  
 
-- e.g.: python3 InteractionGraph.py ./TS2B_output/TS2B_outputfile.txt  
+- e.g.: python3 InteractionGraph.py ./TS2B_output/TS2B_outputfile.bnet
 - The output is stored in ./PyBoolNet-2.2.5  
 - The created .sif file provides information about the edges,like A 1 B (A activates B) and B -1 A (B inactivates A)  
 - .sif-file is stored in PyBoolNet-2.2.5  
 
-- In this git repository the first successful trial with BT20_full_Insulin.pdf can be regarded.     
+- In this repository you can get the results of the workflow in an example of UACC812_mainSerum.     
 - Do this for all cell lines and inhibitor combination: This results in about 32 networks  
  
  ### STEP 3: ASSESSING THE NETWORK ###
