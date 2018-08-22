@@ -57,8 +57,6 @@ Requirements:
 ```./Pipeline/PyBoolNet-2.2.5/$ python3 InteractionGraph.py [argument]```
 
 #e.g.: python3 InteractionGraph.py ./TS2B_output/TS2B_outputfile.txt
-
-
 #the output is stored in ./PyBoolNet-2.2.5
 #The created .sif file provides information about the edges,like A 1 B (A activates B) and B -1 A (B inactivates A)
 #.sif-file is stored in PyBoolNet-2.2.5
