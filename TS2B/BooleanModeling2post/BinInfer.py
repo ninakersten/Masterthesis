@@ -17,15 +17,21 @@ from time import time
 originalSeries = {}	# original series stored here as a list
 binarySeries = {}	# structure same as the original but with binary series
 inputoutput = {}	# keys are combinations, with a list of compbinations that are outputs of it
+nametoNode= {}	# dictionary to store the Symbols with the nodenames
 debug = False
 binz = Binarization()
+F = open("TS2B_outputfile.bnet","w") 
+
+
+
 
 
 
 argumentsValues = {'input':'','iterations':5000, 'maxscore':0,'solutions':1,'output':['score','text'],'verbose':1, 'learn-method':'REVEAL',  'bin-method':3, 'reduction':0}
 
 def main(argv=sys.argv):
-	
+	bestofallscores = 1000
+	tmpnodes= None
 	global argumentValues
 	bestBinarySeries = None
 	bestScore = None
@@ -75,12 +81,17 @@ def main(argv=sys.argv):
 			order.append(t)
 		for line in f:
 			if line.startswith("#"):
+				templine = line.replace(".","-")
+				proteinnames = templine.rstrip("\n").split("\t")
+				proteinnames.pop(0)
+				
 				continue
+
 			words = line.split()
 			for i in range(len(words)):
 				originalSeries[order[i]].append(float(words[i]))
+	
 
-	print argumentsValues
 	allConvergence = []
 	allTimes = []
 	bMethod = argumentsValues['bin-method']
@@ -89,7 +100,13 @@ def main(argv=sys.argv):
 		bSer = binz.BASC_A_binarization(dict(originalSeries), argumentsValues['reduction'])	
 	elif bMethod == -1:
 		bSer = binz.BASC_B_binarization(dict(originalSeries), argumentsValues['reduction'])
+
+	#Ab hier wird der Output generiert
+
+
+
 	for i in range(argumentsValues['solutions']):
+
 		print 'Cycle ', i
 		
 		if argumentsValues['learn-method'] == 'REVEAL':
@@ -102,18 +119,61 @@ def main(argv=sys.argv):
 		allConvergence.append(conv)
 		output['allScores'] = conv
 		#findKMeansSolution(output)
-		print "\nSolution found:"
+		#print "\nSolution found:"
+		print "A Boolean Network is successfully created !"
 		toPrint = argumentsValues['output']
+		#print output
 		for tp in toPrint:
 			if tp in output:
-				print output[tp]
-		# reset solution
+				#hier genau hier muss die Umformung rein 
+				if output['score'] <= bestofallscores:
+					bestofallscores = output['score']
+					tmpnodes = output['text']
+
 		output['score'] = None
 		output['sums'] = None
 		output['text'] = None
 		output['binSer'] = None
 		output['stt'] = None
 		output['allScores'] = None
+					
+	# here the score of the network can be written into the file				
+	#F.write(str(bestofallscores)+"\n")
+	supi = tmpnodes.replace("=",",").replace("not","!").replace("and","&").replace("or","|")
+	
+	test =	supi.split("\n")
+	#print test
+	nodes = [x[:1] for x in test]
+	for i,e in enumerate(proteinnames):
+		nametoNode[nodes[i]] = proteinnames[i]
+	#print(tmpnodes)
+	
+	tempresult = []
+	
+	for i in test:
+		if "*" in i:
+			j = i.replace("*","")
+			tempresult.append(j)
+
+			
+	
+		#for i,j in nametoNode.iteritems():
+		#	for lst in word_list:
+		#		if i in set(lst):
+		#			lst[lst.index(i)] = j
+
+	#replace_all(f, nametoNode)
+	for listitem in tempresult:
+		l = list(listitem)
+		for j, character in enumerate(listitem):
+
+			if character in nametoNode:
+				
+				l[j] = nametoNode[character]
+
+		string = ''.join(l) 		
+		F.write(string+"\n")
+
 	#print allConvergence
 	idxOfDot = argumentsValues['input'].index('.')
 	# can be used to dump convergence data
@@ -142,6 +202,10 @@ def main(argv=sys.argv):
 		else:
 			print 'Unidentified binariztion method. See README.'
 	'''
+
+
+
+
 	
 			
 def findOne_REVEALSolution(maxIters, goodScore, output,binarySeries=None):
