@@ -62,9 +62,44 @@ Requirements:
 
 - Install DREAMTools (http://dreamchallenges.org/tools/)  
 
-```git clone git@github.com:dreamtools/dreamtools.git```  
-```cd dreamtools```                              
-```pip3 install dreamtools```  
+```git clone git@github.com:dreamtools/dreamtools.git```    
+```cd dreamtools```                                
+```pip3 install dreamtools```    
+
+If you are a end-user, you can skip this section and move directly to the scoring section.
+
+For admin, you may need to download some files before using the code e.g., the
+aggregation functions. Since you will need to access to synapse to download
+those files, you will also need to create a configuration file in your home directory.::
+
+```[authentication]```   
+```username: your_email_registered@synapse```    
+```password: yourSynapsePassword```    
+
+Then, type::
+
+```from dreamtools.dream8.D8C1 import downloads```  
+```d = downloads.GSDownloader()```  
+```d.download_experimental()```  
+
+```d = downloads.SubmissionDownloader()```  
+```d.download_all()```  
+
+The scoring functions inside **scoring** can be used to obtain the ROC or RMSE
+values of a given submissions.
+
+The **ranking** can be used to obtain the rank of a submisson as compared to all other participants.
+
+Format of submissions are explained on https://www.synapse.org/#!Synapse:syn1720047/wiki/
+and examples are provided in ./templates directory.
+
+Here is the procedure to get the ROC or RMSE for sub-challenge C8C1A::
+
+```from dreamtools.dream8.D8C1 import scoring```  
+
+```sc1a = scoring.HPNScoringNetwork(sc1a_submissions.zip)```  
+```sc1a.compute_all_aucs()```  
+```sc1a.get_auc_final_scoring()```  
 
 - Calculate for all 32 networks the AUROC-score with the help of the DREAM-tools (http://dreamchallenges.org/tools/) and take the mean score of all to compare the result to the other DREAM-Challenge particpants.  
 
