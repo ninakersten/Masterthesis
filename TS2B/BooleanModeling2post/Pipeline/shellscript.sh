@@ -12,15 +12,19 @@ Rscript CSV2TXT.r
 cd ..
 
 inputlist='./Pipeline/CSV2TXT_output/*.txt'
-for inputlist in $inputlist
+for input in $inputlist
 do 
-	python BinInfer.py input=$inputlist bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+	python BinInfer.py input=$input bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
 
 done
 
-#cd ./Pipeline/PyBoolNet-2.2.5/
-#python3 InteractionGraph.py ./TS2B_output/TS2B_outputfile.bnet
-
+#Run InteractionGraph.py
+cd ./Pipeline/PyBoolNet-2.2.5/
+inputlist2='./TS2B_output/*.bnet'
+for input2 in $inputlist2
+do
+	python3 InteractionGraph.py $input2
+done
 
 
 
