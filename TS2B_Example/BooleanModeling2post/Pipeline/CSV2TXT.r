@@ -8,17 +8,12 @@
 #install.packages("dplyr")
 #install.packages("stringr")
 library(plyr)
-library(dplyr)
+#library(dplyr)
 library(stringr)
 
-
-cat("Please enter the directory to the ./CSV/ -folder:")
-fil <- readLines(con="stdin", 1)
-askdir <- cat(fil, "\n")
-#Example format: /home/nina/Schreibtisch/Masterarbeit/Algorithmen/TS2B_Example/BooleanModeling2post/Pipeline/CSV/
-#setwd("/home/nina/Schreibtisch/Masterarbeit/Algorithmen/TS2B_Example/BooleanModeling2post/Pipeline/CSV/")
-
-setwd(fil)
+homepath <- getwd()
+if (!is.null(homepath)) setwd(homepath)
+setwd(paste(homepath,"/CSV/",sep=""))
 
 ldf <- list() # creates a list
 celllinelist <- dir(pattern = "*_main.csv") # creates the list of all the csv files in the directory
@@ -26,16 +21,9 @@ for (k in 1:length(celllinelist)){
   ldf[[k]] <- read.csv(celllinelist[k])
 }
 
-cat("Please enter the directory to the ./TS2B_Example/BooleanModeling2post/ -folder:")
-fil2 <- readLines(con="stdin", 1)
-askdir2 <- cat(fil2, "\n")
-#Example format: /home/nina/Schreibtisch/Masterarbeit/Algorithmen/TS2B_Example/BooleanModeling2post/Pipeline/CSV2TXT_output/
-
-
-path <- setwd(fil2)
 #read-in the data, exlude SlideID, Antibody Name
 for (d in celllinelist){
-  newdata1 <- read.csv(file=paste(fil,d,sep = ""), header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
+  newdata1 <- read.csv(file=paste(homepath,"/CSV/",d,sep = ""), header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
   #celllinelist2 <- c("BT20", "BT549", "MCF7", "UACC812")
   newdata <-newdata1[!(newdata1$V4 == "Slide ID (1st chip)"),]
   newdata <-newdata[!(newdata$V4 == "HUGO ID"),]
@@ -78,7 +66,7 @@ for (d in celllinelist){
   
   #ifelse(!dir.exists("CSV2TXTOutput"), dir.create("CSV2TXTOutput"), "Folder exists already") # Creates a folder for the output
   newd <- str_replace(d, ".csv", "")
-  write.table(f,paste(newd,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
+  write.table(f,paste(homepath,"/CSV2TXT_output/",newd,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
   
   #}
 }
