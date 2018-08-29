@@ -2,6 +2,7 @@ import sys
 import argparse
 from PyBoolNet import FileExchange
 from PyBoolNet import InteractionGraphs as IGs
+import os.path
 
 #inputfile = input('Enter the name of the directory and inputfile:')
 
@@ -32,13 +33,15 @@ for (source,dest) in igraph.edges():
 #replace "-" back to ".":Because "."in a nodesname causes trouble in PyBoolNet
 newsif_string = sif_string.replace("__","_")
 
-outputfile = input('Enter the name of the outputfile: ')
+
+save_path = './SIF_files/'
+outputfile = input('What is the name of your outputfile.sif? (e.g.: BT20_mainSerum)\n')
 filename ='{}.sif'.format(outputfile)
-file = open(filename, "w")
+completeName = os.path.join(save_path, filename)
+file = open(completeName, "w")
 file.write(newsif_string)
 #print(newsif_string)
 #print(igraph.graph["edge"])
-
 
 
 

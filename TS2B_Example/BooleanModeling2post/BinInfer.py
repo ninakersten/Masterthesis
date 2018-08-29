@@ -13,6 +13,8 @@ import REVEAL
 from boolean2 import Model, util
 from subprocess import Popen, PIPE, STDOUT
 from time import time
+import argparse
+import os.path
 
 originalSeries = {}	# original series stored here as a list
 binarySeries = {}	# structure same as the original but with binary series
@@ -20,14 +22,19 @@ inputoutput = {}	# keys are combinations, with a list of compbinations that are 
 nametoNode= {}	# dictionary to store the Symbols with the nodenames
 debug = False
 binz = Binarization()
-F = open("TS2B_outputfile.bnet","w") 
-
+save_path = './Pipeline/PyBoolNet-2.2.5/TS2B_output/'
+name_of_outputfile = raw_input("What is the name of your outputfile? (e.g.: BT20_mainSerum)\n")
+completeName = os.path.join(save_path, name_of_outputfile+".bnet")  
+F = open(completeName,"w") 
 
 
 
 
 
 argumentsValues = {'input':'','iterations':5000, 'maxscore':0,'solutions':1,'output':['score','text'],'verbose':1, 'learn-method':'REVEAL',  'bin-method':3, 'reduction':0}
+#if argumentsValues['outputfilename'] is not 0:
+	#outputfilename = argumentsValues['outputfilename']
+       
 
 def main(argv=sys.argv):
 	bestofallscores = 1000
@@ -49,7 +56,7 @@ def main(argv=sys.argv):
 			break
 		if ".py" not in arg:
 			name,val = arg.split("=")
-			if name == 'input' or name == 'learn-method':
+			if name == 'input' or name == 'learn-method' or name == 'outputfilename':
 				argumentsValues[name] = val
 			elif name == 'iterations' or name == 'solutions' or name == 'verbose' or name == 'reduction':
 				argumentsValues[name] = int(val)
@@ -65,7 +72,10 @@ def main(argv=sys.argv):
 			elif name == 'output':
 				# configure output
 				argumentsValues[name] = val.split(',')
-				
+		
+
+
+
 				
 	if argumentsValues['input'].endswith("pkl"):
 		s = pickle.load(open(argumentsValues['input'], "rb"))
