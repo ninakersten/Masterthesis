@@ -30,6 +30,8 @@ Requirements:
 
 ```bash shellscript.sh```#Making the bash script executable: ```chmod 700 shellscript.sh```
 
+- The calculation of the network takes about 10min. for each of the CSV2TXT_output-files. With tha abundance of 32file this means a lot of time. Thus I excluded the loop in the bash, s.t. the bash can be executed for each network individually.
+
 ### STEP 2: ASSESSING THE NETWORK ###
 
 - Install DREAMTools (http://dreamchallenges.org/tools/)  
