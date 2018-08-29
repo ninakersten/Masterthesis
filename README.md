@@ -7,11 +7,9 @@ Here the tool TS2B is used to discretisize (by a k-means clustering algorithm) t
 
 After the learning step the data is analyzed in a tool called PyBoolNet. PyBoolNet is a nice way to create images of the models and get information about the attractors in a network, the flow in a network and the asynchronous and synchronous properties of a network.
 
-The goal is to connect all these steps in a more fluently way by programming two parser CSV2TXT.R and Boolean2Bnet.R. They should help to transform the original experimental DREAM-CHallenge data into an input file with is compatible with the TS2B tool. And after modelling the output of the TS2B should be transformed from a .txt to a .bnet format.
+Here a Pipeline in form of a shellscript.sh is implemented such that all steps getting a boolean interaction graph are connected in a more fluently way. First the dataset is converted in CSV2TXT.r for the TS2B-method. The BinInfer.py file of the TS2B-method was adopted to the requirements of this task. Then the TS2B-output is transformed into an Interaction Graph (InteractionGraph.py) by PyBoolNet. In the end this pipeline provides a set of .sif-files.
 
-Furthemore the models of the real-life course-time data are evaluated by a AUROC-Score (Area Under the Curve). Therefore a tool of the DREAM-Challenge platformis provided called DREAMTools, a python package for scoring collaborative challenges. 
-
-First the WORKFLOW for the Example-data is shown and second is the WORKFLOW for the real-life course-time data of the DREAMCHALLENGE.
+Unfortunately the scoring tool "Dreamtools" of the DreamChallenge platfrom expects another information: The confidence score of the edges. But here this information can not be yielded by a Boolean network. Thus the test data set is used as a gold standard and a scoring method of calculating a AUROC score is chosen to assess our model against the others of the other participants.
 
 Requirements:
 
