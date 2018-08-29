@@ -11,20 +11,27 @@ Rscript CSV2TXT.r
 #change directory to ./BooleanModeling2post
 cd ..
 
-inputlist='./Pipeline/CSV2TXT_output/*.txt'
-for input in $inputlist
-do 
-	python BinInfer.py input=$input bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+#Here is a loop, but the the system will be out of memory.I recommand to use a loop only on a cluster.
 
-done
+#inputlist='./Pipeline/CSV2TXT_output/*.txt'
+#for input in $inputlist
+#do 
+
+echo "Enter the directory to your inputfile [e.g.:./Pipeline/CSV2TXT_output/cellCycle.txt]:"
+read var1
+python BinInfer.py input=$var1 bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+
+#done
 
 #Run InteractionGraph.py
 cd ./Pipeline/PyBoolNet-2.2.5/
-inputlist2='./TS2B_output/*.bnet'
-for input2 in $inputlist2
-do
-	python3 InteractionGraph.py $input2
-done
+echo "Enter the directory to your inputfile [e.g.:./TS2B_output/cellCycle.bnet]:"
+read input2
+#inputlist2='./TS2B_output/*.bnet'
+#for input2 in $inputlist2
+#do
+python3 InteractionGraph.py $input2
+#done
 
 
 
