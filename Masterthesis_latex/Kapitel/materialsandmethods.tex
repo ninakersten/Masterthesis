@@ -1,125 +1,65 @@
 \chapter{Materials and Methods}
-\section{Data selection}
-For a Boolean network inference the data of a platform so-called Dialogue on Reverse Engineering Assessment and Methods (DREAM) - Challenge is used. The DREAM-Challenge is a non-profit, collaborative community effort consisting of contributors from across the research spectrum of questions in biology and medicine. This organization was built in 2006 and publishes crowdsourcing challenges with transparent sharing of data, thus everyone can participate the challenge. The DREAM-Challenge has partnered with Sage Bionetworks, which provide the infrastructure by Sage Bionetworks Synapse platform to get access to the open collaborative data analysis. Overall the DREAM-Challenge is a helpful instrument to get real-life data, comparing results and interact with other researchers all over the world, while contribute solutions to biological and medical questions.
-Two DREAM-Challenges appear useful for this work. The first is the DREAM5- Network Inference Challenge (DREAM5) and the second the HPN-DREAM brest cancer network inference challenge (DREAM8)\citep{DreamChalleneg Homepage}. 
+\section{Inferencealgorithms}
+%Baysian networks,Boolean regulatory networks, Ordinary differential equation models and Neural networks
+regression
+\citep{CHAI201455}
+%Welche Algorithmen gibt es?
+%Warum wählen wir hier den Boolean Approach?
+\subsection*{Boolean Approach}
+%Define REVEAL, BESTFIT und FULLFIT 
+\subsection*{Baysian networks}
+\subsection*{Ordinary differential equation models}
+\subsection*{Neural networks regression}
+BIBN (Bayesian inference approach for a Boolean network)
+REVEAL (Reverse Engineering algorithm)
+PCA-CMI (Path consistency algorithm- Conditonal mutual information)
+ARCANE (Time-delay algorithm for reconstruction of accurate cellular networks)
+MIDER (Mutual information distance and entropy reduction)\citep{MIDER}
+	defines a mutual information based distance between genes to specify the directionality
+BESTFIT ()
 
-\subsection{DREAM5}
-Living cells are the product of gene expression programs involving regulated transcription of thousands of genes. Gene expression programs depend on recognition of specific promoter sequences by transcriptional regulatory proteins. How a collection of regulatory proteins associates with genes across a genome can be described as a transcriptional regulatory network. This map of the transcriptional regulatory network describes potential pathways bacteria cells (S.aureus, E.Coli, S. cerevisiae) can use to regulate global gene expression programs \citep{Lee799}.
-The DREAM5-Challenge states the challenge to infere a complete (genome-scale) transcriptional regulatory network for four organisms: in silico, S.aureus, E.Coli, S.cerevisiae. 
+These mutual information-based methods are computationally expensive, because they are implemented to compute exact mutual information values over all possible combinations of genes.
 
-%-----> Zeigen wie das in silico data set gemacht wurde?
+RelNet (Revelance network algorithm)
 
-The data is yielded by genechip experiments, where mRNA is extracted from the samples, then reversetranscriped into more stable cDNA (complementary DNA), which is fluorescent labeled. Afterwards the cDNA binds to the complementary bases on the chip. Thus the DNA composition can be detected and it can be recognized wether a gene is active or not by the information of its transcript.
-Just the gene expression profiles for the in silico network were derived from another platform so-called GeneNetWeaver \citep{GeneNetWeaver}.
+CLR (context likelihood of relatedness method)
+CST (chi-square test)
 
-%\begin{table}[h]
-%\centering
-%\begin{tabular}{ccccc} 
-%\hline
-%Network & Organism & TranscFactors & Genes & Chips\\
-%\hline
-%Network 1 &	in silico &	195 &	1643 &	805\\
-%Network 2 & S.aureus  & 99  &	2810 &	160\\
-%Network 3 & E. coli   &	334 &	4511 &	805\\
-%Network 4 & S. cerevisiae &	333 & 5950 & 536\\
-%\hline
-%\end{tabular}
-%\captionof{table}{Overview}
-%\label{table:Table 1}
-%\end{table}\\
-
-
-\begin{figure}
-\centering
-%\setlength{\abovecaptionskip}{0pt}
-\includegraphics[width=0.8\textwidth]{./Bilder/assessment}
-\caption[Interaction Graph]{\textbf{Assessment involved the following steps}Assessment involved the following steps }
-%\setlength{\belowcaptionskip}{0pt} 
-\label{fig:Fig.1.}
-\end{figure}
-
-In this challenge some experiments have pertubations in terms of gene deletion, overexpressed genes and  adding drugs to the system. Few experiments were done the same konfiguration several times. Some experiments are part of a time-series measurement and some are not,described in Figure 2.
-For each network, a list of directed, unsigned edges had to be submitted ordered according to the participants confidence scores. 
-The participants are given four microarray sets. In each set are three  tsv.-files  (tab-seperated values) with the gene expression data, chip-features and transcription factors.\\
-
-\noindent\fbox{
-    \parbox{\textwidth}{
-\begin{flushleft}
-\texttt{Network{\_}i{\_}\textbackslash{\_}expression\textbackslash data.tsv}\\
-\texttt{Network{\_}i{\_}\textbackslash{\_}chip\textbackslash{\_}features.tsv}\\
-\texttt{Network{\_}i{\_}\textbackslash{\_}transcription\textbackslash{\_}factors.tsv}\\
-\end{flushleft}
-    }
-}
-
-
-%where $i\in\lbrace 1,2,3,4\rbrace$
-
-%\begin{center}
-\begin{table}[H]
-\scriptsize
-\centering
-\begin{tabularx}{\textwidth}{lllllllll} 
-\hline\hline
-Chip & Experiment &  Pertubations &  PertubationLevels &  Treatment &  DeletedGenes &  OverexpressedGenes &  Time &  Repeat\\
-\hline \hline
-1 & 1 &	NA & NA & NA & NA & NA & NA & 1\\\hline
-2 &	1 &	NA & NA & NA & NA &	NA & NA & 2\\\hline
-3 &	2 & NA & NA & NA & NA & NA & NA & 1\\\hline
-4 &	2 &	P1 & 0.5 & NA & NA & NA & NA & 1\\\hline
-5 &	2 &	P1 & 1.0 & NA & NA & NA & NA & 1\\\hline
-6 &	3 &	NA & NA & NA & NA & NA & 0 & 1\\\hline
-7 &	3 &	NA & NA & NA & NA & NA & 30 & 1\\\hline
-8 &	3 &	NA & NA & NA & NA & NA & 60 & 1\\\hline
-9 &	3 &	NA & NA & NA & G5 & NA & 30 & 1\\\hline
-10 & 3 & NA & NA & NA & G5 & NA & 60 & 1\\\hline
-11 & 4 & NA & NA & NA & G5,G8 & NA & NA & 1\\\hline
-12 & 5 & P2,P3 & NA & NA & NA & G4 & NA & 1\\\hline
-13 & 5 & P2,P3 & NA & 1 & NA & G4 & NA & 1\\
-\hline
-\end{tabularx}
-\captionof{table}{Chip information}
-\label{table:Table 2}
-\end{table}
-%\end{center}
-
-The \texttt{Network{\_}i{\_}\textbackslash{\_}expression\textbackslash data.tsv} is a matrix where each entry $(i,j)$ describes the expression value of gene $j$ (column) in chip $i$ (row). The data has been normalized,such that the values are compareable across the experiments. For further computation it is necessary to dicretesize the data.
-
-%-----> Normalization method
-%-----> Discretisation method
+\section{PyBoolNet}
 
 
 
-The \texttt{Network{\_}i{\_}\textbackslash{\_}chip\textbackslash{\_}features.tsv} are shown in Table 2. where every row returns an identifier for the experiment that this chip is part of, then information about added drugs (Pertubations) and the dosage of the drugs (Pertubation Level). The Treatment shows the type of treatment used to apply the pertubations. Additionally are 2 columns showing Deleted genes and Overexpressed genes. Time-scaled data is shown in the column Time and Repeat hepls to distinguish experimental replicants. Whenever an entry $NA$ occurs, none of these pertubation properties mentioned above have been done.
-The file \texttt{Network{\_}i{\_}\textbackslash{\_}transcription\textbackslash{\_}factors.tsv} is a list of genes of the network that are potential transcription factors for the network i (where $i\in \rbrace 1,2,3,4\lbrace$). Only these transcription factors should be included as regulators in the submitted network.\\
+\section{Data Selection}
+\subsection{Example data set}
+%How the example data set is created
+%
+\subsection{HPN-DREAM breast cancer data set}
+Now it is shown how the Pipeline can be applied to a real-life time course data set. 
+\subsubsection*{What is the Dream Challenge?}
+For a Boolean network inference the data of a platform so-called Dialogue on Reverse Engineering Assessment and Methods (DREAM) - Challenge is used. The DREAM-Challenge is a non-profit, collaborative community effort consisting of contributors from across the research spectrum of questions in biology and medicine. This organization was built in 2006 and publishes crowdsourcing challenges with transparent sharing of data, thus everyone can participate the challenge. The DREAM-Challenge has partnered with Sage Bionetworks, which provide the infrastructure by Sage Bionetworks Synapse platform to get access to the open collaborative data analysis. Overall the DREAM-Challenge is a helpful instrument to get real-life data, comparing results and interact with other researchers all over the world, while contribute solutions to biological and medical questions.\citep{DreamChalleneg Homepage}.
+The challenging question was to decide which Dream Challenge data set could be useful for this masterthesis. For inferring a Boolean network and further analysis of the state tarnsition graph the desired data set should contain measurements of experiments with less pertubational information and a in a time course context. 
+The Dream Challenge 5 dealing with gene-gene interaction,providing test and training data sets of gene expressions seemed to be an appropriate candidate. But there was less time course information and a high abundance of pertubation. Thus the Dream8 Challenge is was chosen. This challenge describes protein-protein interaction and measurements for multiple timepoints.
 
-The predicted network is submitted with no more than 100.000 regulatory link predictions. These predictions are ordered from the most reliable to the last reliable prediction and put in a tab-seperated column format.
+\subsubsection{DREAM8}
+%Short sentence about the DREAM8 Challenge: What is the goal(medically and mathematically)?What sub challenge do I do?
 
-%----> Example of the submission
+\subsubsection*{Data Collection}
+The collection of the HPN8 breast cancer PPI data is done by a technique so called Reverse phase protein array(RPPA). This technique is divided up into 6 parts:
+\subparagraph*{Sample collection}
+%Wo kommen die breast cancer cells her?Erwähne: Es gibt 4 Zelllinien (BT20, UACC812, BT549, MCF7) und 8 Stimuli (Insulin, Serum, HGF, NRG1,EGF, FGF1,GF1,IGF1), welche am Ende 32 Netzwerke ergebe. Vielleicht die Zelllinien und die Stimulis erklären.
+An inhibitor or stimulus in form of drugs is added to a set of celllines at the same time and the celllines are then processed at different time points.
+\subparagraph*{Cell Lysis}
+Cell fragments are lysed with a celllysis buffer to obtain high protein concentration.The choice of a buffer decides the quantity of proteins can be lysed out of the cell.
+%Welche buffer wurden in der Dream Challenge verwendet.
+\subparagraph*{Dilution}
+Dilution of the celllysed probes.
+\subparagraph*{Antibody screening}
+The lysates are pooled and resolved by SDS-PAGE followed by western blotting on a nitrocellulose membrane. The membrane is cut into 4mmm strips. Each slide is probed with a  different antibody, primary with a secondary antibody.
+\subparagraph*{Fluorometric detection}
+Primary and secondary antibody are diluted.%with which buffer?TBST?%
+Detection reagentisput on each slide. Signal amplification and detection is done by an optical flatbed scanner if colormetric technique is used orby laser scanning. %Welche methode wurde verwendet?
+\subparagraph*{Data set structure}
+Missing data points and outliers are detected and deleted from the data set. The data set is normalized %Welche Struktur weißt der Datensatz am Ende auf? Welche Informationen sind davon für uns wichtig? Normalisierungalgorithmus wurde hier verwendet?
 
-Organism specific gold standards containing the known transcription factor to target gene (transcription factor-target gene) interactions (= true positives) were compiled for assessing the participating approaches. All transcription factor-target gene pairs that are not part of the gold standards are seen as negatives, although, as the gold standards are based on incomplete knowledge, they might contain yet unknown true interactions. For evaluation of the predicted networks the AUPR (Area Under Precision Recall), AUROC (Area Under Receiver Operating Characteristic) and an ove-all accuracy was used.
-
-%---->  Explain AUPR and AUROC and overall accuracy?
-
-
-
-
-\subsection{DREAM8}
-
-
-
-
-
-\subsection{Comparision DREAM 5 vs. DREAM8}
-The DREAM5 challenge deals with high-throushput data of a microarray set in contratst to the DREAM8 challenge which deals with PPIs (protein-protein interactions). But in the DREAM5 challenge time-series data is mixed with data where no time was captured. Furthermore the experiments in DREAM5 contain a lot of additional information (pertubations by drug, gene deletion,overexpression of genes,replicate experiments) which is not needed in this thesis. 
-
-\subsection*{Preprocessing of the data}
-\citep{DISCRETIZATION}
-%Discretization by k-means binarization, Iterative k-means binerization.redundancy removal
-\citep{10.1371/journal.pone.0066031}
-%Inferencealgorithms of DREAM5,DREAM8
-%Floatchart fuer eine Pipeline einfuegen, (Datensatz--> Normalisierung--> Diskretisierung---> Inferenz---> Accuracy der inferenz/ zeigen, dass ein Inferenzalgorithmus auf mehreren Datensaetzen funktioniert---> Ananlysen des Netzwerks mit PyBoolNet)
-
-\section{PyBoolNet and BoolFilter}
 
 

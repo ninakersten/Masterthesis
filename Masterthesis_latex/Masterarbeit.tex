@@ -94,9 +94,13 @@ twoside,paper=a4,headings=small]{scrbook}
     \clearpage{\pagestyle{empty}\cleardoublepage}
 % -----------------------------------
 \mainmatter 							% die einzelnen Kapitel
-    \input{./Kapitel/introduction}
+ 	\input{./Kapitel/introduction}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/background}
     \clearpage{\pagestyle{empty}\cleardoublepage}		% löscht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
     \input{./Kapitel/materialsandmethods}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/applicationOfThePipeline}
     \clearpage{\pagestyle{empty}\cleardoublepage}
     \input{./Kapitel/results}
     \clearpage{\pagestyle{empty}\cleardoublepage}

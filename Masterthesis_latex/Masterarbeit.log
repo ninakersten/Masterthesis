@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  7 JUN 2018 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  12 SEP 2018 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,11 +1077,7 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 LaTeX Warning: Unused global option(s):
     [appendixprefixtwoside].
 
-(./Masterarbeit.aux (./Titel/titel.aux) (./Kapitel/abstract_eng.aux)
-
-LaTeX Warning: Label `fig:Fig.1.' multiply defined.
-
-)
+(./Masterarbeit.aux (./Titel/titel.aux) (./Kapitel/abstract_eng.aux))
 \openout1 = `Masterarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1099,7 +1095,8 @@ LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 76.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1214,7 +1211,7 @@ ABD: EveryShipout initializing macros
 :<+ ./Titel/titel.tex
 \openout2 = `./Titel/titel.aux'.
 
-(./Titel/titel.tex <./Bilder/fu_logo.pdf, id=87, 144.54pt x 144.54pt>
+(./Titel/titel.tex <./Bilder/fu_logo.pdf, id=95, 144.54pt x 144.54pt>
 File: ./Bilder/fu_logo.pdf Graphic file (type pdf)
 
 <use ./Bilder/fu_logo.pdf>
@@ -1287,9 +1284,9 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 87
 .
  (./Masterarbeit.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 5.
 )
 \tf@toc=\write5
 \openout5 = `Masterarbeit.toc'.
@@ -1350,179 +1347,239 @@ Class scrbook Warning: \float@addtolists detected!
 Package natbib Warning: Citation `An evaluation of methods for inferring boolea
 n network from time-series data' on page 1 undefined on input line 3.
 
+)
+:<-
 [1
 
 
 
-] <./Bilder/signaltransduction.pdf, id=179, 597.50786pt x 845.04686pt>
+] [2
+
+
+]
+Package srcltx Info: Expanded filename `./Kapitel/background' to `./Kapitel/bac
+kground.tex' on input line 99.
+
+:<+ ./Kapitel/background.tex
+(./Kapitel/background.tex
+chapter 2.
+[3
+
+] <./Bilder/GRN.png, id=192, 1371.1225pt x 770.88pt>
+File: ./Bilder/GRN.png Graphic file (type png)
+ <use ./Bilder/GRN.png>
+Package pdftex.def Info: ./Bilder/GRN.png used on input line 17.
+(pdftex.def)             Requested size: 601.06592pt x 337.9414pt.
+
+Overfull \hbox (138.7086pt too wide) in paragraph at lines 17--21
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
+fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
+n page 4 undefined on input line 21.
+
+
+Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
+fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
+n page 4 undefined on input line 21.
+
+
+Package natbib Warning: Citation `104(6):1777-1782' on page 4 undefined on inpu
+t line 29.
+
+
+Package natbib Warning: Citation `HATZIMANIKATIS2004300' on page 4 undefined on
+ input line 29.
+
+[4 <./Bilder/GRN.png>] [5]
+<./Bilder/signaltransduction.pdf, id=208, 597.50786pt x 845.04686pt>
 File: ./Bilder/signaltransduction.pdf Graphic file (type pdf)
 
 <use ./Bilder/signaltransduction.pdf>
-Package pdftex.def Info: ./Bilder/signaltransduction.pdf used on input line 22.
+Package pdftex.def Info: ./Bilder/signaltransduction.pdf used on input line 42.
 
 (pdftex.def)             Requested size: 231.17865pt x 326.94939pt.
 
 
-Package natbib Warning: Citation `Berg JM' on page 2 undefined on input line 24
+Package natbib Warning: Citation `Berg JM' on page 6 undefined on input line 44
 .
 
 
-Package natbib Warning: Citation `Tymoczko JL' on page 2 undefined on input lin
-e 24.
+Package natbib Warning: Citation `Tymoczko JL' on page 6 undefined on input lin
+e 44.
 
 
 Package natbib Warning: Citation `Stryer L. Biochemistry. 5th edition. New York
-: W H Freeman; 2002. Chapter 15' on page 2 undefined on input line 24.
+: W H Freeman; 2002. Chapter 15' on page 6 undefined on input line 44.
 
 
 Package natbib Warning: Citation `Signal-Transduction Pathways: An Introduction
  to Information Metabolism. Available from: https://www.ncbi.nlm.nih.gov/books/
-NBK21205/' on page 2 undefined on input line 24.
+NBK21205/' on page 6 undefined on input line 44.
 
 
-Package natbib Warning: Citation `Berg JM' on page 2 undefined on input line 24
+Package natbib Warning: Citation `Berg JM' on page 6 undefined on input line 44
 .
 
 
-Package natbib Warning: Citation `Tymoczko JL' on page 2 undefined on input lin
-e 24.
+Package natbib Warning: Citation `Tymoczko JL' on page 6 undefined on input lin
+e 44.
 
 
 Package natbib Warning: Citation `Stryer L. Biochemistry. 5th edition. New York
-: W H Freeman; 2002. Chapter 15' on page 2 undefined on input line 24.
+: W H Freeman; 2002. Chapter 15' on page 6 undefined on input line 44.
 
 
 Package natbib Warning: Citation `Signal-Transduction Pathways: An Introduction
  to Information Metabolism. Available from: https://www.ncbi.nlm.nih.gov/books/
-NBK21205/' on page 2 undefined on input line 24.
-
-[2 <./Bilder/signaltransduction.pdf>]
-<./Bilder/Gene_Regulatory_Network_-_original.jpg, id=202, 361.35pt x 289.08pt>
-File: ./Bilder/Gene_Regulatory_Network_-_original.jpg Graphic file (type jpg)
-
-<use ./Bilder/Gene_Regulatory_Network_-_original.jpg>
-Package pdftex.def Info: ./Bilder/Gene_Regulatory_Network_-_original.jpg used o
-n input line 38.
-(pdftex.def)             Requested size: 323.6487pt x 258.92126pt.
+NBK21205/' on page 6 undefined on input line 44.
 
 
-Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
-fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 3 undefined on input line 40.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
-fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 3 undefined on input line 40.
-
-[3 <./Bilder/Gene_Regulatory_Network_-_original.jpg>]
-
-Package natbib Warning: Citation `104(6):1777-1782' on page 4 undefined on inpu
-t line 55.
-
-
-Package natbib Warning: Citation `HATZIMANIKATIS2004300' on page 4 undefined on
- input line 55.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+ [6 <./Bilder/signaltransduction.pdf>] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-[5] <./Bilder/example02_igraph.pdf, id=232, 174.6525pt x 165.61874pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[9] <./Bilder/example02_igraph.pdf, id=257, 174.6525pt x 165.61874pt>
 File: ./Bilder/example02_igraph.pdf Graphic file (type pdf)
 
 <use ./Bilder/example02_igraph.pdf>
-Package pdftex.def Info: ./Bilder/example02_igraph.pdf used on input line 96.
+Package pdftex.def Info: ./Bilder/example02_igraph.pdf used on input line 98.
 (pdftex.def)             Requested size: 184.9401pt x 175.38318pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
-[6 <./Bilder/example02_igraph.pdf>]
-<./Bilder/example01_synchron_stg.pdf, id=251, 303.1325pt x 315.1775pt>
+[10 <./Bilder/example02_igraph.pdf>]
+<./Bilder/example01_synchron_stg.pdf, id=276, 303.1325pt x 315.1775pt>
 File: ./Bilder/example01_synchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_synchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_synchron_stg.pdf used on input line
- 128.
+ 130.
 (pdftex.def)             Requested size: 151.56587pt x 157.58836pt.
 
-<./Bilder/example01_asynchron_stg.pdf, id=252, 378.41376pt x 389.455pt>
+<./Bilder/example01_asynchron_stg.pdf, id=277, 378.41376pt x 389.455pt>
 File: ./Bilder/example01_asynchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_asynchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_asynchron_stg.pdf used on input lin
-e 131.
+e 133.
 (pdftex.def)             Requested size: 151.36281pt x 155.77924pt.
+)
+:<-
+[11 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pdf
 
-
-Package natbib Warning: Citation `MIDER' on page 7 undefined on input line 158.
-
-
-[7 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pdf
 
 pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->])
-:<-
-[8]
+>] [12
+
+
+]
 Package srcltx Info: Expanded filename `./Kapitel/materialsandmethods' to `./Ka
-pitel/materialsandmethods.tex' on input line 99.
+pitel/materialsandmethods.tex' on input line 101.
 
 :<+ ./Kapitel/materialsandmethods.tex
 (./Kapitel/materialsandmethods.tex
-chapter 2.
+chapter 3.
 
-Package natbib Warning: Citation `DreamChalleneg Homepage' on page 9 undefined 
-on input line 4.
-
-
-Package natbib Warning: Citation `GeneNetWeaver' on page 9 undefined on input l
-ine 13.
-
-[9
+Package natbib Warning: Citation `MIDER' on page 13 undefined on input line 17.
 
 
 
-] <./Bilder/assessment.png, id=286, 668.899pt x 224.84pt>
-File: ./Bilder/assessment.png Graphic file (type png)
+Package natbib Warning: Citation `DreamChalleneg Homepage' on page 13 undefined
+ on input line 39.
 
-<use ./Bilder/assessment.png>
-Package pdftex.def Info: ./Bilder/assessment.png used on input line 35.
-(pdftex.def)             Requested size: 369.88725pt x 124.33481pt.
+[13
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+] [14])
+:<-
+[15] [16
 
- []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 53.
+]
+Package srcltx Info: Expanded filename `./Kapitel/applicationOfThePipeline' to 
+`./Kapitel/applicationOfThePipeline.tex' on input line 103.
+
+:<+ ./Kapitel/applicationOfThePipeline.tex
+(./Kapitel/applicationOfThePipeline.tex
+chapter 4.
+)
+:<-
+[17
+
+] [18
+
+
+]
+Package srcltx Info: Expanded filename `./Kapitel/results' to `./Kapitel/result
+s.tex' on input line 105.
+
+:<+ ./Kapitel/results.tex
+(./Kapitel/results.tex
+chapter 5.
+)
+:<-
+[19
+
+] [20
+
+
+]
+Package srcltx Info: Expanded filename `./Kapitel/conclusion' to `./Kapitel/con
+clusion.tex' on input line 107.
+
+:<+ ./Kapitel/conclusion.tex
+(./Kapitel/conclusion.tex
+chapter 6.
+)
+:<-
+[21
+
+] [22
+
+
+]
+:<+ Masterarbeit.bbl
+(./Masterarbeit.bbl
+chapter without number
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 29.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1530,94 +1587,36 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (14.63321pt too wide) in paragraph at lines 45--54
-[][] 
- []
-
-
-Overfull \hbox (32.10812pt too wide) in alignment at lines 80--80
-[][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./Bilder/assessment.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-[11])
-:<-
-[12]
-Package srcltx Info: Expanded filename `./Kapitel/results' to `./Kapitel/result
-s.tex' on input line 101.
-
-:<+ ./Kapitel/results.tex
-(./Kapitel/results.tex
-chapter 3.
-)
-:<-
-[13
-
-
-
-] [14
-
-
-]
-Package srcltx Info: Expanded filename `./Kapitel/conclusion' to `./Kapitel/con
-clusion.tex' on input line 103.
-
-:<+ ./Kapitel/conclusion.tex
-(./Kapitel/conclusion.tex
-chapter 4.
-)
-:<-
-[15
-
-] [16
-
-
-]
-:<+ Masterarbeit.bbl
-(./Masterarbeit.bbl
-chapter without number
-[17
+ [23
 
 ])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erklaerung' to `./Kapitel/erk
-laerung.tex' on input line 110.
+laerung.tex' on input line 114.
 :<+ ./Kapitel/erklaerung.tex
-(./Kapitel/erklaerung.tex [18])
+(./Kapitel/erklaerung.tex [24])
 :<-
 
 Package natbib Warning: There were undefined citations.
 
-[19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+[25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./Masterarbeit.aux (./Titel/titel.aux) (./Kapitel/abstract_eng.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 2F0DB6D353A2F1C06EEB93399F76A5BC;1313.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+(rerunfilecheck)             Checksum: 9B9A97D05F35A5A951B9695F24254A22;1332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 25624 strings out of 493029
- 460985 string characters out of 6136234
- 647890 words of memory out of 5000000
- 28424 multiletter control sequences out of 15000+600000
- 85363 words of font info for 113 fonts, out of 8000000 for 9000
+ 25626 strings out of 493029
+ 460865 string characters out of 6136234
+ 641803 words of memory out of 5000000
+ 28416 multiletter control sequences out of 15000+600000
+ 81422 words of font info for 106 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 74i,10n,100p,1250b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,10n,100p,1248b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1630,10 +1629,10 @@ ublic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Masterarbeit.pdf (29 pages, 593341 bytes).
+Output written on Masterarbeit.pdf (35 pages, 772829 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 24784 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 24283 words of extra memory for PDF output out of 24883 (max. 10000000)
 

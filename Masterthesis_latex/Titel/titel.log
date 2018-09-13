@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  7 JUN 2018 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.2.13)  31 AUG 2018 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,7 +171,7 @@ Overfull \hbox (12.26657pt too wide) in paragraph at lines 20--20
 
 ! Undefined control sequence.
 l.25 \LARGE
-            \textbf{Inference and Analysis of boolean networks considering i...
+            \textbf{Inference of Boolean Networks considering real-life cour...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -184,38 +184,18 @@ Overfull \hbox (46.31229pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 and 
- []
-
-
-Overfull \hbox (27.70122pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 Anal- 
- []
-
-
-Overfull \hbox (9.90273pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 y- 
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 sis 
- []
-
-
 Overfull \hbox (9.26384pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 of 
  []
 
 
-Overfull \hbox (38.972pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 boolean 
+Overfull \hbox (40.44421pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 Boolean 
  []
 
 
-Overfull \hbox (19.96518pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 net- 
+Overfull \hbox (22.57628pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 Net- 
  []
 
 
@@ -244,28 +224,8 @@ Overfull \hbox (15.33325pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 in- 
- []
-
-
-Overfull \hbox (14.75824pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 sil- 
- []
-
-
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 ico 
- []
-
-
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 and 
- []
-
-
-Overfull \hbox (18.79156pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 real 
+Overfull \hbox (22.62488pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 real- 
  []
 
 
@@ -274,18 +234,18 @@ Overfull \hbox (15.17354pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (26.35403pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 time- 
+Overfull \hbox (35.6262pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 course- 
  []
 
 
-Overfull \hbox (27.5443pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 series 
+Overfull \hbox (22.52072pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 time 
  []
 
 
-Overfull \hbox (22.0415pt too wide) in paragraph at lines 25--25
- \OT1/cmr/bx/n/10 data 
+Overfull \hbox (24.47205pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 Data 
  []
 
 ! Undefined control sequence.
@@ -423,7 +383,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+[1])
 ! Emergency stop.
 <*> titel.tex
              
@@ -431,11 +391,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 14 strings out of 493029
- 211 string characters out of 6136234
- 55074 words of memory out of 5000000
+ 13 strings out of 493030
+ 201 string characters out of 6136260
+ 54071 words of memory out of 5000000
  3647 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,4n,15p,140b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 18i,4n,15p,114b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on titel.dvi (1 page, 552 bytes).
