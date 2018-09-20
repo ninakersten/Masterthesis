@@ -55,6 +55,9 @@ for gold in line1:
 		tp_biglist.append(tuple(tp_list))
 		tp_biglist = [t for t in tp_biglist if t != ()]
 		tp = len(tp_biglist)
+	else:
+		tp = 0
+
 #print(tp)
 
 
@@ -68,6 +71,8 @@ for gold in line1:
 		fn_list = [e for e in fn_list if e not in (' ', '1')]
 		fn_biglist.append(tuple(fn_list))
 		fn = len(fn_biglist)
+	#else:
+	#	tn = 0
 #print(fn_biglist)
 
 
@@ -82,23 +87,31 @@ for pred in line2:
 		fp_biglist.append(tuple(fp_list))
 		fp_biglist = [t for t in fp_biglist if t != ()]
 		fp = len(fp_biglist)
+	#else:
+	#	fp = 0
 
 
 #Calculating the True Negative value by deleting the name pairs from the list of name combinations created above
 for tp_string in tp_biglist:
 	if tp_string in names_list:
 		names_list.remove(tp_string)
+	elif not tp_biglist:
+		break
 
 
 
 for fp_string in fp_biglist:
 	if fp_string in names_list:
 		names_list.remove(fp_string)
+	#elif not fp_biglist:
+	#	break
 
 
 for fn_string in fn_biglist:
 	if fn_string in names_list:
 		names_list.remove(fn_string)
+	#elif not fn_biglist:
+	#	break
 
 
 		tn = len(names_list)
