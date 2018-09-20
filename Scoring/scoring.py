@@ -1,63 +1,61 @@
+##Scoring program for calculating Precision, Recall and Accuracy of a Goldstandard network against it's Prediction####writte by Nina Kersten 2018
 import sys,os, re
 import csv
 import itertools
-import collections
-import ast
-
-from collections import OrderedDict
-from itertools import chain
 
 
-#Read in the names_lists for the cartesian product
-names_list1 = ["A","B","C","D","E"];
-names_list2 = ["A","B","C","D","E"];
+#Importing a .csv file for a certain cellline, getting the names of the proteins
+rows = csv.reader(open("./example/BT20_main.csv", "r"), delimiter=',')
+arows = [row for row in rows if "Antibody Name" in row]
+arows1= arows[0]
+arows2 = [x for x in arows1 if x]
+arows2.remove("Antibody Name")
 
-#Getting the names_list from the csv_file
-#with open("./example/BT20_main.csv","r") as csvfile:
-		#reader = csv.reader(csvfile, delimiter = ',')
-		#names_list = []
-		#for row in reader:
-			#print(row[1])
-			#names_list = (row[1])
-			# take list from row containing the Antibodies Name
-			#names_list.append(names_list)
+names_list1 = arows2 
+names_list2 = arows2
 
-					#print(names_list)
-#alternative:
-		#my_list = list(reader)
-		#names_list = my_list[0]
-		#print(names_list)
-
-
-#Read in the Golstandard and the Prediction data set
-gold_file = open("./example/goldstandard.sif","r")
-pred_file = open("./example/prediction.sif","r")
-
-#Create the cartesian productof the names
+#Creating a list of tuples of all possible combinations of the names
 names_list = []
 for i in itertools.product(names_list1,names_list2):
 	#print(i)
 	names_list.append(i)
-	#names_list2 = []
-	#for z in names_list:
-	#	names_list2.append((''.join([w+' ' for w in z])).strip())
-	#names_list2 = [x.replace(' ','') for x in names_list]
+#print(len(names_list))
 
-print(names_list)
+#Converting the "\t"-seperated Goldstandard network into a whitespace seperated network
+with open("./realdata_example/Goldstandard.sif","r") as fin, open ("./realdata_example/Goldstandard1.sif","w") as fout:
+	for line in fin:
+		fout.write(line.replace('\t',' '))
+#print(fout)
+
+
+
+#Read in the Golstandard and the Prediction data set
+gold_file = open("./realdata_example/Goldstandard1.sif","r")
+pred_file = open("./realdata_example/Prediction.sif","r")
+
+
 
 line1 = gold_file.readlines()
 line2 = pred_file.readlines()
+#print(line1)
 
+line1 = [elem.replace('\n','').replace('1, -1','1').replace('-1','1') for elem in line1]
+line2 = [elem.replace('\n','').replace('1, -1','1').replace('-1','1') for elem in line2]
+#print(line2)
 
 #Calculating True Positive
 tp_biglist = []
 for gold in line1:
 	if gold in line2:
 		tp_list = list(gold)
-		tp_list = [e for e in tp_list if e not in (' ', '1','\n')]
+		tp_list = ''.join(gold)
+		#print(tp_list)
+		tp_list = tp_list.strip().split()
+		tp_list = [e for e in tp_list if e not in (' ', '1')]
 		tp_biglist.append(tuple(tp_list))
 		tp_biglist = [t for t in tp_biglist if t != ()]
 		tp = len(tp_biglist)
+#print(tp)
 
 
 #Calculating False Negative
@@ -65,40 +63,45 @@ fn_biglist = []
 for gold in line1:
 	if gold not in line2:
 		fn_list = list(gold)
-		fn_list = [e for e in fn_list if e not in (' ', '1','\n')]
+		fn_list = ''.join(gold)
+		fn_list = fn_list.strip().split()
+		fn_list = [e for e in fn_list if e not in (' ', '1')]
 		fn_biglist.append(tuple(fn_list))
-		fn_biglist = [t for t in fn_biglist if t != ()]
 		fn = len(fn_biglist)
+#print(fn_biglist)
 
-		
 
 #Calculating False Positive
 fp_biglist = []
 for pred in line2:
 	if pred not in line1:
 		fp_list = list(pred)
-		fp_list = [e for e in fp_list if e not in (' ', '1','\n')]
+		fp_list = ''.join(pred)
+		fp_list = fp_list.strip().split()
+		fp_list = [e for e in fp_list if e not in (' ', '1')]
 		fp_biglist.append(tuple(fp_list))
 		fp_biglist = [t for t in fp_biglist if t != ()]
 		fp = len(fp_biglist)
 
 
-#Deleting TP, FN, FP from the names_list2 to get finally the TN-value
+#Calculating the True Negative value by deleting the name pairs from the list of name combinations created above
 for tp_string in tp_biglist:
-		if tp_string in names_list:
-			names_list.remove(tp_string)
+	if tp_string in names_list:
+		names_list.remove(tp_string)
+
 
 
 for fp_string in fp_biglist:
 	if fp_string in names_list:
 		names_list.remove(fp_string)
 
+
 for fn_string in fn_biglist:
 	if fn_string in names_list:
 		names_list.remove(fn_string)
 
-		tn = len(names_list)
 
+		tn = len(names_list)
 
 print("True Negative Value =",tn)
 print("False Positive Value =",fp)
@@ -106,12 +109,10 @@ print("True Positive Value =",tp)
 print("False Negative Value =",fn)
 
 
-#Berechnung von Accuracy, Prcision und Recall
+#Calculating the Accuracy, Recall and Precision
 acc = ((tp+tn)/(tp+tn+fp+fn))
 print("Accuracy =",acc)
 pre = ((tp)/(tp+fp))
 print("Precision =",pre)
 rec = ((tp)/(tp+fn))
 print("Recall =",rec)
-
-

@@ -1,0 +1,13 @@
+####Scoring tool for calculating the Accuracy, Precision and Recall###
+
+
+scoring_example.py:
+
+this is a file where started programming the scoring tool based on the example data set in the folder "example". Due to the fact, that it makes a big difference wether there are single characters as names or a string the program below was implemented.
+
+
+scoring.py:
+
+this file is the actual file to compare a goldstandard data set against a prediction set. In this program the data of the "realdata_example" is used.
+
+
