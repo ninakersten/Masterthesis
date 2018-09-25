@@ -1,9 +1,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Transcriptional Gene Regulatory Network (GRN)}}{4}{figure.caption.5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Signal Transduction}}{6}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Interaction Graph}}{10}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Synchronous and Asynchronous State Transition Graph}}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Signal Transduction}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Transcriptional Gene Regulatory Network (GRN)}}{5}{figure.caption.6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Direct binarization vs. Iterative binarization}}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Interaction Graph}}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Synchronous and Asynchronous State Transition Graph}}{13}{figure.caption.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
