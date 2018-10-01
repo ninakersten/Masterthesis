@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  27 SEP 2018 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  1 OCT 2018 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,6 +621,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box62
 \rot@mess@toks=\toks31
 )
+(/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen174
+\SC@CAPWD=\dimen175
+\SC@tempdima=\dimen176
+\SC@tempdimb=\dimen177
+\c@SC@C=\count137
+\SC@BOX=\box63
+)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -634,7 +643,7 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks32
 \minrowclearance=\skip77
 )
-\rownum=\count137
+\rownum=\count138
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -648,29 +657,29 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/latex/srcltx/srcltx.sty
 Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
 
-\src@lastline=\count138
+\src@lastline=\count139
 \src@new@everypar=\toks33
 \src@new@output=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count139
-\lst@gtempboxa=\box63
+\lst@mode=\count140
+\lst@gtempboxa=\box64
 \lst@token=\toks35
-\lst@length=\count140
-\lst@currlwidth=\dimen174
-\lst@column=\count141
-\lst@pos=\count142
-\lst@lostspace=\dimen175
-\lst@width=\dimen176
-\lst@newlines=\count143
-\lst@lineno=\count144
-\lst@maxwidth=\dimen177
+\lst@length=\count141
+\lst@currlwidth=\dimen178
+\lst@column=\count142
+\lst@pos=\count143
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count144
+\lst@lineno=\count145
+\lst@maxwidth=\dimen181
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count145
-\lst@skipnumbers=\count146
-\lst@framebox=\box64
+\c@lstnumber=\count146
+\lst@skipnumbers=\count147
+\lst@framebox=\box65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -683,8 +692,8 @@ Package: mdwlist 1996/05/02 1.1 Various list-related things
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-\c@mydef=\count147
-\c@bsp=\count148
+\c@mydef=\count148
+\c@bsp=\count149
 
 (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
@@ -695,12 +704,12 @@ Package: todonotes 2012/07/25
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen178
-\pgfutil@tempdimb=\dimen179
+\pgfutil@tempdima=\dimen182
+\pgfutil@tempdimb=\dimen183
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box65
+\pgfutil@abb=\box66
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -731,20 +740,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ex
 \pgfkeys@tmptoks=\toks39
 ))
-\pgf@x=\dimen180
-\pgf@y=\dimen181
-\pgf@xa=\dimen182
-\pgf@ya=\dimen183
-\pgf@xb=\dimen184
-\pgf@yb=\dimen185
-\pgf@xc=\dimen186
-\pgf@yc=\dimen187
+\pgf@x=\dimen184
+\pgf@y=\dimen185
+\pgf@xa=\dimen186
+\pgf@ya=\dimen187
+\pgf@xb=\dimen188
+\pgf@yb=\dimen189
+\pgf@xc=\dimen190
+\pgf@yc=\dimen191
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count149
-\c@pgf@countb=\count150
-\c@pgf@countc=\count151
-\c@pgf@countd=\count152
+\c@pgf@counta=\count150
+\c@pgf@countb=\count151
+\c@pgf@countc=\count152
+\c@pgf@countd=\count153
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
@@ -768,8 +777,8 @@ path.code.tex' on input line 17.
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count153
-\pgfsyssoftpath@bigbuffer@items=\count154
+\pgfsyssoftpath@smallbuffer@items=\count154
+\pgfsyssoftpath@bigbuffer@items=\count155
 )
 :<-
 Package srcltx Info: Expanded filename `pgfsysprotocol.code.tex' to `pgfsysprot
@@ -793,9 +802,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen188
-\pgfmath@count=\count155
-\pgfmath@box=\box66
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count156
+\pgfmath@box=\box67
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
 \pgfmath@stack@operation=\toks45
@@ -818,57 +827,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count156
+\c@pgfmathroundto@lastzeros=\count157
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen189
-\pgf@picmaxx=\dimen190
-\pgf@picminy=\dimen191
-\pgf@picmaxy=\dimen192
-\pgf@pathminx=\dimen193
-\pgf@pathmaxx=\dimen194
-\pgf@pathminy=\dimen195
-\pgf@pathmaxy=\dimen196
-\pgf@xx=\dimen197
-\pgf@xy=\dimen198
-\pgf@yx=\dimen199
-\pgf@yy=\dimen256
-\pgf@zx=\dimen257
-\pgf@zy=\dimen258
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen259
-\pgf@path@lasty=\dimen260
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen261
-\pgf@shorten@start@additional=\dimen262
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count157
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count158
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen263
+\pgflinewidth=\dimen267
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen264
-\pgf@pt@y=\dimen265
-\pgf@pt@temp=\dimen266
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -884,12 +893,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen267
+\pgfarrowsep=\dimen271
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen268
-\pgf@sys@shading@range@num=\count158
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count159
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -897,7 +906,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box70
+\pgfexternal@startupbox=\box71
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -915,15 +924,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box71
+\pgfnodeparttextbox=\box72
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen269
-\pgf@nodesepend=\dimen270
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -952,8 +961,8 @@ n input line 14.
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen271
-\pgffor@skip=\dimen272
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 )
@@ -970,31 +979,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count159
-\pgfplotmarksize=\dimen273
+\pgf@plot@mark@count=\count160
+\pgfplotmarksize=\dimen277
 )
-\tikz@lastx=\dimen274
-\tikz@lasty=\dimen275
-\tikz@lastxsaved=\dimen276
-\tikz@lastysaved=\dimen277
-\tikzleveldistance=\dimen278
-\tikzsiblingdistance=\dimen279
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count160
-\tikznumberofchildren=\count161
-\tikznumberofcurrentchild=\count162
-\tikz@fig@count=\count163
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikzleveldistance=\dimen282
+\tikzsiblingdistance=\dimen283
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count161
+\tikznumberofchildren=\count162
+\tikznumberofcurrentchild=\count163
+\tikz@fig@count=\count164
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count164
-\pgfmatrixcurrentcolumn=\count165
-\pgf@matrix@numberofcolumns=\count166
+\pgfmatrixcurrentrow=\count165
+\pgfmatrixcurrentcolumn=\count166
+\pgf@matrix@numberofcolumns=\count167
 )
-\tikz@expandcount=\count167
+\tikz@expandcount=\count168
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1008,18 +1017,18 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count168
-\calc@Bcount=\count169
-\calc@Adimen=\dimen280
-\calc@Bdimen=\dimen281
+\calc@Acount=\count169
+\calc@Bcount=\count170
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
 \calc@Askip=\skip78
 \calc@Bskip=\skip79
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count170
+\calc@Ccount=\count171
 \calc@Cskip=\skip80
 )
-\c@@todonotes@numberoftodonotes=\count171
+\c@@todonotes@numberoftodonotes=\count172
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -1035,46 +1044,46 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks48
-\ex@=\dimen282
+\ex@=\dimen286
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen283
+\pmbraise@=\dimen287
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count172
+\inf@bad=\count173
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count173
-\leftroot@=\count174
+\uproot@=\count174
+\leftroot@=\count175
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count175
-\DOTSCASE@=\count176
+\classnum@=\count176
+\DOTSCASE@=\count177
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box76
-\strutbox@=\box77
-\big@size=\dimen284
+\Mathstrutbox@=\box77
+\strutbox@=\box78
+\big@size=\dimen288
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count177
-\c@MaxMatrixCols=\count178
+\macc@depth=\count178
+\c@MaxMatrixCols=\count179
 \dotsspace@=\muskip11
-\c@parentequation=\count179
-\dspbrk@lvl=\count180
+\c@parentequation=\count180
+\dspbrk@lvl=\count181
 \tag@help=\toks49
-\row@=\count181
-\column@=\count182
-\maxfields@=\count183
+\row@=\count182
+\column@=\count183
+\maxfields@=\count184
 \andhelp@=\toks50
-\eqnshift@=\dimen285
-\alignsep@=\dimen286
-\tagshift@=\dimen287
-\tagwidth@=\dimen288
-\totwidth@=\dimen289
-\lineht@=\dimen290
+\eqnshift@=\dimen289
+\alignsep@=\dimen290
+\tagshift@=\dimen291
+\tagwidth@=\dimen292
+\totwidth@=\dimen293
+\lineht@=\dimen294
 \@envbody=\toks51
 \multlinegap=\skip82
 \multlinetaggap=\skip83
@@ -1084,8 +1093,8 @@ LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box78
-\fn@width=\dimen291
+\fn@notes=\box79
+\fn@width=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
 Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
@@ -1098,7 +1107,7 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count184
+\etb@tempcnta=\count185
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1110,7 +1119,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-\c@thm=\count185
+\c@thm=\count186
 
 
 LaTeX Warning: Unused global option(s):
@@ -1120,24 +1129,27 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `fig:Fig.3.' multiply defined.
 
+
+LaTeX Warning: Label `fig:Fig.3.' multiply defined.
+
 )
 \openout1 = `Masterarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 97.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1176,13 +1188,13 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@maskedRefs=\count186
+\c@maskedRefs=\count187
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-LaTeX Info: Redefining \microtypecontext on input line 95.
+LaTeX Info: Redefining \microtypecontext on input line 97.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1199,16 +1211,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count187
-\scratchdimen=\dimen292
-\scratchbox=\box79
-\nofMPsegments=\count188
-\nofMParguments=\count189
+\scratchcounter=\count188
+\scratchdimen=\dimen296
+\scratchbox=\box80
+\nofMPsegments=\count189
+\nofMParguments=\count190
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count190
-\MPscratchDim=\dimen293
-\MPnumerator=\count191
-\makeMPintoPDFobject=\count192
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen297
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
 \everyMPtoPDFconversion=\toks54
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1225,8 +1237,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring ON on input line 95.
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring ON on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1234,11 +1246,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count193
+\c@section@level=\count194
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \nameref on input line 97.
 
 (./Masterarbeit.out) (./Masterarbeit.out)
 \@outlinefile=\write4
@@ -1247,8 +1259,34 @@ LaTeX Info: Redefining \nameref on input line 95.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
+Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count194
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip84
+\RaggedLeftLeftskip=\skip85
+\RaggedRightLeftskip=\skip86
+\CenteringRightskip=\skip87
+\RaggedLeftRightskip=\skip88
+\RaggedRightRightskip=\skip89
+\CenteringParfillskip=\skip90
+\RaggedLeftParfillskip=\skip91
+\RaggedRightParfillskip=\skip92
+\JustifyingParfillskip=\skip93
+\CenteringParindent=\skip94
+\RaggedLeftParindent=\skip95
+\RaggedRightParindent=\skip96
+\JustifyingParindent=\skip97
+)
+\c@lstlisting=\count195
 
 ABD: EveryShipout initializing macros
 :<+ ./Titel/titel.tex
@@ -1317,7 +1355,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 :<+ ./Kapitel/abstract_eng.tex
 \openout2 = `./Kapitel/abstract_eng.aux'.
 
-(./Kapitel/abstract_eng.tex) [3
+(./Kapitel/abstract_eng.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 10.
+) [3
 
 
 
@@ -1330,7 +1373,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 106.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 108.
 
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1340,13 +1383,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package tocbasic Info: character protrusion at toc deactivated on input line 10
-6.
- (./Masterarbeit.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-)
+8.
+ (./Masterarbeit.toc)
 \tf@toc=\write5
 \openout5 = `Masterarbeit.toc'.
 
@@ -1356,8 +1394,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 10
-9.
+Package tocbasic Info: character protrusion at lof deactivated on input line 11
+1.
 
 (./Masterarbeit.lof)
 \tf@lof=\write6
@@ -1370,7 +1408,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 10
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 11
-2.
+4.
  (./Masterarbeit.lot)
 \tf@lot=\write7
 \openout7 = `Masterarbeit.lot'.
@@ -1382,7 +1420,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 11
 
 ]
 Package srcltx Info: Expanded filename `./Kapitel/introduction' to `./Kapitel/i
-ntroduction.tex' on input line 116.
+ntroduction.tex' on input line 118.
 
 :<+ ./Kapitel/introduction.tex
 (./Kapitel/introduction.tex
@@ -1403,279 +1441,317 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
-Package natbib Warning: Citation `An evaluation of methods for inferring boolea
-n network from time-series data' on page 1 undefined on input line 3.
+Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 1 undef
+ined on input line 8.
 
-)
+
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
+ [1
+
+
+
+])
 :<-
-[1
-
-
-
-] [2
-
-
-]
+[2]
 Package srcltx Info: Expanded filename `./Kapitel/background' to `./Kapitel/bac
-kground.tex' on input line 118.
+kground.tex' on input line 120.
 
 :<+ ./Kapitel/background.tex
 (./Kapitel/background.tex
 chapter 2.
 
-Package natbib Warning: Citation `104(6):1777-1782' on page 3 undefined on inpu
-t line 9.
+Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
+ []
 
-Package natbib Warning: Citation `HATZIMANIKATIS2004300' on page 3 undefined on
- input line 9.
-
-<./Bilder/signaltransduction.pdf, id=186, 597.50786pt x 845.04686pt>
+<./Bilder/signaltransduction.pdf, id=197, 597.50786pt x 845.04686pt>
 File: ./Bilder/signaltransduction.pdf Graphic file (type pdf)
 
 <use ./Bilder/signaltransduction.pdf>
-Package pdftex.def Info: ./Bilder/signaltransduction.pdf used on input line 16.
+Package pdftex.def Info: ./Bilder/signaltransduction.pdf used on input line 32.
 
-(pdftex.def)             Requested size: 231.17865pt x 326.94939pt.
+(pdftex.def)             Requested size: 166.44495pt x 235.39943pt.
 
-
-Package natbib Warning: Citation `Berg JM' on page 3 undefined on input line 18
-.
-
-
-Package natbib Warning: Citation `Tymoczko JL' on page 3 undefined on input lin
-e 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[][][]|\T1/lmr/m/n/12 (+20) An en-vi-ron-men-tal sig-nal (e.g. hor-mone)
+ []
 
 
-Package natbib Warning: Citation `Stryer L. Biochemistry. 5th edition. New York
-: W H Freeman; 2002. Chapter 15' on page 3 undefined on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) in-ter-acts with a cel-lu-lar com-po-nent,
+ []
 
 
-Package natbib Warning: Citation `Signal-Transduction Pathways: An Introduction
- to Information Metabolism. Available from: https://www.ncbi.nlm.nih.gov/books/
-NBK21205/' on page 3 undefined on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) most of-ten a cell-surface re-cep-tor. The
+ []
 
 
-Package natbib Warning: Citation `Berg JM' on page 3 undefined on input line 18
-.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) in-for-ma-tion that the sig-nal has ar-rived
+ []
 
 
-Package natbib Warning: Citation `Tymoczko JL' on page 3 undefined on input lin
-e 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) is then con-verted into other chem-i-cal
+ []
 
 
-Package natbib Warning: Citation `Stryer L. Biochemistry. 5th edition. New York
-: W H Freeman; 2002. Chapter 15' on page 3 undefined on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) forms, or trans-duced. The sig-nal is
+ []
 
 
-Package natbib Warning: Citation `Signal-Transduction Pathways: An Introduction
- to Information Metabolism. Available from: https://www.ncbi.nlm.nih.gov/books/
-NBK21205/' on page 3 undefined on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) of-ten am-pli-fied be-fore in-tro-duc-ing a
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/lmr/m/n/12 (+20) re-sponse. Feed-back path-ways reg-u-late
+ []
+
+
+Overfull \hbox (3.9166pt too wide) in paragraph at lines 32--33
+[][]  []  
+ []
+
+
+Package natbib Warning: Citation `8' on page 3 undefined on input line 39.
+
+
+Package natbib Warning: Citation `9' on page 3 undefined on input line 40.
+
+[3
+
+
+
+] <./Bilder/CellRespiration.png, id=203, 705.034pt x 397.485pt>
+File: ./Bilder/CellRespiration.png Graphic file (type png)
+
+<use ./Bilder/CellRespiration.png>
+Package pdftex.def Info: ./Bilder/CellRespiration.png used on input line 44.
+(pdftex.def)             Requested size: 277.4172pt x 156.40137pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
-
-]
-<./Bilder/GRN.png, id=194, 1371.1225pt x 770.88pt>
+ [4 <./Bilder/signaltransduction.pdf> <./Bilder/CellRespiration.png>]
+<./Bilder/GRN.png, id=227, 1371.1225pt x 770.88pt>
 File: ./Bilder/GRN.png Graphic file (type png)
  <use ./Bilder/GRN.png>
-Package pdftex.def Info: ./Bilder/GRN.png used on input line 30.
-(pdftex.def)             Requested size: 601.06592pt x 337.9414pt.
-
-Overfull \hbox (138.7086pt too wide) in paragraph at lines 30--34
- [][] 
- []
+Package pdftex.def Info: ./Bilder/GRN.png used on input line 57.
+(pdftex.def)             Requested size: 462.35732pt x 259.94316pt.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 4 undefined on input line 34.
+n page 5 undefined on input line 62.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 4 undefined on input line 34.
+n page 5 undefined on input line 62.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./Bilder/signaltransduction.pdf>] [5 <./Bilder/GRN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+[5 <./Bilder/GRN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<./Bilder/Iterative_binarization.png, id=237, 1371.1225pt x 770.88pt>
+<./Bilder/Iterative_binarization.png, id=249, 1371.1225pt x 770.88pt>
 File: ./Bilder/Iterative_binarization.png Graphic file (type png)
 
 <use ./Bilder/Iterative_binarization.png>
 Package pdftex.def Info: ./Bilder/Iterative_binarization.png used on input line
- 81.
+ 109.
 (pdftex.def)             Requested size: 462.35732pt x 259.94316pt.
  [8] [9 <./Bilder/Iterative_binarization.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 10 undefi
-ned on input line 114.
+Package natbib Warning: Citation `Bestfit Paper' on page 10 undefined on input 
+line 142.
 
 
 Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 10 undefi
-ned on input line 120.
+ned on input line 148.
 
 [10]
 
 Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 11 undefi
-ned on input line 127.
+ned on input line 158.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 11 undefi
+ned on input line 169.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 11 undefi
-ned on input line 144.
+Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 12 undefi
+ned on input line 186.
 
 
 Package natbib Warning: Citation `doi: https://doi.org/10.1016/j.ymeth.2012.10.
-012' on page 11 undefined on input line 151.
+012' on page 12 undefined on input line 193.
 
-[11] <./Bilder/example02_igraph.pdf, id=286, 174.6525pt x 165.61874pt>
+<./Bilder/example02_igraph.pdf, id=295, 174.6525pt x 165.61874pt>
 File: ./Bilder/example02_igraph.pdf Graphic file (type pdf)
 
 <use ./Bilder/example02_igraph.pdf>
-Package pdftex.def Info: ./Bilder/example02_igraph.pdf used on input line 164.
+Package pdftex.def Info: ./Bilder/example02_igraph.pdf used on input line 206.
 (pdftex.def)             Requested size: 369.88725pt x 350.80931pt.
- [12 <./Bilder/example02_igraph.pdf>]
-<./Bilder/example01_synchron_stg.pdf, id=303, 303.1325pt x 315.1775pt>
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./Bilder/example02_igraph.pdf>]
+<./Bilder/example01_synchron_stg.pdf, id=320, 303.1325pt x 315.1775pt>
 File: ./Bilder/example01_synchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_synchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_synchron_stg.pdf used on input line
- 197.
+ 239.
 (pdftex.def)             Requested size: 151.56587pt x 157.58836pt.
 
-<./Bilder/example01_asynchron_stg.pdf, id=304, 378.41376pt x 389.455pt>
+<./Bilder/example01_asynchron_stg.pdf, id=321, 378.41376pt x 389.455pt>
 File: ./Bilder/example01_asynchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_asynchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_asynchron_stg.pdf used on input lin
-e 200.
+e 242.
 (pdftex.def)             Requested size: 151.36281pt x 155.77924pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13] [14 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_st
-g.pdf
+ [14 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pd
+f
 
 pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 15 unde
+fined on input line 258.
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 266.
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 266.
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[15])
+[16] [17])
 :<-
-[16]
+[18]
 Package srcltx Info: Expanded filename `./Kapitel/materialsandmethods' to `./Ka
-pitel/materialsandmethods.tex' on input line 120.
+pitel/materialsandmethods.tex' on input line 122.
 
 :<+ ./Kapitel/materialsandmethods.tex
 (./Kapitel/materialsandmethods.tex
 chapter 3.
 
-Package natbib Warning: Citation `MIDER' on page 17 undefined on input line 13.
+Package natbib Warning: Citation `MIDER' on page 19 undefined on input line 13.
 
 
-[17
+
+Underfull \vbox (badness 5217) has occurred while \output is active []
+
+ [19
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-[19]
+[22] [23]
 
-Package natbib Warning: Citation `DreamChalleneg Homepage' on page 20 undefined
- on input line 215.
+Package natbib Warning: Citation `DreamChalleneg Homepage' on page 24 undefined
+ on input line 237.
 
-[20] [21])
+[24])
 :<-
-[22]
+[25] [26
+
+
+]
 Package srcltx Info: Expanded filename `./Kapitel/applicationOfThePipeline' to 
-`./Kapitel/applicationOfThePipeline.tex' on input line 122.
+`./Kapitel/applicationOfThePipeline.tex' on input line 124.
 
 :<+ ./Kapitel/applicationOfThePipeline.tex
 (./Kapitel/applicationOfThePipeline.tex
 chapter 4.
 )
 :<-
-[23
+[27
 
-
-
-] [24
+] [28
 
 
 ]
 Package srcltx Info: Expanded filename `./Kapitel/results' to `./Kapitel/result
-s.tex' on input line 124.
+s.tex' on input line 126.
 
 :<+ ./Kapitel/results.tex
 (./Kapitel/results.tex
 chapter 5.
 )
 :<-
-[25
+[29
 
-] [26
+] [30
 
 
 ]
 Package srcltx Info: Expanded filename `./Kapitel/conclusion' to `./Kapitel/con
-clusion.tex' on input line 126.
+clusion.tex' on input line 128.
 
 :<+ ./Kapitel/conclusion.tex
 (./Kapitel/conclusion.tex
 chapter 6.
 )
 :<-
-[27
+[31
 
-] [28
+] [32
 
 
 ]
@@ -1690,59 +1766,60 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [29
+ [33
 
 ])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erklaerung' to `./Kapitel/erk
-laerung.tex' on input line 133.
+laerung.tex' on input line 135.
 :<+ ./Kapitel/erklaerung.tex
-(./Kapitel/erklaerung.tex [30])
+(./Kapitel/erklaerung.tex [34])
 :<-
 
 Package natbib Warning: There were undefined citations.
 
-[31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+[35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./Masterarbeit.aux (./Titel/titel.aux) (./Kapitel/abstract_eng.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 8A31F032620DFC16090C608188FBB828;1226.
+(rerunfilecheck)             Checksum: 25125EABAF7121365F37CE0E63741C5F;1226.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 26249 strings out of 493029
- 468873 string characters out of 6136234
- 651623 words of memory out of 5000000
- 28910 multiletter control sequences out of 15000+600000
- 97958 words of font info for 137 fonts, out of 8000000 for 9000
+ 26469 strings out of 493029
+ 472238 string characters out of 6136234
+ 649866 words of memory out of 5000000
+ 29085 multiletter control sequences out of 15000+600000
+ 98609 words of font info for 144 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 74i,17n,100p,1250b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,24n,100p,1250b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
 x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Masterarbeit.pdf (41 pages, 1073094 bytes).
+1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on Masterarbeit.pdf (45 pages, 1486905 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 492 compressed objects within 5 object streams
- 147 named destinations out of 1000 (max. 500000)
- 25808 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 25813 words of extra memory for PDF output out of 29859 (max. 10000000)
 

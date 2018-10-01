@@ -153,9 +153,62 @@ howpublished={Vortrag},
 	address={Br�ssel}
 }
 
+@inproceedings{Klarner2015ContributionsTT,
+  title={Contributions to the Analysis of Qualitative Models of Regulatory Networks},
+  author={Hannes Klarner},
+  year={2015}
+}
 
 
+@Article{10.1371/journal.pone.0171097,
+  Title                    = {A novel mutual information-based Boolean network inference method from time-series gene expression data},
+  Author                   = {Barman, Shohag AND Kwon, Yung-Keun},
+  Journal                  = {PLOS ONE},
+  Year                     = {2017},
+
+  Month                    = {02},
+  Number                   = {2},
+  Pages                    = {1-19},
+  Volume                   = {12},
+
+  Abstract                 = {Background Inferring a gene regulatory network from time-series gene expression data in systems biology is a challenging problem. Many methods have been suggested, most of which have a scalability limitation due to the combinatorial cost of searching a regulatory set of genes. In addition, they have focused on the accurate inference of a network structure only. Therefore, there is a pressing need to develop a network inference method to search regulatory genes efficiently and to predict the network dynamics accurately. Results In this study, we employed a Boolean network model with a restricted update rule scheme to capture coarse-grained dynamics, and propose a novel mutual information-based Boolean network inference (MIBNI) method. Given time-series gene expression data as an input, the method first identifies a set of initial regulatory genes using mutual information-based feature selection, and then improves the dynamics prediction accuracy by iteratively swapping a pair of genes between sets of the selected regulatory genes and the other genes. Through extensive simulations with artificial datasets, MIBNI showed consistently better performance than six well-known existing methods, REVEAL, Best-Fit, RelNet, CST, CLR, and BIBN in terms of both structural and dynamics prediction accuracy. We further tested the proposed method with two real gene expression datasets for an Escherichia coli gene regulatory network and a fission yeast cell cycle network, and also observed better results using MIBNI compared to the six other methods. Conclusions Taken together, MIBNI is a promising tool for predicting both the structure and the dynamics of a gene regulatory network.},
+  Doi                      = {10.1371/journal.pone.0171097},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pone.0171097}
+}
 
 
+@Article{SAADATPOUR20133,
+  Title                    = {Boolean modeling of biological regulatory networks: A methodology tutorial},
+  Author                   = {Assieh Saadatpour and Réka Albert},
+  Journal                  = {Methods},
+  Year                     = {2013},
+  Note                     = {Modeling Gene Expression},
+  Number                   = {1},
+  Pages                    = {3 - 12},
+  Volume                   = {62},
 
+  Doi                      = {https://doi.org/10.1016/j.ymeth.2012.10.012},
+  ISSN                     = {1046-2023},
+  Keywords                 = {Biological regulatory networks, Boolean models, Structural analysis, Dynamic analysis, segment polarity gene network},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1046202312002770}
+}
+
+
+@Article{10.1371/journal.pone.0066031,
+  Title                    = {An Evaluation of Methods for Inferring Boolean Networks from Time-Series Data},
+  Author                   = {Berestovsky, Natalie AND Nakhleh, Luay},
+  Journal                  = {PLOS ONE},
+  Year                     = {2013},
+
+  Month                    = {06},
+  Number                   = {6},
+  Pages                    = {1-9},
+  Volume                   = {8},
+
+  Abstract                 = {Regulatory networks play a central role in cellular behavior and decision making. Learning these regulatory networks is a major task in biology, and devising computational methods and mathematical models for this task is a major endeavor in bioinformatics. Boolean networks have been used extensively for modeling regulatory networks. In this model, the state of each gene can be either ‘on’ or ‘off’ and that next-state of a gene is updated, synchronously or asynchronously, according to a Boolean rule that is applied to the current-state of the entire system. Inferring a Boolean network from a set of experimental data entails two main steps: first, the experimental time-series data are discretized into Boolean trajectories, and then, a Boolean network is learned from these Boolean trajectories. In this paper, we consider three methods for data discretization, including a new one we propose, and three methods for learning Boolean networks, and study the performance of all possible nine combinations on four regulatory systems of varying dynamics complexities. We find that employing the right combination of methods for data discretization and network learning results in Boolean networks that capture the dynamics well and provide predictive power. Our findings are in contrast to a recent survey that placed Boolean networks on the low end of the “faithfulness to biological reality” and “ability to model dynamics” spectra. Further, contrary to the common argument in favor of Boolean networks, we find that a relatively large number of time points in the time-series data is required to learn good Boolean networks for certain data sets. Last but not least, while methods have been proposed for inferring Boolean networks, as discussed above, missing still are publicly available implementations thereof. Here, we make our implementation of the methods available publicly in open source at http://bioinfo.cs.rice.edu/.},
+  Doi                      = {10.1371/journal.pone.0066031},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pone.0066031}
+}
 
