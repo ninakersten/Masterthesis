@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  1 OCT 2018 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  2 OCT 2018 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1465,7 +1465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
-<./Bilder/signaltransduction.pdf, id=197, 597.50786pt x 845.04686pt>
+<./Bilder/signaltransduction.pdf, id=199, 597.50786pt x 845.04686pt>
 File: ./Bilder/signaltransduction.pdf Graphic file (type pdf)
 
 <use ./Bilder/signaltransduction.pdf>
@@ -1527,7 +1527,7 @@ Package natbib Warning: Citation `9' on page 3 undefined on input line 40.
 
 
 
-] <./Bilder/CellRespiration.png, id=203, 705.034pt x 397.485pt>
+] <./Bilder/CellRespiration.png, id=205, 705.034pt x 397.485pt>
 File: ./Bilder/CellRespiration.png Graphic file (type png)
 
 <use ./Bilder/CellRespiration.png>
@@ -1537,134 +1537,113 @@ Package pdftex.def Info: ./Bilder/CellRespiration.png used on input line 44.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./Bilder/signaltransduction.pdf> <./Bilder/CellRespiration.png>]
-<./Bilder/GRN.png, id=227, 1371.1225pt x 770.88pt>
-File: ./Bilder/GRN.png Graphic file (type png)
- <use ./Bilder/GRN.png>
-Package pdftex.def Info: ./Bilder/GRN.png used on input line 57.
-(pdftex.def)             Requested size: 462.35732pt x 259.94316pt.
+<./Bilder/GRN3.png, id=229, 782.925pt x 421.575pt>
+File: ./Bilder/GRN3.png Graphic file (type png)
+ <use ./Bilder/GRN3.png>
+Package pdftex.def Info: ./Bilder/GRN3.png used on input line 59.
+(pdftex.def)             Requested size: 462.35732pt x 248.96509pt.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 5 undefined on input line 62.
+n page 5 undefined on input line 63.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 5 undefined on input line 62.
+n page 5 undefined on input line 63.
 
-[5 <./Bilder/GRN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
+[5 <./Bilder/GRN3.png>] <./Bilder/RPMA.jpg, id=237, 753.81625pt x 471.7625pt>
+File: ./Bilder/RPMA.jpg Graphic file (type jpg)
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+<use ./Bilder/RPMA.jpg>
+Package pdftex.def Info: ./Bilder/RPMA.jpg used on input line 77.
+(pdftex.def)             Requested size: 369.88725pt x 231.48238pt.
+ [6 <./Bilder/RPMA.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-<./Bilder/Iterative_binarization.png, id=249, 1371.1225pt x 770.88pt>
+[8] <./Bilder/Iterative_binarization.png, id=261, 1371.1225pt x 770.88pt>
 File: ./Bilder/Iterative_binarization.png Graphic file (type png)
 
 <use ./Bilder/Iterative_binarization.png>
 Package pdftex.def Info: ./Bilder/Iterative_binarization.png used on input line
- 109.
+ 119.
 (pdftex.def)             Requested size: 462.35732pt x 259.94316pt.
- [8] [9 <./Bilder/Iterative_binarization.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+ [9 <./Bilder/Iterative_binarization.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
-
-
-Package natbib Warning: Citation `Bestfit Paper' on page 10 undefined on input 
-line 142.
-
-
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 10 undefi
-ned on input line 148.
 
 [10]
-
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 11 undefi
-ned on input line 158.
-
-
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 11 undefi
-ned on input line 169.
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 182--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
+[11] <./Bilder/IGexample.pdf, id=291, 162.6075pt x 155.58125pt>
+File: ./Bilder/IGexample.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `Klarner2015ContributionsTT' on page 12 undefi
-ned on input line 186.
-
-
-Package natbib Warning: Citation `doi: https://doi.org/10.1016/j.ymeth.2012.10.
-012' on page 12 undefined on input line 193.
-
-<./Bilder/example02_igraph.pdf, id=295, 174.6525pt x 165.61874pt>
-File: ./Bilder/example02_igraph.pdf Graphic file (type pdf)
-
-<use ./Bilder/example02_igraph.pdf>
-Package pdftex.def Info: ./Bilder/example02_igraph.pdf used on input line 206.
-(pdftex.def)             Requested size: 369.88725pt x 350.80931pt.
- [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./Bilder/example02_igraph.pdf>]
-<./Bilder/example01_synchron_stg.pdf, id=320, 303.1325pt x 315.1775pt>
+<use ./Bilder/IGexample.pdf>
+Package pdftex.def Info: ./Bilder/IGexample.pdf used on input line 199.
+(pdftex.def)             Requested size: 277.4172pt x 265.4508pt.
+ [12 <./Bilder/IGexample.pdf>]
+<./Bilder/example01_synchron_stg.pdf, id=307, 303.1325pt x 315.1775pt>
 File: ./Bilder/example01_synchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_synchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_synchron_stg.pdf used on input line
- 239.
+ 232.
 (pdftex.def)             Requested size: 151.56587pt x 157.58836pt.
 
-<./Bilder/example01_asynchron_stg.pdf, id=321, 378.41376pt x 389.455pt>
+<./Bilder/example01_asynchron_stg.pdf, id=308, 378.41376pt x 389.455pt>
 File: ./Bilder/example01_asynchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_asynchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_asynchron_stg.pdf used on input lin
-e 242.
+e 235.
 (pdftex.def)             Requested size: 151.36281pt x 155.77924pt.
- [14 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pd
-f
 
-pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->]
 
-Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 15 unde
-fined on input line 258.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 266.
+[13]
+
+Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 14 unde
+fined on input line 251.
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 259.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 266.
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 259.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pdf
+
+
+pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[16] [17])
+[15] [16])
 :<-
-[18]
+[17] [18
+
+
+]
 Package srcltx Info: Expanded filename `./Kapitel/materialsandmethods' to `./Ka
 pitel/materialsandmethods.tex' on input line 122.
 
@@ -1675,12 +1654,7 @@ chapter 3.
 Package natbib Warning: Citation `MIDER' on page 19 undefined on input line 13.
 
 
-
-Underfull \vbox (badness 5217) has occurred while \output is active []
-
- [19
-
-
+[19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
@@ -1785,7 +1759,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 25125EABAF7121365F37CE0E63741C5F;1226.
+(rerunfilecheck)             Checksum: 90DF38D9B2D5A60A1A8456ADE786D66D;1226.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1793,33 +1767,32 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 26469 strings out of 493029
- 472238 string characters out of 6136234
- 649866 words of memory out of 5000000
- 29085 multiletter control sequences out of 15000+600000
- 98609 words of font info for 144 fonts, out of 8000000 for 9000
+ 26473 strings out of 493029
+ 472232 string characters out of 6136234
+ 650947 words of memory out of 5000000
+ 29087 multiletter control sequences out of 15000+600000
+ 98571 words of font info for 144 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 74i,24n,100p,1250b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,24n,100p,1201b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
 x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb>
-Output written on Masterarbeit.pdf (45 pages, 1486905 bytes).
+1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Masterarbeit.pdf (45 pages, 1322470 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 520 compressed objects within 6 object streams
  164 named destinations out of 1000 (max. 500000)
- 25813 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 25818 words of extra memory for PDF output out of 29859 (max. 10000000)
 
