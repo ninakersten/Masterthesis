@@ -8,13 +8,13 @@
 \contentsline {section}{\numberline {2.4}Network Evaluation}{14}{section.2.4}
 \contentsline {chapter}{\numberline {3}Materials and Methods}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Inferencealgorithms}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}PyBoolNet}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Data Selection}{24}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Example data set}{24}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}HPN-DREAM breast cancer data set}{24}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.2}PyBoolNet}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Data Selection}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Example data set}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}HPN-DREAM breast cancer data set}{25}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Appilcation of the Pipeline}{27}{chapter.4}
 \contentsline {section}{\numberline {4.1}Example data set}{27}{section.4.1}
 \contentsline {section}{\numberline {4.2}HPN-DREAM breast cancer data set}{27}{section.4.2}
 \contentsline {chapter}{\numberline {5}Results}{29}{chapter.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{31}{chapter.6}
-\contentsline {chapter}{\nonumberline References}{33}{chapter*.35}
+\contentsline {chapter}{\nonumberline References}{33}{chapter*.36}

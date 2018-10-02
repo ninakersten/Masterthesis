@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  2 OCT 2018 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  2 OCT 2018 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1590,23 +1590,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 File: ./Bilder/IGexample.pdf Graphic file (type pdf)
 
 <use ./Bilder/IGexample.pdf>
-Package pdftex.def Info: ./Bilder/IGexample.pdf used on input line 199.
-(pdftex.def)             Requested size: 277.4172pt x 265.4508pt.
+Package pdftex.def Info: ./Bilder/IGexample.pdf used on input line 200.
+(pdftex.def)             Requested size: 184.9401pt x 176.96324pt.
  [12 <./Bilder/IGexample.pdf>]
-<./Bilder/example01_synchron_stg.pdf, id=307, 303.1325pt x 315.1775pt>
+<./Bilder/example01_synchron_stg.pdf, id=310, 303.1325pt x 315.1775pt>
 File: ./Bilder/example01_synchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_synchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_synchron_stg.pdf used on input line
- 232.
+ 237.
 (pdftex.def)             Requested size: 151.56587pt x 157.58836pt.
 
-<./Bilder/example01_asynchron_stg.pdf, id=308, 378.41376pt x 389.455pt>
+<./Bilder/example01_asynchron_stg.pdf, id=311, 378.41376pt x 389.455pt>
 File: ./Bilder/example01_asynchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_asynchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_asynchron_stg.pdf used on input lin
-e 235.
+e 240.
 (pdftex.def)             Requested size: 151.36281pt x 155.77924pt.
 
 
@@ -1615,15 +1615,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13]
 
 Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 14 unde
-fined on input line 251.
+fined on input line 257.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 259.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 265.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 259.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 265.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1634,11 +1634,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-[15] [16])
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
 :<-
 [17] [18
 
@@ -1651,42 +1654,64 @@ pitel/materialsandmethods.tex' on input line 122.
 (./Kapitel/materialsandmethods.tex
 chapter 3.
 
-Package natbib Warning: Citation `MIDER' on page 19 undefined on input line 13.
+Package natbib Warning: Citation `Kitano1662' on page 19 undefined on input lin
+e 11.
 
 
-[19
+Package natbib Warning: Citation `Lähdesmäki2003' on page 19 undefined on inp
+ut line 11.
+
+
+Package natbib Warning: Citation `article' on page 19 undefined on input line 1
+2.
+
+
+Package natbib Warning: Citation `AGATONOVICKUSTRIN2000717' on page 19 undefine
+d on input line 13.
+
+
+<./Bilder/OverviewOfBooleanInferenceProblem.png, id=384, 782.925pt x 554.873pt>
+File: ./Bilder/OverviewOfBooleanInferenceProblem.png Graphic file (type png)
+<use ./Bilder/OverviewOfBooleanInferenceProblem.png>
+Package pdftex.def Info: ./Bilder/OverviewOfBooleanInferenceProblem.png used on
+ input line 20.
+(pdftex.def)             Requested size: 462.35732pt x 327.6855pt.
+ [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
- []
+Package natbib Warning: Citation `A novel mututal information-based Boolean net
+work inference method from time-series gene expression data' on page 20 undefin
+ed on input line 24.
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[20 <./Bilder/OverviewOfBooleanInferenceProblem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
-[22] [23]
+[23] [24]
 
-Package natbib Warning: Citation `DreamChalleneg Homepage' on page 24 undefined
- on input line 237.
+Package natbib Warning: Citation `DreamChalleneg Homepage' on page 25 undefined
+ on input line 235.
 
-[24])
+[25])
 :<-
-[25] [26
-
-
-]
+[26]
 Package srcltx Info: Expanded filename `./Kapitel/applicationOfThePipeline' to 
 `./Kapitel/applicationOfThePipeline.tex' on input line 124.
 
@@ -1696,6 +1721,8 @@ chapter 4.
 )
 :<-
 [27
+
+
 
 ] [28
 
@@ -1759,7 +1786,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 90DF38D9B2D5A60A1A8456ADE786D66D;1226.
+(rerunfilecheck)             Checksum: 6A1BA9B72735FE9F371B54DEA7ED5FA5;1226.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1767,11 +1794,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 26473 strings out of 493029
- 472232 string characters out of 6136234
- 650947 words of memory out of 5000000
- 29087 multiletter control sequences out of 15000+600000
- 98571 words of font info for 144 fonts, out of 8000000 for 9000
+ 26489 strings out of 493029
+ 472716 string characters out of 6136234
+ 650981 words of memory out of 5000000
+ 29096 multiletter control sequences out of 15000+600000
+ 98745 words of font info for 146 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  74i,24n,100p,1201b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1789,10 +1816,10 @@ are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Masterarbeit.pdf (45 pages, 1322470 bytes).
+Output written on Masterarbeit.pdf (45 pages, 1810494 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 520 compressed objects within 6 object streams
- 164 named destinations out of 1000 (max. 500000)
- 25818 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 25823 words of extra memory for PDF output out of 29859 (max. 10000000)
 
