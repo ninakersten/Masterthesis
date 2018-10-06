@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  2 OCT 2018 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.13)  6 OCT 2018 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,9 +1129,6 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `fig:Fig.3.' multiply defined.
 
-
-LaTeX Warning: Label `fig:Fig.3.' multiply defined.
-
 )
 \openout1 = `Masterarbeit.aux'.
 
@@ -1451,199 +1448,178 @@ Underfull \vbox (badness 5563) has occurred while \output is active []
 
 
 
-])
+]
+<./Bilder/Overview.pdf, id=198, 521.25484pt x 515.73563pt>
+File: ./Bilder/Overview.pdf Graphic file (type pdf)
+
+<use ./Bilder/Overview.pdf>
+Package pdftex.def Info: ./Bilder/Overview.pdf used on input line 15.
+(pdftex.def)             Requested size: 462.35732pt x 457.46085pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 :<-
-[2]
+[2] [3 <./Bilder/Overview.pdf>] [4
+
+
+]
 Package srcltx Info: Expanded filename `./Kapitel/background' to `./Kapitel/bac
 kground.tex' on input line 120.
 
 :<+ ./Kapitel/background.tex
 (./Kapitel/background.tex
 chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--11
-
- []
-
-<./Bilder/signaltransduction.pdf, id=199, 597.50786pt x 845.04686pt>
-File: ./Bilder/signaltransduction.pdf Graphic file (type pdf)
-
-<use ./Bilder/signaltransduction.pdf>
-Package pdftex.def Info: ./Bilder/signaltransduction.pdf used on input line 32.
-
-(pdftex.def)             Requested size: 166.44495pt x 235.39943pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[][][]|\T1/lmr/m/n/12 (+20) An en-vi-ron-men-tal sig-nal (e.g. hor-mone)
- []
+<./Bilder/GRN.pdf, id=421, 597.97168pt x 369.9644pt>
+File: ./Bilder/GRN.pdf Graphic file (type pdf)
+ <use ./Bilder/GRN.pdf>
+Package pdftex.def Info: ./Bilder/GRN.pdf used on input line 13.
+(pdftex.def)             Requested size: 369.88725pt x 228.8449pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) in-ter-acts with a cel-lu-lar com-po-nent,
- []
+Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
+fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
+n page 5 undefined on input line 17.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) most of-ten a cell-surface re-cep-tor. The
- []
+Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
+fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
+n page 5 undefined on input line 17.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) in-for-ma-tion that the sig-nal has ar-rived
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) is then con-verted into other chem-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) forms, or trans-duced. The sig-nal is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) of-ten am-pli-fied be-fore in-tro-duc-ing a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 (+20) re-sponse. Feed-back path-ways reg-u-late
- []
-
-
-Overfull \hbox (3.9166pt too wide) in paragraph at lines 32--33
-[][]  []  
- []
-
-
-Package natbib Warning: Citation `8' on page 3 undefined on input line 39.
-
-
-Package natbib Warning: Citation `9' on page 3 undefined on input line 40.
-
-[3
-
-
-
-] <./Bilder/CellRespiration.png, id=205, 705.034pt x 397.485pt>
-File: ./Bilder/CellRespiration.png Graphic file (type png)
-
-<use ./Bilder/CellRespiration.png>
-Package pdftex.def Info: ./Bilder/CellRespiration.png used on input line 44.
-(pdftex.def)             Requested size: 277.4172pt x 156.40137pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./Bilder/signaltransduction.pdf> <./Bilder/CellRespiration.png>]
-<./Bilder/GRN3.png, id=229, 782.925pt x 421.575pt>
-File: ./Bilder/GRN3.png Graphic file (type png)
- <use ./Bilder/GRN3.png>
-Package pdftex.def Info: ./Bilder/GRN3.png used on input line 59.
-(pdftex.def)             Requested size: 462.35732pt x 248.96509pt.
+ [5
+
+]
+
+Package natbib Warning: Citation `8' on page 6 undefined on input line 35.
+
+
+Package natbib Warning: Citation `9' on page 6 undefined on input line 35.
+
+[6 <./Bilder/GRN.pdf>]
+<./Bilder/metabolic.pdf, id=692, 695.97203pt x 377.78705pt>
+File: ./Bilder/metabolic.pdf Graphic file (type pdf)
+
+<use ./Bilder/metabolic.pdf>
+Package pdftex.def Info: ./Bilder/metabolic.pdf used on input line 38.
+(pdftex.def)             Requested size: 462.35732pt x 250.97159pt.
+ [7 <./Bilder/metabolic.pdf>]
+<./Bilder/GRNDREAM8.pdf, id=892, 746.75471pt x 414.63213pt>
+File: ./Bilder/GRNDREAM8.pdf Graphic file (type pdf)
+
+<use ./Bilder/GRNDREAM8.pdf>
+Package pdftex.def Info: ./Bilder/GRNDREAM8.pdf used on input line 55.
+(pdftex.def)             Requested size: 462.35732pt x 256.72128pt.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 5 undefined on input line 63.
+n page 8 undefined on input line 59.
 
 
 Package natbib Warning: Citation `https://public.ornl.gov/site/gallery/detail.c
 fm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all' o
-n page 5 undefined on input line 63.
+n page 8 undefined on input line 59.
 
-[5 <./Bilder/GRN3.png>] <./Bilder/RPMA.jpg, id=237, 753.81625pt x 471.7625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (322.06459pt too wide) in paragraph at lines 68--82
+[][] 
+ []
+
+<./Bilder/RPMA.jpg, id=893, 753.81625pt x 471.7625pt>
 File: ./Bilder/RPMA.jpg Graphic file (type jpg)
-
-<use ./Bilder/RPMA.jpg>
-Package pdftex.def Info: ./Bilder/RPMA.jpg used on input line 77.
+ <use ./Bilder/RPMA.jpg>
+Package pdftex.def Info: ./Bilder/RPMA.jpg used on input line 94.
 (pdftex.def)             Requested size: 369.88725pt x 231.48238pt.
- [6 <./Bilder/RPMA.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./Bilder/GRNDREAM8.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[10 <./Bilder/RPMA.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[8] <./Bilder/Iterative_binarization.png, id=261, 1371.1225pt x 770.88pt>
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+[12] <./Bilder/Iterative_binarization.png, id=1226, 1371.1225pt x 770.88pt>
 File: ./Bilder/Iterative_binarization.png Graphic file (type png)
 
 <use ./Bilder/Iterative_binarization.png>
 Package pdftex.def Info: ./Bilder/Iterative_binarization.png used on input line
- 119.
+ 135.
 (pdftex.def)             Requested size: 462.35732pt x 259.94316pt.
- [9 <./Bilder/Iterative_binarization.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+ [13 <./Bilder/Iterative_binarization.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-[11] <./Bilder/IGexample.pdf, id=291, 162.6075pt x 155.58125pt>
-File: ./Bilder/IGexample.pdf Graphic file (type pdf)
+[15] <./Bilder/examplenetwork.pdf, id=1256, 261.5799pt x 307.97554pt>
+File: ./Bilder/examplenetwork.pdf Graphic file (type pdf)
 
-<use ./Bilder/IGexample.pdf>
-Package pdftex.def Info: ./Bilder/IGexample.pdf used on input line 200.
-(pdftex.def)             Requested size: 184.9401pt x 176.96324pt.
- [12 <./Bilder/IGexample.pdf>]
-<./Bilder/example01_synchron_stg.pdf, id=310, 303.1325pt x 315.1775pt>
+<use ./Bilder/examplenetwork.pdf>
+Package pdftex.def Info: ./Bilder/examplenetwork.pdf used on input line 215.
+(pdftex.def)             Requested size: 92.47005pt x 108.86919pt.
+ [16 <./Bilder/examplenetwork.pdf>]
+<./Bilder/example01_synchron_stg.pdf, id=1275, 303.1325pt x 315.1775pt>
 File: ./Bilder/example01_synchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_synchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_synchron_stg.pdf used on input line
- 237.
+ 252.
 (pdftex.def)             Requested size: 151.56587pt x 157.58836pt.
 
-<./Bilder/example01_asynchron_stg.pdf, id=311, 378.41376pt x 389.455pt>
+<./Bilder/example01_asynchron_stg.pdf, id=1276, 378.41376pt x 389.455pt>
 File: ./Bilder/example01_asynchron_stg.pdf Graphic file (type pdf)
 
 <use ./Bilder/example01_asynchron_stg.pdf>
 Package pdftex.def Info: ./Bilder/example01_asynchron_stg.pdf used on input lin
-e 240.
+e 255.
 (pdftex.def)             Requested size: 151.36281pt x 155.77924pt.
+ [17 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pd
+f
 
+pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 18 unde
+fined on input line 272.
 
-[13]
-
-Package natbib Warning: Citation `10.1371/journal.pone.0171097' on page 14 unde
-fined on input line 257.
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 265.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 280.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 265.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./Bilder/example01_synchron_stg.pdf> <./Bilder/example01_asynchron_stg.pdf
-
-
-pdfTeX warning: pdflatex (file ./Bilder/example01_asynchron_stg.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 280.
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-[15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16])
+[19] [20])
 :<-
-[17] [18
+[21] [22
 
 
 ]
@@ -1654,64 +1630,75 @@ pitel/materialsandmethods.tex' on input line 122.
 (./Kapitel/materialsandmethods.tex
 chapter 3.
 
-Package natbib Warning: Citation `Kitano1662' on page 19 undefined on input lin
+Package natbib Warning: Citation `Kitano1662' on page 23 undefined on input lin
 e 11.
 
 
-Package natbib Warning: Citation `Lähdesmäki2003' on page 19 undefined on inp
+Package natbib Warning: Citation `Lähdesmäki2003' on page 23 undefined on inp
 ut line 11.
 
 
-Package natbib Warning: Citation `article' on page 19 undefined on input line 1
-2.
+Package natbib Warning: Citation `article' on page 23 undefined on input line 1
+3.
 
 
-Package natbib Warning: Citation `AGATONOVICKUSTRIN2000717' on page 19 undefine
-d on input line 13.
+Package natbib Warning: Citation `AGATONOVICKUSTRIN2000717' on page 23 undefine
+d on input line 14.
 
 
-<./Bilder/OverviewOfBooleanInferenceProblem.png, id=384, 782.925pt x 554.873pt>
-File: ./Bilder/OverviewOfBooleanInferenceProblem.png Graphic file (type png)
-<use ./Bilder/OverviewOfBooleanInferenceProblem.png>
-Package pdftex.def Info: ./Bilder/OverviewOfBooleanInferenceProblem.png used on
- input line 20.
-(pdftex.def)             Requested size: 462.35732pt x 327.6855pt.
- [19
+Package natbib Warning: Citation `von TS2B Paper [10]' on page 23 undefined on 
+input line 16.
+
+[23
 
 ]
+File: ./Bilder/Overview.pdf Graphic file (type pdf)
+ <use ./Bilder/Overview.pdf>
+Package pdftex.def Info: ./Bilder/Overview.pdf used on input line 21.
+(pdftex.def)             Requested size: 369.88725pt x 365.97025pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
 
 Package natbib Warning: Citation `A novel mututal information-based Boolean net
-work inference method from time-series gene expression data' on page 20 undefin
-ed on input line 24.
+work inference method from time-series gene expression data' on page 25 undefin
+ed on input line 25.
 
-[20 <./Bilder/OverviewOfBooleanInferenceProblem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-[23] [24]
-
-Package natbib Warning: Citation `DreamChalleneg Homepage' on page 25 undefined
- on input line 235.
-
-[25])
-:<-
 [26]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[28] [29]
+
+Package natbib Warning: Citation `DreamChalleneg Homepage' on page 30 undefined
+ on input line 233.
+
+[30])
+:<-
+[31] [32
+
+
+]
 Package srcltx Info: Expanded filename `./Kapitel/applicationOfThePipeline' to 
 `./Kapitel/applicationOfThePipeline.tex' on input line 124.
 
@@ -1720,11 +1707,9 @@ Package srcltx Info: Expanded filename `./Kapitel/applicationOfThePipeline' to
 chapter 4.
 )
 :<-
-[27
+[33
 
-
-
-] [28
+] [34
 
 
 ]
@@ -1736,9 +1721,9 @@ s.tex' on input line 126.
 chapter 5.
 )
 :<-
-[29
+[35
 
-] [30
+] [36
 
 
 ]
@@ -1750,9 +1735,9 @@ clusion.tex' on input line 128.
 chapter 6.
 )
 :<-
-[31
+[37
 
-] [32
+] [38
 
 
 ]
@@ -1767,26 +1752,26 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [33
+ [39
 
 ])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erklaerung' to `./Kapitel/erk
 laerung.tex' on input line 135.
 :<+ ./Kapitel/erklaerung.tex
-(./Kapitel/erklaerung.tex [34])
+(./Kapitel/erklaerung.tex [40])
 :<-
 
 Package natbib Warning: There were undefined citations.
 
-[35]
+[41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./Masterarbeit.aux (./Titel/titel.aux) (./Kapitel/abstract_eng.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 6A1BA9B72735FE9F371B54DEA7ED5FA5;1226.
+(rerunfilecheck)             Checksum: 0D3C256C84F49B97938C3DCA881080BB;1226.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1794,11 +1779,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 26489 strings out of 493029
- 472716 string characters out of 6136234
- 650981 words of memory out of 5000000
- 29096 multiletter control sequences out of 15000+600000
- 98745 words of font info for 146 fonts, out of 8000000 for 9000
+ 26503 strings out of 493029
+ 472679 string characters out of 6136234
+ 651147 words of memory out of 5000000
+ 29098 multiletter control sequences out of 15000+600000
+ 98919 words of font info for 148 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  74i,24n,100p,1201b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1816,10 +1801,10 @@ are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Masterarbeit.pdf (45 pages, 1810494 bytes).
+Output written on Masterarbeit.pdf (51 pages, 1303936 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 166 named destinations out of 1000 (max. 500000)
+ 1587 PDF objects out of 1728 (max. 8388607)
+ 1115 compressed objects within 12 object streams
+ 174 named destinations out of 1000 (max. 500000)
  25823 words of extra memory for PDF output out of 29859 (max. 10000000)
 

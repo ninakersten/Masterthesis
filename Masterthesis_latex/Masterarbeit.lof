@@ -1,13 +1,15 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Pipeline}}{3}{figure.caption.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Signal transduction}}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Metabolic Network}}{4}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Transcriptional Gene Regulatory Network (GRN)}}{5}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces RPMA: Antibody binding and fluorometric detection}}{6}{figure.caption.9}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Direct binarization vs. Iterative binarization}}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Interaction Graph}}{12}{figure.caption.14}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Synchronous and Asynchronous State Transition Graph}}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Transcriptional Signale Cascade}}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Metabolic Network}}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Transcriptional Signale Cascade}}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces RPMA: Antibody binding and fluorometric detection}}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Direct binarization vs. Iterative binarization}}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Interaction Graph}}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Synchronous and Asynchronous State Transition Graph}}{17}{figure.caption.18}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of inferrinf a Boolean Network Model}}{25}{figure.caption.21}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
