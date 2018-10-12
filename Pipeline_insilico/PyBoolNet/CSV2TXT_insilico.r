@@ -1,37 +1,35 @@
-####CSV to TXT-Parser####by Nina Kersten
-
-#This R-Parser converts a .csv-file of a RPMA-Output to a .txt-file for inferring a boolean network with TS2B
-#Up to 50 nodes can be calculated
+#!/usr/bin/env Rscript
 
 #R version 3.4.3 (2017-11-30)
 #install.packages("plyr")
-#install.packages("dplyr")
 #install.packages("stringr")
 library(plyr)
-#library(dplyr)
 library(stringr)
 
+#args = commandArgs(trailingOnly=TRUE)
+args <- "./CSV_insilico/Gold_mybnet.csv"
+args1 <- gsub('./CSV_insilico/Gold_mybnet.csv','CSV_insilico/Gold_mybnet.csv',args)
+#if (!is.null(homepath)){
+#  setwd(homepath)
+#  }
+#print(homepath)
 
+#incoming argument: './CSV_insilico/*.csv'
 homepath <- getwd()
-if (!is.null(homepath)){
-  setwd(homepath)
-  }
-print(homepath)
-#setwd(paste(homepath,"/Schreibtisch/Masterarbeit/Algorithmen/TS2B/BooleanModeling2post/Pipeline/PyBoolNet-2.2.5/testdata_with_odefy/CSV_insilico/",sep=""))
-homepath1 <- setwd(paste(homepath,"/Pipeline_insilico/PyBoolNet/CSV_insilico/",sep=""))
+pathname <- file.path(homepath,"Pipeline_insilico/PyBoolNet/",args1)
 
-print(homepath1)
-
-ldf <- list() # creates a list
-celllinelist <- dir(path= homepath, pattern = "/Gold_*.csv") # creates the list of all the csv files in the directory
-print(celllinelist)
-for (k in 1:length(celllinelist)){
-  ldf[[k]] <- read.csv(celllinelist[k])
-}
+#ldf <- list() # creates a list
+#celllinelist <- dir(homepath1, pattern = "/Gold_*.csv") # creates the list of all the csv files in the directory
 #print(celllinelist)
+#for (k in 1:length(celllinelist)){
+#  ldf[[k]] <- read.csv(celllinelist[k])
+#}
+#print(celllinelist)
+
+
 #read-in the data, exlude SlideID, Antibody Name
-for (d in celllinelist){
-  newdata1 <- read.csv(file=paste(d,sep = ""), header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
+#for (d in celllinelist){
+  newdata1 <- read.csv(file=pathname, header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
   #celllinelist2 <- c("BT20", "BT549", "MCF7", "UACC812")
   newdata <-newdata1[!(newdata1$V4 == "Slide ID (1st chip)"),]
   newdata <-newdata[!(newdata$V4 == "HUGO ID"),]
@@ -67,10 +65,12 @@ for (d in celllinelist){
     
     
     #ifelse(!dir.exists("CSV2TXTOutput"), dir.create("CSV2TXTOutput"), "Folder exists already") # Creates a folder for the output
-    newd <- str_replace(d, ".csv", "")
-    write.table(f,paste(newd,i,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
+    newd <- str_replace(args1, ".csv", "")
+    newd1 <- str_replace(newd, "CSV_insilico/","")
+    outputpath <- file.path(homepath,"Pipeline_insilico/PyBoolNet/CSV_insilico_2_TXT/")
+    write.table(f,paste(outputpath, newd1,i,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
     
   }
-}
+#}
 
 
