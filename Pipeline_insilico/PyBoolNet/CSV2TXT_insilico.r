@@ -6,30 +6,15 @@
 library(plyr)
 library(stringr)
 
-#args = commandArgs(trailingOnly=TRUE)
-args <- "./CSV_insilico/Gold_mybnet.csv"
-args1 <- gsub('./CSV_insilico/Gold_mybnet.csv','CSV_insilico/Gold_mybnet.csv',args)
-#if (!is.null(homepath)){
-#  setwd(homepath)
-#  }
-#print(homepath)
 
 #incoming argument: './CSV_insilico/*.csv'
 homepath <- getwd()
-pathname <- file.path(homepath,"Pipeline_insilico/PyBoolNet/",args1)
-
-#ldf <- list() # creates a list
-#celllinelist <- dir(homepath1, pattern = "/Gold_*.csv") # creates the list of all the csv files in the directory
-#print(celllinelist)
-#for (k in 1:length(celllinelist)){
-#  ldf[[k]] <- read.csv(celllinelist[k])
-#}
-#print(celllinelist)
-
+pathname <- file.path(homepath,"Pipeline_insilico/PyBoolNet/CSV_insilico/")
+celllinelist <- dir(pathname, pattern = "*.csv") # creates the list of all the csv files in the directory
 
 #read-in the data, exlude SlideID, Antibody Name
-#for (d in celllinelist){
-  newdata1 <- read.csv(file=pathname, header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
+for (d in celllinelist){
+  newdata1 <- read.csv(file=paste(pathname,d,sep=""), header=FALSE, sep = ",", dec = ".", stringsAsFactors = FALSE)
   #celllinelist2 <- c("BT20", "BT549", "MCF7", "UACC812")
   newdata <-newdata1[!(newdata1$V4 == "Slide ID (1st chip)"),]
   newdata <-newdata[!(newdata$V4 == "HUGO ID"),]
@@ -62,15 +47,10 @@ pathname <- file.path(homepath,"Pipeline_insilico/PyBoolNet/",args1)
     f$b <- NULL
     f[is.na(f)] <- ""
     
-    
-    
-    #ifelse(!dir.exists("CSV2TXTOutput"), dir.create("CSV2TXTOutput"), "Folder exists already") # Creates a folder for the output
-    newd <- str_replace(args1, ".csv", "")
-    newd1 <- str_replace(newd, "CSV_insilico/","")
+    newd <- str_replace(d, ".csv", "")
     outputpath <- file.path(homepath,"Pipeline_insilico/PyBoolNet/CSV_insilico_2_TXT/")
-    write.table(f,paste(outputpath, newd1,i,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
-    
+    write.table(f,paste(outputpath, newd,i,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
   }
-#}
+}
 
 
