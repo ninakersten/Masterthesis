@@ -1,141 +1,38 @@
-Document content:
-1. The list of necessary installation requirements
-2. Running instructions
-3. Input format 
-4. Examples
+*******Creating an insilico network*******(Written by Nina Kersten,2018)
 
-************* INSTALLATION REQUIREMENTS ********************
+This content provides a insilico.bash script to create boolean networks with different amount of nodes considering different inference alorithms (REVEAL, BESTFIT, FULLFIT) in combination with different discretization algorithms (k-means clustering and BASCA). After inferring the networks the interaction graphs are genrated (without dependecies) and compared regarding the Recall, Precision, Accuracy, Balanced Accuracy and the Matthew Correlation Coefficient.
+
+
+************* INSTALLATION REQUIREMENTS ***************
 In order to be able to execute the code you need:
-1. Python 2.7
+1. Python 2.7, Python 3.4
 2. Python bitarray package (http://pypi.python.org/pypi/bitarray)
 3. boolean2 package associated with Booleannet modeling tool (http://code.google.com/p/booleannet/)
-
+4. PyCluster (https://anaconda.org/bioconda/pycluster)
+5. PyBoolNet 2.2.5 (https://github.com/hklarner/PyBoolNet/releases)
 
 ************* RUNNING INSTRUCTIONS ********************
-The tools is executed from a command line. The command looks like this:
 
-Required:
-python BinInfer.py input=file_name
+Download the folder "Pipeline_insilico". Open a terminal and go the directory of the folder:
 
-With optional parameters:
-python binInfer.py input=file_name param1=value1 param2=value2 ....etc...
+./Pipeline_insilico$ bash insilico.sh
+./Pipeline_insilico$ What is the maximum number of nodes an insilico network should have? Start at least by a value of 5 ! (e.g.10)
 
-With multiple data set:
-python binInferMulti.py input=file_name1,file_name2 param1=value1 param2=value2 ....etc...
+#Then you type at the value of 5, such that at least one .bnet file is generated. For example: A value of 10, yields a set of .bnet files from 4 nodes up to 9 nodes.
 
 
+Depending on the inference method, used in the bash-script it is recommanded to take not more than 15 nodes for the method REVEAL and not more than 48 nodes for BESTFIT and FULLFIT! BASCA is much slower than the k-means-clustering algorithm, such that itis recommanded to use the k-means clustering with a depth of at least 3.
 
-There are several parameters that can be adjusted by the user:
+Validating the inference instrusctions, can be done in the bash script as follows:
 
+
+bin-method: defines the binarization method and/or argument associated with it. 'A' means BASC A binarization. Any positive number above 0 (1 or higher) will produce iterative k-means binarization with this depth (KM1, KM2, KM3, etc). KM3 binarizatin is the most efficient one.
 	
-	bin-method: defines the binarization method and/or argument associated with it. 'A' means BASC A binarization. Any positive number above 0 (1 or higher) will produce iterative k-means binarization with this depth (KM1, KM2, KM3, etc). KM3 binarizatin is the most efficient one.
+learn-method: one of the three - REVEAL (default), BESTFIT, FULLFIT
 	
-	learn-method: one of the three - REVEAL (default), BESTFIT, FULLFIT
+maxscore: is a float value (0.0 is default). Determines what is the maximum allowed score for appropriate solution. If the best score if less than 'maxscore' is reached before maximum iterations (defined by search), the search stops.
 	
-	input: name of the input file (see input syntax)
-	
-	iterations: is an integer value (5000 is default). Determines how many iterations of bin/learn process will be attempted. If the appropriate score is reached within this number, the code exits.
-	
-	maxscore: is a float value (0.0 is default). Determines what is the maximum allowed score for appropriate solution. If the best score if less than 'maxscore' is reached before maximum iterations (defined by search), the search stops.
-	
-	solutions: determines how many solutions you want to find in this run (those solutions will either be have 'maxscore' or will have executed for defined number of iterations without reaching that score)
-	
-	verbose: is an integer value (1 is default). Determines the amount of verbose output desired during the simulation. 
-0 level only outputs whenever finds the solution. 
-1 level prints a message every 100th iteration of the search AND tells when the appropriate solution is found before reaching maximum search iterations (in addition to level 0 information)
-2 level prints out output every time it encounters a Boolean network better than the current best one (in addition to level 1 information)
-	
+solutions: determines how many solutions you want to find in this run (those solutions will either be have 'maxscore' or will have executed for defined number of iterations without reaching that score)
 
 
-************* INPUT FORMAT ****************************
-
-
-A B C D NON E NON F 
-1 1 1 1  1  1  1  1
-2 2 2 2  2  2  2  2
-3 3 3 3  3  3  3  3
-...................
-
-The first line of output HAS TO BE the names of the species and they HAVE TO BE SINGLE CHARACTERS!!!
-If you have data set where you want to ignore some columns, title then "NON". They will be excluded from the method.
-
-
-
-	
-	
-************** EXAMPLES ***********************
-
-python BinInfer.py input=examples/fourGene.txt bin-method=KM3 learn-method=REVEAL maxscore=0.05 solutions=2
-{'learn-method': 'REVEAL', 'reduction': 0, 'solutions': 2, 'iterations': 5000, 'output': ['score', 'text'], 'input': 'examples/fourGene.txt', 'maxscore': 0.25, 'bin-method': 3, 'verbose': 1}
-Cycle  0
-Reached in  1  iterations
-
-Solution found:
-0.00609756097561
-A = False
-B = False
-C = False
-D = False
-A* = D or A
-C* = B
-B* = A and D
-D* = not C
-
-Cycle  1
-Reached in  18  iterations
-
-Solution found:
-0.00609756097561
-A = False
-B = False
-C = False
-D = False
-A* = D or A
-C* = B
-B* = A and D
-D* = not C
-
-
-
-
-********
-
-!!NOTE: BASC A binarization is deterministic, so high 'maxscore' should be used. Also if your data has a lot of time points (like fourGene example), the binarization might take a long time to run. 
-
-python BinInfer.py input=examples/jakStat.txt bin-method=A learn-method=BESTFIT maxscore=10 solutions=2
-{'learn-method': 'BESTFIT', 'reduction': 0, 'solutions': 2, 'iterations': 5000, 'output': ['score', 'text'], 'input': 'examples/jakStat.txt', 'maxscore': 10.0, 'bin-method': 0, 'verbose': 1}
-BASC A binarization
-Cycle  0
-Reached in  1  iterations
-
-Solution found:
-0.266666666667
-A = False
-B = False
-C = False
-D = False
-E = False
-B* = A
-E* = D
-D* = D
-
-Cycle  1
-Reached in  1  iterations
-
-Solution found:
-0.266666666667
-A = False
-B = False
-C = False
-D = False
-E = False
-B* = A
-E* = E
-D* = D
-
-
-******
-NOTE!! inference from multiple data set does not actually have needed data sets here. This example just shows the syntax.
-
-python BinInferMulti.py input=examples/fourGene.txt,example/fourGene2.txt,example/fourGene3.txt bin-method=KM3 learn-method=REVEAL maxscore=0.01 solutions=2
 

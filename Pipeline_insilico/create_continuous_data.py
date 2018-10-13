@@ -1,5 +1,6 @@
 from creation_of_test_data.generate_random_parameters import get_random_parameters, generate_random_initial_state
-from creation_of_test_data.simulate_ode import simulate_ode, write_settings_into_file, write_data_file
+#from creation_of_test_data.simulate_ode import simulate_ode, write_settings_into_file, write_data_file
+from creation_of_test_data.simulate_ode import simulate_ode, write_data_file
 import numpy as np
 import sys
 
@@ -44,9 +45,9 @@ if __name__ == "__main__":
                                                                                        initial_state, t_values)
     write_data_file(name_of_output_file, list_to_dict, t_values,
                     concentrations)
-    write_settings_into_file(
-        name_of_output_file+"_parameters",
-        list_to_dict, dict_to_list, result_of_interpolation,
-        t_values, parameters_to_choose, initial_state)
+    #write_settings_into_file(
+    #    name_of_output_file+"_parameters",
+    #    list_to_dict, dict_to_list, result_of_interpolation,
+    #    t_values, parameters_to_choose, initial_state)
 
     print("Simulation succeeded. The chosen parameters for the simulation can be found in the file "+name_of_output_file+"_parameters.")

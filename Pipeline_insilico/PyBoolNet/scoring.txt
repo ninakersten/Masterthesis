@@ -1,0 +1,41 @@
+True Positive Value =3
+True Negative Value =9
+False Positive Value =2
+False Negative Value =2
+Accuracy =0.75
+Precision =0.6
+Recall =0.6
+Matthiews correlation coefficient (MCC) = 0.41818181818181815
+Balanced Accuracy =0.7090909090909091True Positive Value =1
+True Negative Value =16
+False Positive Value =3
+False Negative Value =5
+Accuracy =0.68
+Precision =0.25
+Recall =0.16666666666666666
+Matthiews correlation coefficient (MCC) = 0.010218988991416097
+Balanced Accuracy =0.5043859649122807True Positive Value =3
+True Negative Value =46
+False Positive Value =5
+False Negative Value =10
+Accuracy =0.765625
+Precision =0.375
+Recall =0.23076923076923078
+Matthiews correlation coefficient (MCC) = 0.16146816171752817
+Balanced Accuracy =0.5663650075414781True Positive Value =1
+True Negative Value =23
+False Positive Value =4
+False Negative Value =8
+Accuracy =0.6666666666666666
+Precision =0.2
+Recall =0.1111111111111111
+Matthiews correlation coefficient (MCC) = -0.046373889576016826
+Balanced Accuracy =0.4814814814814815True Positive Value =0
+True Negative Value =37
+False Positive Value =4
+False Negative Value =8
+Accuracy =0.7551020408163265
+Precision =0.0
+Recall =0.0
+Matthiews correlation coefficient (MCC) = -0.13169727955327862
+Balanced Accuracy =0.45121951219512196

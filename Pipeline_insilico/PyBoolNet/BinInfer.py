@@ -28,7 +28,7 @@ binz = Binarization()
 #F = open(completeName,"w") 
 
 name_of_outputfile = ' '.join(sys.argv[1:])
-name_of_outputfile1 = name_of_outputfile.replace('input=./CSV_insilico/','').replace('.txt bin-method=KM3 learn-method=REVEAL maxscore=10.0 solutions=3','')
+name_of_outputfile1 = name_of_outputfile.replace('input=./CSV_insilico_2_TXT/','').replace('.txt bin-method=KM3 learn-method=REVEAL maxscore=10.0 solutions=3','')
 save_path = './inference_output_insilico/'
 completeName = os.path.join(save_path, name_of_outputfile1 +".bnet")  
 F = open(completeName,"w") 
@@ -135,7 +135,6 @@ def main(argv=sys.argv):
 		output['allScores'] = conv
 		#findKMeansSolution(output)
 		#print "\nSolution found:"
-		print "A Boolean Network is successfully created !"
 		toPrint = argumentsValues['output']
 		#print output
 		for tp in toPrint:

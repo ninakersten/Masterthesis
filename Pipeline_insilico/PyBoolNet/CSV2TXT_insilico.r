@@ -8,6 +8,7 @@ library(stringr)
 
 
 #incoming argument: './CSV_insilico/*.csv'
+
 homepath <- getwd()
 pathname <- file.path(homepath,"Pipeline_insilico/PyBoolNet/CSV_insilico/")
 celllinelist <- dir(pathname, pattern = "*.csv") # creates the list of all the csv files in the directory
@@ -49,7 +50,7 @@ for (d in celllinelist){
     
     newd <- str_replace(d, ".csv", "")
     outputpath <- file.path(homepath,"Pipeline_insilico/PyBoolNet/CSV_insilico_2_TXT/")
-    write.table(f,paste(outputpath, newd,i,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
+    write.table(f,paste(outputpath, newd,sep = "",".txt"), sep="\t", quote = FALSE, row.names=FALSE, col.names = FALSE)
   }
 }
 

@@ -81,16 +81,16 @@ def simulate(name_of_setting_file, name_of_data_file, result_of_interpolation, p
         print("Something went wrong during r.integrate()")
 
     # Save data
-    settings_file = open(name_of_setting_file, 'w')
-    settings_file.write("internal numbering of variables: "+str(list_to_dict)+"\n")
-    settings_file.write("internal numbering of variables: "+str(dict_to_list)+"\n")
-    settings_file.write("initial state: "+str(initial_state)+"\n")
-    settings_file.write("stopping time: "+str(stoppingTime)+"\n")
-    settings_file.write("number of steps: " + str(number_of_steps)+"\n")
-    settings_file.write("stepsize: "+str(dt)+"\n")
-    settings_file.write("parameters of ODE_system: "+str(parameters)+"\n")
-    settings_file.write("result_of_interpolation: " + str(result_of_interpolation.dictionary_of_polynomials) + "\n")
-    settings_file.close()
+    #settings_file = open(name_of_setting_file, 'w')
+    #settings_file.write("internal numbering of variables: "+str(list_to_dict)+"\n")
+    #settings_file.write("internal numbering of variables: "+str(dict_to_list)+"\n")
+    #settings_file.write("initial state: "+str(initial_state)+"\n")
+    #settings_file.write("stopping time: "+str(stoppingTime)+"\n")
+    #settings_file.write("number of steps: " + str(number_of_steps)+"\n")
+    #settings_file.write("stepsize: "+str(dt)+"\n")
+    #settings_file.write("parameters of ODE_system: "+str(parameters)+"\n")
+    #settings_file.write("result_of_interpolation: " + str(result_of_interpolation.dictionary_of_polynomials) + "\n")
+    #settings_file.close()
 
     data_file = open(name_of_data_file, 'w')
     data_file.write(",,,Slide ID,"+",".join( [list_to_dict[i] for i in range(len(list_to_dict.keys()))] )+"\n")
@@ -129,20 +129,20 @@ def simulate_ode(bnet, parameters, initial_state, timepoints):
     result = scipy.integrate.odeint(f, x0, timepoints)
     return result, list_to_dict, dict_to_list, result_of_interpolation
 
-def write_settings_into_file(name_of_setting_file, list_to_dict, dict_to_list, result_of_interpolation, t_values, parameters, initial_state):
-    save_path = './PyBoolNet/CSV_insilico/'
-    name_of_setting_file1 = name_of_setting_file.replace('./PyBoolNet/bnet_data_insilico/','')
-    completeName = os.path.join(save_path, name_of_setting_file1)
-    settings_file = open(completeName, 'w')
-    settings_file.write("internal numbering of variables: "+str(list_to_dict)+"\n")
-    settings_file.write("internal numbering of variables: "+str(dict_to_list)+"\n")
-    settings_file.write("initial state: "+str(initial_state)+"\n")
-    settings_file.write("\n")
-    settings_file.write("\n")
-    settings_file.write("\n")
-    settings_file.write("parameters of ODE_system: "+str(parameters)+"\n")
-    settings_file.write("result_of_interpolation: " + str(result_of_interpolation.dictionary_of_polynomials) + "\n")
-    settings_file.close()
+#def write_settings_into_file(name_of_setting_file, list_to_dict, dict_to_list, result_of_interpolation, t_values, parameters, initial_state):
+#    save_path = './PyBoolNet/CSV_insilico/'
+#    name_of_setting_file1 = name_of_setting_file.replace('./PyBoolNet/bnet_data_insilico/','')
+#    completeName = os.path.join(save_path, name_of_setting_file1)
+#    settings_file = open(completeName, 'w')
+#    settings_file.write("internal numbering of variables: "+str(list_to_dict)+"\n")
+#    settings_file.write("internal numbering of variables: "+str(dict_to_list)+"\n")
+#    settings_file.write("initial state: "+str(initial_state)+"\n")
+#    settings_file.write("\n")
+#    settings_file.write("\n")
+#    settings_file.write("\n")
+#    settings_file.write("parameters of ODE_system: "+str(parameters)+"\n")
+#    settings_file.write("result_of_interpolation: " + str(result_of_interpolation.dictionary_of_polynomials) + "\n")
+#    settings_file.close()
 
  
 
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     concentrations, list_to_dict, dict_to_list, result_of_interpolation = simulate_ode(bnet, parameters, initial_state, t_values)
     print(t_values)
     print(concentrations)
-    write_settings_into_file("settings_of_simulation", list_to_dict, dict_to_list, result_of_interpolation, t_values)
+    #write_settings_into_file("settings_of_simulation", list_to_dict, dict_to_list, result_of_interpolation, t_values)
     write_data_file("data_of_simulation", list_to_dict, t_values, concentrations)
 
     plt.plot(t_values, concentrations)
