@@ -20,7 +20,7 @@ if __name__ == "__main__":
     print(len(sys.argv))
     print(name_of_bnet_file1)
 
-    """
+    
 	parser = argparse.ArgumentParser()
 	parser.add_argument("dir", help="Enter the directory of the ./TS2B_output/output2.bnet -file")
 	args = parser.parse_args()
@@ -284,4 +284,4 @@ if __name__ == "__main__":
 			
 			csv_writer.writerow([f,str(args),str(tp),str(tn),str(fp),str(fn),str(pre),str(rec),str(acc),str(bacc),str(mcc)])
 	csv_file.close()
-	"""
+	
