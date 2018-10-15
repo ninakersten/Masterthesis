@@ -1,0 +1,14 @@
+f , k
+c , g
+h , c
+i , c
+a , c
+j , k
+d , n
+l , k | ! a
+n , k
+b , c
+g , n
+m , k | ! b
+o , ! a & ! l & k | ! a & l & ! k | a & l & k
+e , k

@@ -1,0 +1,11 @@
+a, i
+b, !d & f
+c, i
+e, !f & e
+g, !f & e
+h, !f & e
+j, i & k
+k, !d & f
+d, !f & e
+f, i
+i, !f & e

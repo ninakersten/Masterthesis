@@ -9,9 +9,11 @@ import pandas
 import os.path
 import pandas as pd
 #Pipeline$ python3 CSV2TXT.py ./CSV/
+
 parser = argparse.ArgumentParser()
 parser.add_argument("dir", help="Enter the directory of the ./TS2B_output/output2.bnet -file")
 args = parser.parse_args()
+#print(args)
 
 
 r = csv.reader(open(args.dir))
@@ -20,8 +22,9 @@ line=lines[1]
 names = len(line[4:])
 #print(names)
 
+
 filtered_list = []
-for i in range(4,104):# insert args from bash: 100 timepoints '+4'
+for i in range(4,len(lines)):# insert args from bash: 100 timepoints '+4'
 	newlist = lines[i]
 	if newlist[2]=='Insulin':
 		filtered_list.append(newlist)

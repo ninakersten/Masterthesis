@@ -1,0 +1,9 @@
+b 1 e
+b 1 f
+b 1 a
+e -1 b
+e -1 c
+e -1 d
+d 1 b
+a 1 c
+a 1 d

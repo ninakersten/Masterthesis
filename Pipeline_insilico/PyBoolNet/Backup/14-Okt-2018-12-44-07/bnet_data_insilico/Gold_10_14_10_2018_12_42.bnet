@@ -1,0 +1,10 @@
+c, !b & j
+d, i
+e, a & b
+f, !b & j
+g, a & b
+i, a & b
+j, i
+h, i
+b, !h & i
+a, !h & i

@@ -1,0 +1,2 @@
+Networkname,Timepoints,TP,TN,FP,FN,Pre,Rec,ACC,BACC,MCC
+Gold_6_14_10_2018_16_4.sif,Namespace(dir='150'),0,21,4,11,0.0,0.0,0.5833333333333334,0.42,-0.23452078799117146
