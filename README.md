@@ -16,6 +16,8 @@ Requirements:
 - The real-life data set can be downloaded here: DREAM8 - HPN DREAM Breast Cancer Challenge (https://www.synapse.org/#!Synapse:syn5924123). Here the main not the full experimental data is used. The "main"- dataset has less nodes than the "full"-dataset. The Pipeline_realdata comes along with the DREAMCHAllenge  data within.
 - Install PyBoolNet (https://github.com/hklarner/PyBoolNet/releases)
 
+- Download the zipped files of Pipeline_insilico and Pipeline_realdata.
+
 ### WORKFLOW: for Pipeline_insilico data set ###
 
 - Open a Terminal and go to the directory of the file
