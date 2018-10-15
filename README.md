@@ -24,8 +24,11 @@ home/usr/Pipeline_insilico$ bash insilico.sh [# of max. nodes] [# of measurement
 
 ,where:
 [# of max. nodes]: Is the number of nodes a generated network should maximally has. It starts by a minimum of 4 nodes. By typing 4, nothing happens, by typing 5: one network with 4 nodes is generated, by typing 6: two networks with 4 and 5 nodes are generated....and so on
+
 [# of measurements]: It is recommanded to start by a value of 100 (this is in process). 
+
 [binerization method]: K-means clustering algorithm: recommanded typing KM1, KM2 or KM3
+
 [inference method]: type: BESTFIT, REVEAL or FULLFIT 
 
 e.g.: home/usr/Pipeline_insilico$ bash insilico.sh 100 6 KM3 BESTFIT
