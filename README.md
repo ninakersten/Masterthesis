@@ -20,7 +20,7 @@ Requirements:
 
 - Open a Terminal and go to the directory of the file
 
-##home/usr/Pipeline_insilico$ bash insilico.sh [# of max. nodes] [# of measurements] [binerization method] [inference method]##
+home/usr/Pipeline_insilico$ bash insilico.sh [# of max. nodes] [# of measurements] [binerization method] [inference method]
 
 ,where:
 [# of max. nodes]: Is the number of nodes a generated network should maximally has. It starts by a minimum of 4 nodes. By typing 4, nothing happens, by typing 5: one network with 4 nodes is generated, by typing 6: two networks with 4 and 5 nodes are generated....and so on
@@ -39,13 +39,14 @@ All files are stored in the ./Pipeline_insilico/PyBoolNet/Backup/[# nodes][date]
 
 - Open a Terminal and go to the directory of the file
 
-##home/usr/Pipeline_realdata$ bash realdata.sh [binerization method] [inference method]##
+home/usr/Pipeline_realdata$ bash realdata.sh [binerization method] [inference method]
 
-- Due to bad runtime of FULLFIT and especially REVEALit is recommanded to use BESTFIT on your local pc)
+- Due to bad runtime of FULLFIT and especially REVEALit is recommanded to use BESTFIT on your local pc
 - A network of 48 nodes with about 100 measurements needs approximatly 8minutes to run. Thus inferring all 32 networks may need 3 1/2 hours. 
 - Keep this in mind, bevor starting the bash script...
 
-- All files are stored in the ./Pipeline_realdata/PyBoolNet/Backup/[# nodes][date][time]-folder with the scoing results (scoring_results.csv)
+- All files are stored in the ./Pipeline_realdata/PyBoolNet/Backup/[# nodes][date][time]-folder 
+with the scoing results (scoring_results.csv)
 
 ## Quick Practice in PyBoolNet ##
 
