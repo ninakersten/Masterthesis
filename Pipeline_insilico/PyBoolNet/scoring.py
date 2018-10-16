@@ -10,44 +10,36 @@ import math
 import filecmp
 import numpy as np
 import argparse
+import shlex
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Wrong input.")
-        sys.exit()
-    name_of_bnet_file1 = sys.argv[1]
-    name_of_bnet_file = sys.argv[2]
-    print(len(sys.argv))
-    print(name_of_bnet_file1)
-
-    
-	parser = argparse.ArgumentParser()
-	parser.add_argument("dir", help="Enter the directory of the ./TS2B_output/output2.bnet -file")
-	args = parser.parse_args()
-	print(args[1])
-
-	#print(args)
-	#args, unknown = parser.parse_known_args()
-
-
-	#Read in the names_lists for the cartesian product
-	#names_list1 = ["4EBP1_pS65","4EBP1_pT37_pT46","ACC_pS79","AKT_pS473","AKT_pT308"]
-	#names_list2 = ["4EBP1_pS65","4EBP1_pT37_pT46","ACC_pS79","AKT_pS473","AKT_pT308"]
-
-	#write result to .txt file
-	#completeName = 'scoring.txt'
-	#write_scoring_file = open(completeName, "w")
+	if len(sys.argv) != 4:
+		print("Wrong input.")
+		sys.exit()
+	timepoints = sys.argv[1]
+	bin_method = sys.argv[2]
+	learn_method = sys.argv[3]
+	#print(len(sys.argv))
 
 	#write result to .csv file
 	with open('scoring_result.csv', mode='w') as csv_file:
 		csv_writer = csv.writer(csv_file, delimiter =',')
-		csv_writer.writerow(['Networkname','Timepoints','TP','TN','FP','FN','Pre','Rec','ACC','BACC','MCC'])
+		csv_writer.writerow(['Networkname','Nodes','Bin_method','Learn_method','Timepoints','Runtime_in_sec.','TP','TN','FP','FN','Pre','Rec','ACC','BACC','MCC'])
 		#csv_writer.writerow(['Networkname','Timepoints','binmethod','learnmethod','TP','TN','FP','FN','Pre','Rec','ACC','BACC','MCC'])
 
 		d1_contents = set(os.listdir('./goldstandard_insilico'))
 		d2_contents = set(os.listdir('./prediction_insilico'))
 		common = list(d1_contents & d2_contents)
 		#print(common)
+
+		mean_bacc_list=[]
+		mean_mcc_list=[]
+		mean_nodes_list=[]
+		mean_acc_list=[]
+		mean_pre_list=[]
+		mean_rec_list=[]
+		mean_runtime_list=[]
+
 		for f in common:
 			args1= os.path.join('./goldstandard_insilico', f)
 			args2= os.path.join('./prediction_insilico', f)
@@ -64,7 +56,8 @@ if __name__ == "__main__":
 			#print(arows1)
 			arows2 = [x for x in arows1 if x]
 			arows2.remove("Antibody Name")
-			#print(arows2)
+			nodes = len(arows2)
+			mean_nodes_list.append(nodes)
 
 			names_list1 = arows2
 			names_list2 = arows2
@@ -83,6 +76,21 @@ if __name__ == "__main__":
 			#	for line in fin:
 			#		fout.write(line.replace('\t',' '))
 			#print(fout)
+			#write runtime into the scoring.csv
+			runtime_file = open('runtime.txt','r')
+			runtime1 = runtime_file.readlines()
+			runtime_name_compare=f.replace('.sif','')
+			#print(runtime_name_compare)
+			runtime2 = [time.replace('./CSV_insilico_2_TXT/','').replace('.txt','').replace('\n','') for time in runtime1]
+			#shlex.split(runtime2)
+			for run in runtime2:
+				run1=shlex.split(run)
+				#print(run1)
+				if run1[0]==runtime_name_compare:
+					run2=int(run1[1])
+					#print(run2)
+					mean_runtime_list.append(run2)
+
 
 			#Read in the Golstandard and the Prediction data set
 			gold_file = open(args1,"r")
@@ -192,96 +200,114 @@ if __name__ == "__main__":
 
 			tn = len(names_list)
 
-			#print("True Positive Value =",tp)
-			#print("True Negative Value =",tn)
-			#print("False Positive Value =",fp)
-			#print("False Negative Value =",fn)
 
-
-			#Berechnung von Accuracy, Prcision und Recall
-			#if (tp+tn+fp+fn)== 0;
 		
-		
-			#acc = ((tp+tn)/(tp+tn+fp+fn))
-			#print("Accuracy =",acc)
-			#pre = ((tp)/(tp+fp))
-			#print("Precision =",pre)
-			#np.seterr(divide='ignore', invalid='ignore')
-			#rec = ((tp)/(tp+fn))
-			#print("Recall =",rec)
-
-			#Calculating Matthiews correlation coefficient(MCC):
-			#mcc = ((tp*tn-fp*fn)/(math.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn))))
-			#print("Matthiews correlation coefficient (MCC) = ",mcc)
-
-			#Balanced  Accuracy
-			#bacc = (((tp/(tp+fn))+(tn/(fp+tn)))/2)
-			#print("Balanced Accuracy =",bacc)
-
-
-			#write_scoring_file.write("True Positive Value =" + str(tp) + '\n')
-			#write_scoring_file.write("True Negative Value =" + str(tn) + '\n')
-			#write_scoring_file.write("False Positive Value =" + str(fp) + '\n')
-			#write_scoring_file.write("False Negative Value =" + str(fn) + '\n')
-			#write_scoring_file.write("Accuracy =" + str(acc) +'\n')
-			#write_scoring_file.write("Precision =" + str(pre) + '\n')
-			#write_scoring_file.write("Recall =" + str(rec) + '\n')
-			#write_scoring_file.write("Matthiews correlation coefficient (MCC) = " + str(mcc) + '\n')
-			#write_scoring_file.write("Balanced Accuracy ="+ str(bacc))
+			
 			if tp+fp==0:
 				acc = ((tp+tn)/(tp+tn+fp+fn))
-				bacc = (((tp/(tp+fn))+(tn/(fp+tn)))/2)
+				bacc = (acc/2)
 				rec = ((tp)/(tp+fn))
 				pre = 'No Value'
 				mcc = 'No Value'
+				mean_bacc_list.append(bacc)
+				mean_rec_list.append(rec)
+				mean_acc_list.append(acc)
 			elif tp+fn==0:
 				acc = ((tp+tn)/(tp+tn+fp+fn))
-				bacc = (((tp/(tp+fn))+(tn/(fp+tn)))/2)
+				bacc = (acc/2)
 				pre = ((tp)/(tp+fp))
 				mcc = 'No Value'
 				rec = 'No Value'
+				mean_bacc_list.append(bacc)
+				mean_rec_list.append(rec)
+				mean_pre_list.append(pre)
 			elif tn+fp==0:
 				acc = ((tp+tn)/(tp+tn+fp+fn))
-				bacc = (((tp/(tp+tn))+(tn/(fp+fn)))/2)
+				bacc = (acc/2)
 				pre = ((tp)/(tp+fp))
 				rec = ((tp)/(tp+fn))
 				mcc = 'No Value'
+				mean_bacc_list.append(bacc)
+				mean_acc_list.append(acc)
+				mean_rec_list.append(rec)
+				mean_pre_list.append(pre)
 			elif tn+fn==0:
 				acc = ((tp+tn)/(tp+tn+fp+fn))
-				bacc = (((tp/(tp+tn))+(tn/(fp+fn)))/2)
+				bacc = (acc/2)
 				pre = ((tp)/(tp+fp))
 				rec = ((tp)/(tp+fn))
 				mcc = 'No Value'
+				mean_bacc_list.append(bacc)
+				mean_acc_list.append(acc)
+				mean_rec_list.append(rec)
+				mean_pre_list.append(pre)
 			elif tp+tn+fp+fn==0:
 				acc = 'No Value'
 				bacc = 'No Value'
 				pre = 'No Value'
 				rec = 'No Value'
 				mcc = 'No Value'
-			else:
+			elif tp!=0 and tn!=0 and fp!=0 and fn!=0:
 				acc = ((tp+tn)/(tp+tn+fp+fn))
-				#print("Accuracy =",acc)
 				pre = ((tp)/(tp+fp))
-				#print("Precision =",pre)
-				#np.seterr(divide='ignore', invalid='ignore')
 				rec = ((tp)/(tp+fn))
-				#print("Recall =",rec)
-
-				#Calculating Matthiews correlation coefficient(MCC):
 				mcc = ((tp*tn-fp*fn)/(math.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn))))
-				#print("Matthiews correlation coefficient (MCC) = ",mcc)
+				bacc = (acc/2)
+				mean_bacc_list.append(bacc)
+				mean_mcc_list.append(mcc)
+				mean_acc_list.append(acc)
+				mean_rec_list.append(rec)
+				mean_pre_list.append(pre)
 
-				#Balanced  Accuracy
-				bacc = (((tp/(tp+tn))+(tn/(fp+fn)))/2)
-
-
-
-
-
-
-	#write_scoring_file.close()
-
-			
-			csv_writer.writerow([f,str(args),str(tp),str(tn),str(fp),str(fn),str(pre),str(rec),str(acc),str(bacc),str(mcc)])
-	csv_file.close()
+			csv_writer.writerow([f,str(nodes),str(bin_method),str(learn_method),str(timepoints),str(run2),str(tp),str(tn),str(fp),str(fn),str(pre),str(rec),str(acc),str(bacc),str(mcc)])
 	
+		if mean_bacc_list!=[] and mean_mcc_list!=[]:	
+			mean_bacc=(sum(mean_bacc_list)/len(mean_bacc_list))
+			mean_mcc=(sum(mean_mcc_list)/len(mean_mcc_list))
+		elif mean_bacc_list!=[] and mean_mcc_list==[]:
+			mean_bacc=(sum(mean_bacc_list)/len(mean_bacc_list))
+			mean_mcc='No Value'
+		elif mean_bacc_list==[] and mean_mcc_list!=[]:
+			mean_mcc=(sum(mean_mcc_list)/len(mean_mcc_list))
+			mean_bacc='No Value'
+
+		if mean_acc_list==[]:
+			mean_acc='No Value'
+		elif mean_acc_list !=[]:
+			mean_acc=(sum(mean_acc_list)/len(mean_acc_list))
+
+		if mean_rec_list==[]:
+			mean_rec='No Value'
+		elif mean_rec_list !=[]:
+			mean_rec=(sum(mean_rec_list)/len(mean_rec_list))
+
+		if mean_pre_list==[]:
+			mean_pre='No Value'
+		elif mean_pre_list !=[]:
+			mean_pre=(sum(mean_pre_list)/len(mean_pre_list))
+
+		if mean_nodes_list==[]:
+			mean_nodes='No Value'
+		elif mean_nodes_list !=[]:
+			mean_nodes=(sum(mean_nodes_list)/len(mean_nodes_list))
+
+		#print(mean_runtime_list)
+		if mean_runtime_list==[]:
+			mean_runtime='No Value'
+		elif mean_runtime_list !=[]:
+			mean_runtime=(sum(mean_runtime_list)/len(mean_runtime_list))
+			
+		#print(mean_mcc)
+		#print(mean_bacc)
+		csv_writer.writerow([''])
+		csv_writer.writerow(['Mean_Nodes',str(mean_nodes)])
+		csv_writer.writerow(['Mean_Runtime',str(mean_runtime)])
+		csv_writer.writerow(['Mean_BACC',str(mean_bacc)])
+		csv_writer.writerow(['Mean_MCC',str(mean_mcc)])
+		csv_writer.writerow(['Mean_ACC',str(mean_acc)])
+		csv_writer.writerow(['Mean_Precision',str(mean_pre)])
+		csv_writer.writerow(['Mean_Recall',str(mean_rec)])
+
+	csv_file.close()
+	#sort csv. file by nodes
+	#sortedlist = sorted(csv_writer, key=lambda row: row[1], reverse=True)

@@ -30,10 +30,8 @@ before=$(date +%s)
 python BinInfer.py input=$ts2b_input bin-method=$1 learn-method=$2 maxscore=10.0 solutions=3
 after=$(date +%s)
 runtime=$((after - $before))
-echo $runtime
-
-
-done
+echo $ts2b_input  $runtime
+done > runtime.txt
 
 #example:
 #python BinInfer.py input=./CSV_realdata_2_TXT/BT20_mainSerum.txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
@@ -50,7 +48,7 @@ done
 
 #python3 scoring.py $timepoints $binmethod $learnmethod
 
-python3 scoring.py $runtime
+python3 scoring.py $3 $4
 
 #Vielleicht noch die Anzahl der measurements hinzufügen?
 
@@ -81,3 +79,4 @@ for newdir6 in ./CSV_realdata/*.csv;do
 	cp -f -i $newdir6 ./Backup/$newdir/CSV_realdata
 done
 mv -f -i scoring_result.csv ./Backup/$newdir
+mv -f -i runtime.txt ./Backup/$newdir

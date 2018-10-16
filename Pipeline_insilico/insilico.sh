@@ -62,13 +62,17 @@ done
 
 #Zeitmessung erfassen und mit inputfilename speichern
 
+
 for ts2b_input in ./CSV_insilico_2_TXT/*.txt; do
 before=$(date +%s)
 python BinInfer.py input=$ts2b_input bin-method=$3 learn-method=$4 maxscore=10.0 solutions=3
 after=$(date +%s)
 runtime=$((after - $before))
-echo $runtime
-done
+echo $ts2b_input  $runtime
+done > runtime.txt
+
+
+
 
 #Problem:In BinInfer.py muss immer alles aus dem Namen gelöscht werden (daher zz. nur KM1-3,A und REVEAL,BESTFIT,FULLFIT möglich)
 
@@ -83,7 +87,7 @@ done
 
 #python3 scoring.py $timepoints $binmethod $learnmethod
 
-python3 scoring.py $2 $runtime
+python3 scoring.py $2 $3 $4
 #python3 scoring.py $2 $runtime
 
 ###Make new directory for the results###
@@ -117,4 +121,5 @@ done
 for newdir7 in ./bnet_data_insilico/*.bnet;do
 	mv -f -i $newdir7 ./Backup/$newdir/bnet_data_insilico
 done
+mv -f -i runtime.txt ./Backup/$newdir
 mv -f -i scoring_result.csv ./Backup/$newdir

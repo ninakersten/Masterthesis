@@ -1,0 +1,6 @@
+a, a
+c, a
+d, b & f
+e, !f & e
+f, b & f
+b, !f & d

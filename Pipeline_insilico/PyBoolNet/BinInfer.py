@@ -127,7 +127,7 @@ def main(argv=sys.argv):
 
 	for i in range(argumentsValues['solutions']):
 
-		print 'Cycle ', i
+		#print 'Cycle ', i
 		
 		if argumentsValues['learn-method'] == 'REVEAL':
 			conv = findOne_REVEALSolution(argumentsValues['iterations'],argumentsValues['maxscore'],output,binarySeries=bSer)
@@ -334,7 +334,7 @@ def findOne_REVEALSolution(maxIters, goodScore, output,binarySeries=None):
 				for tp in toPrintLev2:
 					if tp in output:
 						print output[tp]
-	print "Reached in ",xyz," iterations"				
+	#print "Reached in ",xyz," iterations"				
 	return convergence			
 
 
@@ -462,7 +462,7 @@ def findOne_BESTFULLFITSolution(maxIters, goodScore, output, binarySeries=None, 
 				for tp in toPrintLev2:
 					if tp in output:
 						print output[tp]
-	print "Reached in ",xyz," iterations"
+	#print "Reached in ",xyz," iterations"
 	return convergence
 
 

@@ -1,0 +1,3 @@
+./CSV_insilico_2_TXT/Gold_4_16_10_2018_14_31.txt 0
+./CSV_insilico_2_TXT/Gold_5_16_10_2018_14_31.txt 4
+./CSV_insilico_2_TXT/Gold_6_16_10_2018_14_31.txt 0
