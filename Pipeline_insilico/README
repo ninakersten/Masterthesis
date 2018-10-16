@@ -4,6 +4,16 @@ This content provides a insilico.bash script to create boolean networks with dif
 
 The main idea to check the runtime under different condition, resp. at which time the algorithms collapse.
 
+Here two bash scripts are provided:
+
+insilico.sh
+
+and
+
+small_example.sh
+
+In 'small_example.sh' small real life boolean network can be inferred.
+
 ************* INSTALLATION REQUIREMENTS ***************
 In order to be able to execute the code you need:
 1. Python 2.7, Python 3.4
@@ -23,6 +33,8 @@ e.g: ./Pipeline_insilico$ bash insilico.sh 7 150 KM3 BESTFIT
 #Type in at least a value for the maximal number of nodes of 7 to create at least one network with 7 nodes. Typing a value of 8 yields two networks, one with 7 nodes and one with 8 nodes....and so on. 
 
 The reults for each run are stored in './Pipeline_insilico/PyBoolNet/Backup/'
+
+bash small_example.sh 100 KM3 BESTFIT
 
 *******************************************************
 Further information:

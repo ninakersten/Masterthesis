@@ -1,0 +1,17 @@
+SpindleAssembly , AURKAPresent
+MTCanAct , CDC25B
+hCPEB , AURKAPresent
+WEE1 , ! PLK1
+PLK1 , STMNCanAct
+NEDD9 , Cytokinesis
+AJUBA , PP2A
+GSK3B , CentrosomeMat
+MT , CDC25B
+PP1 , ! CentrosomeMat
+BORA , WEE1
+TPX2 , ! BORA
+Cytokinesis , CentrosomeMat
+STMN , ! CDC25B
+AURKAActive , CDC25B
+CDK1CCNBComplex , ! Cytokinesis
+STMNCanAct , AURKAPresent

@@ -1,0 +1,19 @@
+CDK1CCNBComplex , ! TPX2
+WEE1 , BORA
+PP1 , ! TPX2
+AJUBA , STMNCanAct
+CDC25B , PLK1
+MTCanAct , ! BORA
+hCPEB , CentrosomeMat
+STMNCanAct , SpindleAssembly
+STMN , ! STMNCanAct
+AURKAActive , ! MT
+GWL_MASTL , ! MT
+Cytokinesis , ! MT
+SpindleAssembly , ! MT
+PLK1 , NEDD9
+TPX2 , SpindleAssembly
+ENSA , NEDD9
+BORA , ! PLK1
+NEDD9 , AURKAActive
+GSK3B , ! MT

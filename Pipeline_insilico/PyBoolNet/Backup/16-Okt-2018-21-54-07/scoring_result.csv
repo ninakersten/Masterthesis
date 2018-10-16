@@ -1,0 +1,10 @@
+Networkname,Nodes,Bin_method,Learn_method,Timepoints,Runtime_in_sec.,TP,TN,FP,FN,Pre,Rec,ACC,BACC,MCC
+Network_small_example.sif,23,KM3,BESTFIT,100,13,0,461,21,47,0.0,0.0,0.8714555765595463,0.43572778827977315,-0.06348968919828933
+
+Mean_Nodes,23.0
+Mean_Runtime,13.0
+Mean_BACC,0.43572778827977315
+Mean_MCC,-0.06348968919828933
+Mean_ACC,0.8714555765595463
+Mean_Precision,0.0
+Mean_Recall,0.0

@@ -149,7 +149,7 @@ def simulate_ode(bnet, parameters, initial_state, timepoints):
 def write_data_file(name_of_data_file, list_to_dict, t_values, concentrations):
     solution = [[t] + list(x) for t, x in zip(t_values, concentrations)]
     save_path = './PyBoolNet/CSV_insilico/'
-    name_of_data_file1 = name_of_data_file.replace('./PyBoolNet/bnet_data_insilico/','')
+    name_of_data_file1 = name_of_data_file.replace('./PyBoolNet/bnet_data_insilico/','').replace('./PyBoolNet/bnet_data_small_example/','')
     completeName1 = os.path.join(save_path, name_of_data_file1)
     data_file = open(completeName1, 'w')
     data_file.write(",,,Slide ID,"+",".join( [list_to_dict[i] for i in range(len(list_to_dict.keys()))] )+"\n")

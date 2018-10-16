@@ -1,0 +1,16 @@
+STMNCanAct , ! WEE1
+MT , ! NEDD9
+Cytokinesis , ! CDC25B
+AJUBA , MTCanAct
+ENSA , ! STMN
+hCPEB , ! CDK1CCNBComplex
+CentrosomeMat , ! AJUBA
+PP2A , ! GWL_MASTL
+AURKAActive , MTCanAct | ! CentrosomeMat
+MTCanAct , GWL_MASTL
+TPX2 , ! CDC25B
+BORA , ! STMNCanAct
+GSK3B , PP1
+CDK1CCNBComplex , STMN
+GWL_MASTL , NEDD9
+STMN , WEE1

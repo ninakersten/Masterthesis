@@ -1,0 +1,3 @@
+./CSV_insilico_2_TXT/Network_4_16_10_2018_19_55.txt 0
+./CSV_insilico_2_TXT/Network_5_16_10_2018_19_55.txt 1
+./CSV_insilico_2_TXT/Network_6_16_10_2018_19_55.txt 1

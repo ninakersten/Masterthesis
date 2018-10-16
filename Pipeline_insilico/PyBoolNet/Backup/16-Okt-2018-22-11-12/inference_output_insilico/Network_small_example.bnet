@@ -1,0 +1,14 @@
+MT , MTCanAct
+STMNCanAct , MTCanAct
+CDK1CCNBComplex , ENSA
+AJUBA , PP2A
+PLK1 , MT
+Cytokinesis , ! CDC25B
+AURKAPresent , ! PP2A
+BORA , ! MTCanAct
+hCPEB , CentrosomeMat
+MTCanAct , NEDD9
+GSK3B , AURKAActive
+NEDD9 , AURKAActive
+WEE1 , ! MTCanAct
+STMN , ! SpindleAssembly

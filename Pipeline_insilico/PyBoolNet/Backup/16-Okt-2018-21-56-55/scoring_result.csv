@@ -1,0 +1,4 @@
+Networkname,Nodes,Bin_method,Learn_method,Timepoints,Runtime_in_sec.,TP,TN,FP,FN,Pre,Rec,ACC,BACC,MCC
+
+Mean_Nodes,No Value
+Mean_Runtime,No Value

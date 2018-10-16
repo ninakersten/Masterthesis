@@ -26,7 +26,7 @@ newsif_string = sif_string.replace("__","_")
 #print(newsif_string)
 
 newname = ' '.join(sys.argv[1:])
-outputfile = newname.replace('./bnet_data_insilico/','').replace('.bnet','')
+outputfile = newname.replace('./bnet_data_insilico/','').replace('.bnet','').replace('./bnet_data_small_example/','')
 #outputfile = input('Enter the name of the outputfile: ')
 
 filename ='{}.sif'.format(outputfile)

@@ -22,7 +22,7 @@ cd ./PyBoolNet/
 
 #Create insilico-goldstandard-sif files
 
-for input in ./bnet_data_insilico/Gold_*.bnet; do
+for input in ./bnet_data_insilico/Network_*.bnet; do
 	python3 InteractionGraph_insilico_gold.py $input
 done
 
@@ -32,7 +32,7 @@ done
 cd ..
 
 
-for input2 in ./PyBoolNet/bnet_data_insilico/Gold_*.bnet; do
+for input2 in ./PyBoolNet/bnet_data_insilico/Network_*.bnet; do
 	#echo "How many timepoints should the continous data set have? 		#(e.g: 100,120, 130....200)"
 	#read timepoints
 
@@ -78,7 +78,7 @@ done > runtime.txt
 
 
 ###Create Prediction .sif files###
-# Bennene .sif file in Pred_xxx.sif um anstatt Gold_xxx.sif
+# Bennene .sif file in Pred_xxx.sif um anstatt Network_xxx.sif
 for ts2b_output in ./inference_output_insilico/*.bnet; do
 	python3 InteractionGraph_insilico_pred.py $ts2b_output
 

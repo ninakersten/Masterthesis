@@ -33,7 +33,7 @@ for i in range(4,(args.integers)):
 	alpha_list = full_alpha_list[:i]
 
 	save_path = './PyBoolNet/bnet_data_insilico/'
-	completeName = os.path.join(save_path, 'Gold_'+ str(i) +'_' +str(tag) +'_'+ str(monat) +'_'+ str(jahr) +'_'+ str(hour) +'_'+ str(minute) + '.bnet')  
+	completeName = os.path.join(save_path, 'Network_'+ str(i) +'_' +str(tag) +'_'+ str(monat) +'_'+ str(jahr) +'_'+ str(hour) +'_'+ str(minute) + '.bnet')  
 	write_bnet_file = open(completeName,"w") 
 
 	#random_rule = [secure_random.choice(alpha_list), secure_random.choice(logic_list)]
