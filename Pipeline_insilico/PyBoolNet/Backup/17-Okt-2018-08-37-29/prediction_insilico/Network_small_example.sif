@@ -1,0 +1,25 @@
+AURKAPresent -1 PP2A
+CDC25B 1 TPX2
+CDC25B 1 CentrosomeMat
+PP2A 1 ENSA
+PP2A 1 GSK3B
+PP2A -1 BORA
+PP2A -1 WEE1
+MT -1 CDC25B
+SpindleAssembly -1 STMN
+CDK1CCNBComplex -1 STMN
+Cytokinesis -1 MT
+Cytokinesis 1 hCPEB
+Cytokinesis -1 AURKAPresent
+Cytokinesis 1 STMNCanAct
+Cytokinesis 1 GWL_MASTL
+Cytokinesis -1 PLK1
+Cytokinesis 1, -1 SpindleAssembly
+Cytokinesis 1 AJUBA
+Cytokinesis 1 Cytokinesis
+AURKAActive 1 CDK1CCNBComplex
+AURKAActive 1 NEDD9
+AURKAActive 1 MTCanAct
+PP1 1, -1 SpindleAssembly
+NEDD9 -1 PP1
+ENSA 1 AURKAActive

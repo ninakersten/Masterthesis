@@ -1,0 +1,22 @@
+TPX2 , CDC25B
+ENSA , PP2A
+CDC25B , ! MT
+SpindleAssembly , ! Cytokinesis & ! PP1 | Cytokinesis & PP1
+MT , ! Cytokinesis
+CDK1CCNBComplex , AURKAActive
+AURKAPresent , ! Cytokinesis
+AJUBA , Cytokinesis
+BORA , ! PP2A
+CentrosomeMat , CDC25B
+GWL_MASTL , Cytokinesis
+hCPEB , Cytokinesis
+PLK1 , ! Cytokinesis
+STMN , ! SpindleAssembly & ! CDK1CCNBComplex
+STMNCanAct , Cytokinesis
+MTCanAct , AURKAActive
+GSK3B , PP2A
+PP1 , ! NEDD9
+PP2A , ! AURKAPresent
+AURKAActive , ENSA
+NEDD9 , AURKAActive
+WEE1 , ! PP2A

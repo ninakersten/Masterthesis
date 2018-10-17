@@ -29,8 +29,9 @@ binz = Binarization()
 #F = open(completeName,"w") 
 
 name_of_outputfile = ' '.join(sys.argv[1:])
-name_of_outputfile1 = name_of_outputfile.replace('input=./CSV_realdata_2_TXT/','').replace('.txt bin-method=KM3 learn-method=REVEAL maxscore=10.0 solutions=3','').replace('.txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=KM3 learn-method=FULLFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=KM2 learn-method=REVEAL maxscore=10.0 solutions=3','').replace('.txt bin-method=KM2 learn-method=BESTFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=KM2 learn-method=FULLFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=KM1 learn-method=REVEAL maxscore=10.0 solutions=3','').replace('.txt bin-method=KM1 learn-method=BESTFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=KM1 learn-method=FULLFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=A learn-method=REVEAL maxscore=10.0 solutions=3','').replace('.txt bin-method=A learn-method=BESTFIT maxscore=10.0 solutions=3','').replace('.txt bin-method=A learn-method=FULLFIT maxscore=10.0 solutions=3','')
-
+name_of_outputfile2 = ' '.join(name_of_outputfile.split(' ')[:-4])
+name_of_outputfile3 = name_of_outputfile2.split('/')
+name_of_outputfile1 = name_of_outputfile3[2].replace('.txt','')
 #p = re.compile('/ (.*) .txt')
 #p.search(name_of_outputfile)
 #name_of_outputfile1=_.group(0)

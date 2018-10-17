@@ -1,0 +1,9 @@
+input=./CSV_insilico_2_TXT/Network_4_17_10_2018_9_13.txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+Network_4_17_10_2018_9_13
+./CSV_insilico_2_TXT/Network_4_17_10_2018_9_13.txt 0
+input=./CSV_insilico_2_TXT/Network_5_17_10_2018_9_13.txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+Network_5_17_10_2018_9_13
+./CSV_insilico_2_TXT/Network_5_17_10_2018_9_13.txt 1
+input=./CSV_insilico_2_TXT/Network_6_17_10_2018_9_13.txt bin-method=KM3 learn-method=BESTFIT maxscore=10.0 solutions=3
+Network_6_17_10_2018_9_13
+./CSV_insilico_2_TXT/Network_6_17_10_2018_9_13.txt 0

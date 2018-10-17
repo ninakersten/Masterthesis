@@ -1,0 +1,21 @@
+PP2A , ! MTCanAct
+STMNCanAct , SpindleAssembly
+AURKAActive , CDC25B
+STMN , MTCanAct
+CDC25B , CDC25B
+GSK3B , SpindleAssembly
+PP1 , SpindleAssembly
+CentrosomeMat , ENSA
+Cytokinesis , ! hCPEB
+ENSA , ! BORA
+BORA , ! AURKAActive
+AJUBA , ! MTCanAct
+SpindleAssembly , ! AURKAPresent
+WEE1 , ! AURKAActive
+PLK1 , STMNCanAct
+MTCanAct , BORA
+NEDD9 , GWL_MASTL
+MT , ! GWL_MASTL
+TPX2 , ! Cytokinesis
+AURKAPresent , ! ENSA
+hCPEB , AURKAActive

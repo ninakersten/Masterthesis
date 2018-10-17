@@ -1,0 +1,6 @@
+input=./CSV_insilico_2_TXT/Network_4_17_10_2018_9_5.txt bin-method=KM4 learn-method=BESTFIT maxscore=10.0 solutions=3
+Network_4_17_10_2018_9_5
+./CSV_insilico_2_TXT/Network_4_17_10_2018_9_5.txt 0
+input=./CSV_insilico_2_TXT/Network_5_17_10_2018_9_5.txt bin-method=KM4 learn-method=BESTFIT maxscore=10.0 solutions=3
+Network_5_17_10_2018_9_5
+./CSV_insilico_2_TXT/Network_5_17_10_2018_9_5.txt 0

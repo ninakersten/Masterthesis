@@ -1,0 +1,11 @@
+./CSV_insilico_2_TXT/Network_10_16_10_2018_23_2.txt 3
+./CSV_insilico_2_TXT/Network_11_16_10_2018_23_2.txt 7
+./CSV_insilico_2_TXT/Network_12_16_10_2018_23_2.txt 5
+./CSV_insilico_2_TXT/Network_13_16_10_2018_23_2.txt 7
+./CSV_insilico_2_TXT/Network_14_16_10_2018_23_2.txt 8
+./CSV_insilico_2_TXT/Network_4_16_10_2018_23_2.txt 1
+./CSV_insilico_2_TXT/Network_5_16_10_2018_23_2.txt 0
+./CSV_insilico_2_TXT/Network_6_16_10_2018_23_2.txt 3
+./CSV_insilico_2_TXT/Network_7_16_10_2018_23_2.txt 1
+./CSV_insilico_2_TXT/Network_8_16_10_2018_23_2.txt 1
+./CSV_insilico_2_TXT/Network_9_16_10_2018_23_2.txt 6
