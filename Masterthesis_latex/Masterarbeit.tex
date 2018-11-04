@@ -1,6 +1,6 @@
 \documentclass[12pt,
 bibtotoc,liststotoc,appendixprefix
-oneside,paper=a4,headings=small]{scrbook}
+oneside,paper=a4,headings=small, twoside=false]{scrbook}
 %
 % Packages
 % -----------------------------------
@@ -13,8 +13,29 @@ oneside,paper=a4,headings=small]{scrbook}
   bindingoffset=10mm]{geometry}		% Seitenränder und Bindungskorrektur einstellen
   
 \usepackage{apacite} 				% Literatur-Referenzen: American Psycholog. Assoc.
-\usepackage{natbib}				
+%\usepackage{natbib}	
+\usepackage[square, numbers]{natbib}			
 \usepackage{amsthm}	
+%\usepackage[dvipsnames]{xcolor} %color for tables
+\usepackage[nopostdot,style=super,nonumberlist,toc,automake]{glossaries}
+\makeglossaries					%Load glossery package for abbreviations
+
+%Vielleicht besser alphabetisch ordnen!
+\newglossaryentry{resp.}{name={resp.},description={respectively}}
+\newglossaryentry{e.g.}{name={e.g.},description={exempli gratia}}
+\newglossaryentry{CSV}{name={CSV},description={Comma Seperated Values}}
+\newglossaryentry{DREAM}{name={DREAM},description={Dialogue on Reverse Engineering Assessment and Methods}}
+\newglossaryentry{mRNA}{name={mRNA},description={messanger RiboNucleotide Acid}}
+\newglossaryentry{RTK}{name={RTK},description={Receptor Tyrosin Kinases}}
+\newglossaryentry{PPI}{name={PPI},description={protein protein interaction}}
+\newglossaryentry{ATP}{name={ATP},description={adenosin triphosphat}}
+\newglossaryentry{GRN}{name={GRN},description={Gene regulatory network}}
+\newglossaryentry{RPMA}{name={RPMA},description={Reverse phase Protein lysate MicroArray}}
+\newglossaryentry{SDS-PAGE}{name={SDS-PAGE},description={Sodium Dodecyl Sulfate - Polyacrylamide Gel Electrophoresis}}
+\newglossaryentry{ELISA}{name={ELISA},description={Enzymatic Immunoassay}}
+\newglossaryentry{SIF}{name={SIF},description={Standard Interchange Format}}
+\newglossaryentry{IG}{name={IG},description={Interaction Graph}}
+\newglossaryentry{STG}{name={STG},description={State Transition Graph}}
 
 %\setcitestyle{round,aysep={}} 		% Indizierg. in runden Klammern, zw. Autor u. Jahr
 \setcitestyle{square}
@@ -24,6 +45,8 @@ oneside,paper=a4,headings=small]{scrbook}
 \usepackage{lmodern}				% Schriftfamilie
 \usepackage{microtype}				% für die Mikrotypografie (besseres Schriftbild)
 \usepackage[headsepline,footsepline]{scrpage2}
+%\usepackage{subcaption} 
+\usepackage[english]{babel}
 
 \usepackage{graphicx} 				% Grafiken einfügen (pdf,png - aber jpg vermeiden)
 \graphicspath{{./Bilder/}}          % Pfad zu den Bildern
@@ -39,9 +62,11 @@ oneside,paper=a4,headings=small]{scrbook}
 \usepackage{multicol}				
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{tabu}
 \usepackage{float}
 \usepackage{framed}
 \usepackage[labelfont=bf]{caption}
+\captionsetup{format=plain, font=small, labelfont=bf}
 \usepackage{rotating}
 %\usepackage{floatrow}
 \usepackage{sidecap}
@@ -99,6 +124,7 @@ oneside,paper=a4,headings=small]{scrbook}
 
 \frontmatter 
     \include{./Titel/titel} 			% Titelblatt
+    \input{./Kapitel/erklaerung}
     \newpage
     \clearpage{\pagestyle{empty}\cleardoublepage}
     \include{./Kapitel/abstract_eng}
@@ -108,30 +134,34 @@ oneside,paper=a4,headings=small]{scrbook}
     \tableofcontents 					% Inhaltsverzeichnis
     \clearpage{\pagestyle{empty}\cleardoublepage} 
     
+    \onehalfspacing
+	\printglossary[title={List of Abbreviations}]
+    
     \listoffigures 					 	% Abbildungsverzeichnis
     \clearpage{\pagestyle{empty}\cleardoublepage}
     
     \listoftables						% Tabellenverzeichnis rein
     \clearpage{\pagestyle{empty}\cleardoublepage}
+
+
 % -----------------------------------
 \mainmatter 							% die einzelnen Kapitel
  	\input{./Kapitel/introduction}
     \clearpage{\pagestyle{empty}\cleardoublepage}
-    \input{./Kapitel/background}
-    \clearpage{\pagestyle{empty}\cleardoublepage}		% löscht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
+    %\input{./Kapitel/background}
+    %\clearpage{\pagestyle{empty}\cleardoublepage}		% löscht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
     \input{./Kapitel/materialsandmethods}
     \clearpage{\pagestyle{empty}\cleardoublepage}
     \input{./Kapitel/applicationOfThePipeline}
     \clearpage{\pagestyle{empty}\cleardoublepage}
-    \input{./Kapitel/results}
-    \clearpage{\pagestyle{empty}\cleardoublepage}
-    \input{./Kapitel/conclusion}
+    %\input{./Kapitel/results}
+    %\clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/discussion}
     \clearpage{\pagestyle{empty}\cleardoublepage}
 
 % -----------------------------------
 %\backmatter 
-\bibliographystyle{apacite}				% bei natbib in deutsch
-\bibliography{./Literatur/quellen}		% Literaturquellen einbinden 
-\input{./Kapitel/erklaerung} 			% Eidesstattliche Erklärung (nicht bei Seminararb.)
+\bibliographystyle{abbrv}				% bei natbib in deutsch
+\bibliography{./Literatur/quellen}		% Literaturquellen einbinden  			
 
 \end{document}

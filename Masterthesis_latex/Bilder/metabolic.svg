@@ -212,7 +212,7 @@
        x2="30"
        y2="-17.637794"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.5387715,0,0,1.2287818,-558.22299,347.33056)" />
+       gradientTransform="matrix(2.5387715,0,0,1.2287818,-3693.8139,342.1024)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient6523">
@@ -233,16 +233,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.76508705"
-     inkscape:cx="466.83955"
-     inkscape:cy="119.15553"
+     inkscape:zoom="0.57456337"
+     inkscape:cx="459.68256"
+     inkscape:cy="114.70001"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1301"
      inkscape:window-height="744"
      inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-y="1074"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -268,7 +268,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -283,8 +283,8 @@
        id="rect6511-9"
        width="863.18237"
        height="466.93707"
-       x="-902.46326"
-       y="326.69888"
+       x="-4038.0542"
+       y="321.47073"
        ry="24.575634"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -614,7 +614,7 @@
          id="tspan5063"
          x="-667.0379"
          y="357.02359"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Chemical energy (High energy electrons)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Chemical energy (High energy electrons)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -626,7 +626,7 @@
          id="tspan5067"
          x="-822.16309"
          y="505.19366"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Glycolysis</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Glycolysis</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -638,12 +638,12 @@
          id="tspan5071"
          x="-549.98901"
          y="506.60388"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Krebs</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Krebs</tspan><tspan
          sodipodi:role="line"
          x="-549.98901"
          y="525.35388"
          id="tspan5073"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Cycle</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Cycle</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -655,17 +655,17 @@
          id="tspan5077"
          x="-373.67926"
          y="506.79608"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Electron transport</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Electron transport</tspan><tspan
          sodipodi:role="line"
          x="-373.67926"
          y="525.54608"
          id="tspan5079"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">chain and oxidative</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">chain and oxidative</tspan><tspan
          sodipodi:role="line"
          x="-373.67926"
          y="544.29608"
          id="tspan5081"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">phosphorylation</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">phosphorylation</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -695,7 +695,7 @@
          id="tspan5373"
          x="-876.48926"
          y="539.23138"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Glycose</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Glycose</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -707,7 +707,7 @@
          id="tspan5377"
          x="-750.97894"
          y="539.23132"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Pyruvic Acid</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Pyruvic Acid</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#858585;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9.60000014, 9.60000014;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5381)"
        d="m -808.2823,534.10022 53.58868,-1.41023"
@@ -738,11 +738,11 @@
          id="tspan3411"
          x="-143.3535"
          y="345.3927"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start">Cytosol </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start">Cytosol </tspan><tspan
          sodipodi:role="line"
          x="-143.3535"
          y="364.1427"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start"
          id="tspan4327">of the cell</tspan></text>
     <text
        xml:space="preserve"
@@ -755,7 +755,7 @@
          id="tspan3436"
          x="-412.63712"
          y="755.36859"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Mitochondrion</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Mitochondrion</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -767,7 +767,7 @@
          id="tspan5063-6"
          x="-471.78183"
          y="429.60132"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Chemical energy</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Chemical energy</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -779,12 +779,12 @@
          id="tspan4331"
          x="-202.54117"
          y="609.50006"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;text-anchor:start">via oxidative</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start">via oxidative</tspan><tspan
          sodipodi:role="line"
          x="-202.54117"
          y="628.25006"
          id="tspan4333"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;text-anchor:start">phosphorylation</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start">phosphorylation</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M -250.34195,612.78539 C -290,632.3622 -190,632.3622 -226.64266,612.69069 L -205,612.3622"
@@ -802,8 +802,8 @@
          id="tspan5918"
          x="-61.701427"
          y="532.36218"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">H<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif">H<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
    id="tspan5920">2</tspan>O</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#858585;stroke-width:2.43899989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:14.634, 14.634;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6996)"
@@ -820,12 +820,23 @@
          sodipodi:role="line"
          id="tspan7086"
          x="-709.93805"
-         y="407.13406">C<tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
-   id="tspan7088">O<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan7090">2</tspan></tspan></tspan></text>
-  </g>
+         y="407.13406"
+         style="-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">C<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+   id="tspan7088">O</tspan><tspan
+   id="tspan4280"
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">2</tspan></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4272"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center"><flowRegion
+         id="flowRegion4274"><rect
+           id="rect4276"
+           width="120"
+           height="40"
+           x="544.22949"
+           y="187.42957" /></flowRegion><flowPara
+         id="flowPara4278"></flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"

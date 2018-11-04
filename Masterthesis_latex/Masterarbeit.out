@@ -1,20 +1,23 @@
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [0][-]{chapter.2}{Background}{}% 4
-\BOOKMARK [1][-]{section.2.1}{Biological Background}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.2}{Preprocessing}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.3}{Boolean Network,Interaction Graph and State Transition Graph}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.4}{Network Evaluation}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Materials and Methods}{}% 9
-\BOOKMARK [1][-]{section.3.1}{Inferencealgorithms}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{PyBoolNet}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{Data Selection}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.3.1}{Example data set}{section.3.3}% 13
-\BOOKMARK [2][-]{subsection.3.3.2}{HPN-DREAM breast cancer data set}{section.3.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Appilcation of the Pipeline}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Example data set}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{HPN-DREAM breast cancer data set}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 18
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 19
-\BOOKMARK [0][-]{chapter*.38}{References}{}% 20
+\BOOKMARK [0][-]{section*.2}{List of Abbreviations}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Biological Background}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Computational Background}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Binarization Algorithms}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Graphtheoretical Background}{section.1.3}% 9
+\BOOKMARK [0][-]{chapter.2}{Materials and Methods}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Inferencealgorithms}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Network Evaluation}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Data collection: In silico data set}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Data collection: Real-life course time data set}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{DREAM8 Challenge}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.2}{Data structure}{section.2.4}% 16
+\BOOKMARK [0][-]{chapter.3}{Pipeline and Results}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Pipeline of the in silico data set}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Results of the in silico data set}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{Pipeline of the Dream8 Challenge data set}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Results of the Dream8 Challenge data}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 22
+\BOOKMARK [0][-]{chapter*.61}{Bibliography}{}% 23

@@ -1,12 +1,17 @@
+\select@language {english}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces List of growth factors of Dream8 Challenge\relax }}{6}{table.1.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Confusion matrix displaying all four possible outcomes.\relax }}{18}{table.caption.19}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Confusion matrix displaying all four possible outcomes.\relax }}{20}{table.caption.20}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Table of states\relax }}{18}{table.caption.22}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Left: Table of initial possible states for the variable set A,B,C. Right: Table of states after one transition step $(t+1)$ for the variable A',B',C'\relax }}{20}{table.caption.23}
+\contentsline {table}{\numberline {2.3}{\ignorespaces \relax }}{20}{table.caption.24}
+\contentsline {table}{\numberline {2.4}{\ignorespaces \relax }}{20}{table.caption.24}
+\contentsline {table}{\numberline {2.5}{\ignorespaces \relax }}{21}{table.caption.25}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Confusion matrix\relax }}{23}{table.caption.29}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Confusion matrix displaying all four possible outcomes.\relax }}{25}{table.caption.31}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Table of \gls {CSV} file\relax }}{33}{table.caption.39}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces \relax }}{28}{table.caption.24}
-\contentsline {table}{\numberline {3.2}{\ignorespaces \relax }}{28}{table.caption.24}
-\contentsline {table}{\numberline {3.3}{\ignorespaces \relax }}{28}{table.caption.25}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces \textit {In silico:} Setting Table\relax }}{35}{table.caption.41}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Network structure\relax }}{44}{table.caption.54}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

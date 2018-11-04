@@ -1,0 +1,8 @@
+UbcH10 , ! Rb
+CycB , ! CycE
+CycD , ! cdh1
+CycA , CycD
+CycE , CycD
+Rb , ! E2F
+E2F , CycE
+p27 , Cdc20

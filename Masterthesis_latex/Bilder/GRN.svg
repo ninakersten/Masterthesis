@@ -516,7 +516,7 @@
        x2="30"
        y2="-17.637794"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.1806809,0,0,1.2039136,302.85005,315.27379)" />
+       gradientTransform="matrix(2.1806809,0,0,1.2039136,-532.07058,302.57538)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient6523">
@@ -537,17 +537,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.78"
-     inkscape:cx="318.59445"
-     inkscape:cy="277.1996"
+     inkscape:zoom="0.39"
+     inkscape:cx="198.76817"
+     inkscape:cy="-230.73691"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
+     inkscape:window-width="730"
+     inkscape:window-height="385"
+     inkscape:window-x="600"
+     inkscape:window-y="1163"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="0"
@@ -575,7 +575,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -590,8 +590,8 @@
        id="rect6511-9"
        width="741.43152"
        height="457.48718"
-       x="7.1645055"
-       y="295.05966"
+       x="-827.7561"
+       y="282.36124"
        ry="24.07827"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />

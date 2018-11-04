@@ -1,0 +1,60 @@
+\chapter{Discussion}
+%Preprocessing
+
+%TS2B:%Quelle: TS2B-Paper/ Error-Assessment-Paper
+
+%Nachteile von BooleanModels:
+%- Recent survey say: "Faithfulness to biological reality", "ability to model dynamics"is low
+%- TS2B needs a relatively large number of time points in the time-series data, otherwise we have the problem of "too many variables, too few equations", which a very large degree of freedom, thus a nonuniqueness of solutions.
+%- In practice the regulatory network is unknown, thus judging whether a BN provides a close approximation or notis not easy.
+%- ODE's are used to simulate the "true dynamics", but ODE's are not necessarily unique with respect to the dynamics they generate
+%- It is important to mention,that often the goldstandard network is constructed from multiple informtion (literature, mature information).In this case just the raw time-series data was provided without additional information.
+%- Parameter of the model have a big effect:e.g. Initial concentration in the time-series data set: Has significant influence on the topology and functions of the inferred BN. For instance: if the reaction rate is quite low the dependecy of two genes cant be observed in the synchronous documented time-series.
+%-\citep{CHAI201455}: BN-based methods are not suitable for large-scale network inference,because allpossible combinations of genes were exhaustivley compared so as to find a best of regulatory genes for a given target gene. (e.g. Bestfit, REVEAL)
+
+%Vorteil:
+%- Very closely reflecting the topology of a regulatory network (upstream/downstream relationships)
+%- faithfulness to biological reality: Binarization, redundancy removal -> varying degrees
+%- number of Boolean functions is exponential in the number of genes in the system
+
+%General:
+%- The more complex a system is (heavily oscillatory,large variability) the more time points are needed.
+%- BN have a good predictive power for small networks
+% Fast convergence of BESTFIT can be explained by its lack of requirement that the candidate functions f' be complete.
+% Slow Convergence: REVEAL only accepts complete functions, thus R. produces more intuitive BN
+
+
+%Finally:
+%- The amount of time-points at which concentrations maust be sampled may be very large (with disagrees with commonly stated claim that BN require very little data to learn or train.)
+
+%Improvements & Outlook:\citep{CHAI201455} 
+% - There are several other boolean algorithms for network modeling:
+% - Baysian inference approach for a Boolean Network(BIBN): The maximum number of regulatory genes is bounded by two and used to infer a Boolean network by maximizing a joint posterior probability. To select the most informative regulatory genes an approximated multivariate mutual information measure is inccorporated.
+%- ARCANE: Time-delay algorithm for the reconstruction of accurate cellular networks (ARCANE) method is used to compute the mutual information by considering a time gap between gene expression values.\citep{Zoppoli2010}
+%MIDER: Mutual information distance and entropy reduction method (MIDER),which defines a mutual information-based distance between genes to specify the directionality.\citep{10.1371/journal.pone.0096732}
+%- MIBNI: Mutual information-based Boolean network inference method:The method first identifies a et of initial regulatory genes using mutual information-based feature selection, andthen improves the dynamics prediction accurary by iteratively swapping a pair of genes betweensets of the selected regulatory genes and the other genes. (good for structural and dynamic analysis)\citep{10.1371/journal.pone.0171097}
+%- Kombination aus Boolean Approach und ODE: First break down the complex system to low level informative network. Attractor analysis. Then focus on the nodes of the attractor and the basinsand then just look by ODE on the smaller subset of nodes.(e.g. kinetic information)
+
+%- GROßER NACHTEIL:
+%These mutual information-based methods are computationally expensive, because they are implemented to compute exact mutual information values over all possible combination of genes.
+
+%Quelle: https://www.nature.com/articles/nmeth.3773
+%- In insilico data network inference were almost better inferred when teams did not use prior knowledge.
+%- Conversely, notusing a prior network did not necessarily result in poor performance; mean AUROC scores ranged from 0.49-0.71, with prior knowledge: 0.49-0.78.
+%- Similar previous DREAM challenges showed that there is no clear relationship between method (inference algorithm) and performance. Pre-processing and implementation are important.
+%- With the aggregated prior network potentially novel changes can be highlighted.
+%- Although causal network inference mayfail for many theoretical and practical reasons, the results of this challenge showed, that it is feasible inferring significant large-scale networks in complex mamalian settings by a community effort.
+%- it is emphasized that further work needed to clarify the theoretical properties of the score.
+%Result: Their analysis revealed contexts that deviate from known biology, such deviations are likely to be particularly important for understanding disease-specific dysregulation and therapeutic heterogenity. Furthermore, it is possible that the literature is biased toward cancer, and for that reason priors based onthe literature may be less effective in other disease settings.
+
+% DREAM Challenge:Additional Data Details
+% Quelle:https://www.synapse.org/#!Wiki:syn1720047/ENTITY/56210
+% - Some phopsho antobodies have low quality and should be xcluded from the set
+% - Annotation error might cause wrong scoring against the gold standard
+% - Antibodies are NOT comparable. Each antibody has varying degrees of affinity and avidity towards its target protein. Assuming two proteins have the same concentration, they may not result in the same level of data values. Therefore, they are not directly comparable.
+% - Batch Effect: Samples in different cell lines are NOT comparable (e.g. the datapoint for AKT_pS473 in MCF7 (serum,5min,DMSO) can not be compared with the corresponding datapoint in BT20).Normalization procedures could be used to reduce the batch effect.
+% - The antibodies available for this assay have evolved over time, so the proteins measured are not identical across all datasets. (BT20 = 48, BT549 = 45, MCF7 = 41, UACC812 = 45 phophoproteins)
+% - Some antibodies target more than one isoform of a protein (eg: the antibody for AKT targets AKT1, AKT2, AKT3)
+
+
+%-Normalization of microarray data important: Choice of normalization method important

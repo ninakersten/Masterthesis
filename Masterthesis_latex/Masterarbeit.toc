@@ -1,20 +1,24 @@
-\contentsline {chapter}{\nonumberline List of Figures}{vii}{chapter*.2}
-\contentsline {chapter}{\nonumberline List of Tables}{ix}{chapter*.3}
+\select@language {english}
+\contentsline {chapter}{List of Abbreviations}{v}{section*.2}
+\contentsline {chapter}{\nonumberline List of Figures}{vi}{chapter*.4}
+\contentsline {chapter}{\nonumberline List of Tables}{vii}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Biological Background}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Preprocessing}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}Boolean Network,Interaction Graph and State Transition Graph}{14}{section.2.3}
-\contentsline {section}{\numberline {2.4}Network Evaluation}{18}{section.2.4}
-\contentsline {chapter}{\numberline {3}Materials and Methods}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Inferencealgorithms}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}PyBoolNet}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}Data Selection}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Example data set}{30}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}HPN-DREAM breast cancer data set}{30}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Appilcation of the Pipeline}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Example data set}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}HPN-DREAM breast cancer data set}{33}{section.4.2}
-\contentsline {chapter}{\numberline {5}Results}{35}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}
-\contentsline {chapter}{\nonumberline References}{39}{chapter*.38}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Biological Background}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Computational Background}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Binarization Algorithms}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Graphtheoretical Background}{10}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Inferencealgorithms}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}Network Evaluation}{22}{section.2.2}
+\contentsline {section}{\numberline {2.3}Data collection: \textit {In silico} data set}{27}{section.2.3}
+\contentsline {section}{\numberline {2.4}Data collection: Real-life course time data set}{29}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}DREAM8 Challenge}{29}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Data structure}{31}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Pipeline and Results}{34}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pipeline of the \textit {in silico} data set}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}Results of the \textit {in silico} data set}{38}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pipeline of the Dream8 Challenge data set}{42}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results of the Dream8 Challenge data}{46}{section.3.4}
+\contentsline {chapter}{\numberline {4}Discussion}{51}{chapter.4}
+\contentsline {chapter}{\nonumberline Bibliography}{52}{chapter*.61}
