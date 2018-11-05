@@ -16,15 +16,19 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Data Collection of the Dream8 Challenge data set}}{31}{figure.caption.36}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces CSV to TXT}}{34}{figure.caption.40}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Boolean Network to Interaction Graph}}{36}{figure.caption.42}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {In silico} Pipeline}}{37}{figure.caption.43}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Average Structure Accuracy}}{38}{figure.caption.45}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces NumberOfPoints}}{39}{figure.caption.47}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces NumberOfPoints}}{39}{figure.caption.48}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Clusterdepth BCC}}{40}{figure.caption.50}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces pipelineDream8}}{42}{figure.caption.51}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Blanced vs. Unbalanced}}{47}{figure.caption.57}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Recall and Precision: Prediction versus Aggregated/Prior Network}}{48}{figure.caption.58}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces New Ranking (Balanced Accuracy): Aggr. Network and Aggr.Prior Network}}{50}{figure.caption.60}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Boolean Network to Interaction Graph}}{36}{figure.caption.44}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {In silico} Pipeline}}{37}{figure.caption.45}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Average Structure Accuracy}}{38}{figure.caption.47}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Precision and Recall: Number of sample points}}{39}{figure.caption.49}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Balanced Accuracy: Number of sample points}}{39}{figure.caption.50}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Performance considering cluster depth \textit {d}}}{40}{figure.caption.52}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces pipelineDream8}}{42}{figure.caption.53}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Imbalanced classes (1)}}{46}{figure.caption.61}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Imbalanced classes (2)}}{47}{figure.caption.62}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Recall: Prediction versus Aggregated/Prior Network}}{48}{figure.caption.63}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Precision: Prediction versus Aggregated/Prior Network}}{48}{figure.caption.64}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces New Ranking Balanced Accuracy}}{50}{figure.caption.67}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces New Ranking: Precision and Recall}}{51}{figure.caption.68}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces New Ranking: Matthew correlation coefficient}}{52}{figure.caption.69}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

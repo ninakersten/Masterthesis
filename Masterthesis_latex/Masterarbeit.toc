@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {3.1}Pipeline of the \textit {in silico} data set}{34}{section.3.1}
 \contentsline {section}{\numberline {3.2}Results of the \textit {in silico} data set}{38}{section.3.2}
 \contentsline {section}{\numberline {3.3}Pipeline of the Dream8 Challenge data set}{42}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results of the Dream8 Challenge data}{46}{section.3.4}
-\contentsline {chapter}{\numberline {4}Discussion}{51}{chapter.4}
-\contentsline {chapter}{\nonumberline Bibliography}{52}{chapter*.61}
+\contentsline {section}{\numberline {3.4}Results of the Dream8 Challenge data set}{46}{section.3.4}
+\contentsline {chapter}{\numberline {4}Discussion}{53}{chapter.4}
+\contentsline {chapter}{\nonumberline Bibliography}{54}{chapter*.70}

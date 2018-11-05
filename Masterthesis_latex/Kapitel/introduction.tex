@@ -14,7 +14,8 @@ The components of a boolean network of a system are represented by nodes (vertic
 
 In this work three well known inference algorithms are applied (RevealL,Best-fit, Full-fit).
 \citep{10.1371/journal.pone.0171097}
-Boolean networks are inferred for two in silico data sets and a big real-life time course data set provided by a platform called Dream Challenge and contains concentration measurements of $\sim 48$ phosphoproteins of four cell lines of breast cancer tissue. To determine the predictive power of a model the prediction is compared to a gold standard data set.\\
+Boolean networks are inferred for two in silico data sets and a big real-life time course data set provided by a platform called Dream Challenge and contains concentration measurements of $\sim 48$ phosphoproteins of four cell lines of breast cancer tissue. To determine the predictive power of a model the prediction is compared to a gold standard data set. The aim of this work is to show the scalbility of a of boolean inference algorithms considering a big rela-life time course data set.
+\\
 The first section is taking a glance on the different kinds of biological input data, the graphtheoretical background of boolean networks and its preprocessing.
 In the second section it is getting more detailed by giving an overview of different inference algorithms, describing the in silico data collection and the data collection of the Dream Challenge data set. Then the application of a pipeline including the binarization and inference algorithms is described, showing the which differences come along with the size and complexity of a network. Finally the results of the comparison of the prediction against the gold standard is analyzed and discussed.
 %Generell erkläre wie man Netzwerke inferriert? Testdatensatz, Trainigsdaten, Goldstandard, dann Prinzip von Machine learning, scoring (in genereal is used AUPR and AUROC), support vector machines...
@@ -43,6 +44,7 @@ This example shows two different input signals $A$ and $B$ (e.g hormon) bind to 
 
 
 The concentration of substances in signalling pathways underlies high fluctuation over time due to transcriptional and translational regulation, such that the inference of a significant network is a challenging task.\citep{BIES:BIES20834} 
+\citep{steadystate}
 %\citep{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3436851/}.
 
 \subsection*{Gene Regulatory Networks}
