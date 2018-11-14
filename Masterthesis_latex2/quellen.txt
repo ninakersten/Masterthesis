@@ -1,0 +1,126 @@
+#Introduction:
+@Electronic{GRN,
+  Title                    = {Genomes to Life Program Roadmap},
+
+  Address                  = {U.S.},
+  Author                   = {Department of Energy Office of Science},
+  Month                    = {April},
+  Note                     = {DOE/SC-0036},
+  Year                     = {2001},
+
+  Timestamp                = {2018.11.01}
+}
+
+\citep{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3436851/}
+\citep{Modelling and analysis of gene regulatory networks}
+\citep{https://www.nature.com/articles/nrm2503}.
+
+#Metabolic pathway
+#\citep{8,9} von TS2B oder andere Paper
+
+#Protein-protein interaction
+%%\citep{10.1371/journal.pcbi.1000807}
+%\citep{doi:10.1586/14789450.1.2.239}\\
+
+#Image:GRNDREAM8
+\citep{https://public.ornl.gov/site/gallery/detail.cfm?id=302&topic=&citation=&general=gene20regulatory20network&restsection=all} }
+
+#Growth factor
+%Quelle: Biochemie:Eine Einführung für Mediziner und Naturwissenschaftler, Werner Müller Esterl, 2009
+
+
+#Table of growth factors
+%Quellen: https://www.ncbi.nlm.nih.gov/gene/
+
+#disregulation of growth factor
+%quelle(https://www.ncbi.nlm.nih.gov/gene/3084)
+
+#RPMA
+%\citep{the HPN DREAM consotium}
+% https://www.ncbi.nlm.nih.gov/pubmed/21337110
+
+#Binarization algorithms
+%Quelle:TS2B Paper
+
+#2 cluster k means
+%Quelle: TS2B Paper[11]
+%\citep{10.1371/journal.pone.0066031}
+%In the Diss. von Hannes Diskretisierungsstrategien anschauen
+%siehe wiki: k-means for further discretization algorithms
+
+#Dfinition: Boolean Network
+%\citep{Klarner2015ContributionsTT}
+
+%\citep{10.1371/journal.pone.0066031}
+%Quelle: [TS2B-Paper]+davon die Quellen[12][14]
+%\citep{Klarner2015ContributionsTT}
+
+
+
+%Quelle: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603008/)
+%Quelle: [TS2B-Paper]+davon die Quellen[12][14]
+
+#indegree
+%\citep{10.1371/journal.pone.0171097}
+@Article{RevModPhys.74.47,
+  Title                    = {Statistical mechanics of complex networks},
+  Author                   = {Albert, R\'eka and Barab\'asi, Albert-L\'aszl\'o},
+  Journal                  = {Rev. Mod. Phys.},
+  Year                     = {2002},
+
+  Month                    = {Jan},
+  Pages                    = {47--97},
+  Volume                   = {74},
+
+  Doi                      = {10.1103/RevModPhys.74.47},
+  Issue                    = {1},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society},
+  Url                      = {https://link.aps.org/doi/10.1103/RevModPhys.74.47}
+}
+
+@Article{Lee799,
+  Title                    = {Transcriptional Regulatory Networks in Saccharomyces cerevisiae},
+  Author                   = {Lee, Tong Ihn and Rinaldi, Nicola J. and Robert, Fran{\c c}ois and Odom, Duncan T. and Bar-Joseph, Ziv and Gerber, Georg K. and Hannett, Nancy M. and Harbison, Christopher T. and Thompson, Craig M. and Simon, Itamar and Zeitlinger, Julia and Jennings, Ezra G. and Murray, Heather L. and Gordon, D. Benjamin and Ren, Bing and Wyrick, John J. and Tagne, Jean-Bosco and Volkert, Thomas L. and Fraenkel, Ernest and Gifford, David K. and Young, Richard A.},
+  Journal                  = {Science},
+  Year                     = {2002},
+  Number                   = {5594},
+  Pages                    = {799--804},
+  Volume                   = {298},
+
+  Abstract                 = {We have determined how most of the transcriptional regulators encoded in the eukaryote Saccharomyces cerevisiaeassociate with genes across the genome in living cells. Just as maps of metabolic networks describe the potential pathways that may be used by a cell to accomplish metabolic processes, this network of regulator-gene interactions describes potential pathways yeast cells can use to regulate global gene expression programs. We use this information to identify network motifs, the simplest units of network architecture, and demonstrate that an automated process can use motifs to assemble a transcriptional regulatory network structure. Our results reveal that eukaryotic cellular functions are highly connected through networks of transcriptional regulators that regulate other transcriptional regulators.},
+  Doi                      = {10.1126/science.1075090},
+  Eprint                   = {http://science.sciencemag.org/content/298/5594/799.full.pdf},
+  ISSN                     = {0036-8075},
+  Publisher                = {American Association for the Advancement of Science},
+  Url                      = {http://science.sciencemag.org/content/298/5594/799}
+}
+
+\citep{doi: https://doi.org/10.1016/j.ymeth.2012.10.012}
+
+@Article{REMY2008335,
+  Title                    = {Graphic requirements for multistability and attractive cycles in a Boolean dynamical framework},
+  Author                   = {Élisabeth Remy and Paul Ruet and Denis Thieffry},
+  Journal                  = {Advances in Applied Mathematics},
+  Year                     = {2008},
+  Number                   = {3},
+  Pages                    = {335 - 350},
+  Volume                   = {41},
+
+  Doi                      = {https://doi.org/10.1016/j.aam.2007.11.003},
+  ISSN                     = {0196-8858},
+  Keywords                 = {Discrete dynamical systems, Boolean networks, Regulatory networks, Genetic regulation, Differentiation, Homeostasis, Thomas' rules, Discrete Jacobian matrix, Jacobian conjecture},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0196885808000146}
+}
+
+
+
+
+
+
+
+
+
+
+
+

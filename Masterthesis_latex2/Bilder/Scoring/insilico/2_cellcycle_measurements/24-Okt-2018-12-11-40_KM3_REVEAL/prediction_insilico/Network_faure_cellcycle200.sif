@@ -1,0 +1,9 @@
+CycA 1 CycA
+CycA 1 CycB
+CycA -1 Rb
+CycD -1 CycB
+E2F 1 Rb
+E2F 1 UbcH10
+CycB -1 CycD
+CycB -1 CycE
+Rb 1 E2F

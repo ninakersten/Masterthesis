@@ -1,0 +1,178 @@
+\documentclass[11pt,
+bibtotoc,liststotoc,appendixprefix
+oneside,paper=a4,headings=small, twoside=false]{scrbook}
+%
+% Packages
+% -----------------------------------
+\usepackage[
+  paper=a4paper,
+  left=20mm,
+  right=25mm,
+  top=25mm,
+  bottom=50mm,
+  bindingoffset=10mm]{geometry}		% Seitenr�nder und Bindungskorrektur einstellen
+
+
+
+
+%\usepackage{apacite} 				% Literatur-Referenzen: American Psycholog. Assoc.
+%\usepackage{natbib}	
+\usepackage[square, numbers]{natbib}			
+\usepackage{amsthm}	
+%\usepackage[dvipsnames]{xcolor} %color for tables
+\usepackage[nopostdot,style=super,nonumberlist,toc,automake]{glossaries}
+\makeglossaries					%Load glossery package for abbreviations
+
+%Vielleicht besser alphabetisch ordnen!
+\newglossaryentry{resp.}{name={resp.},description={respectively}}
+\newglossaryentry{e.g.}{name={e.g.},description={exempli gratia}}
+\newglossaryentry{CSV}{name={CSV},description={Comma Seperated Values}}
+\newglossaryentry{DREAM}{name={DREAM},description={Dialogue on Reverse Engineering Assessment and Methods}}
+\newglossaryentry{mRNA}{name={mRNA},description={messanger RiboNucleotide Acid}}
+\newglossaryentry{RTK}{name={RTK},description={Receptor Tyrosin Kinases}}
+\newglossaryentry{PPI}{name={PPI},description={protein protein interaction}}
+\newglossaryentry{ATP}{name={ATP},description={adenosin triphosphat}}
+\newglossaryentry{GRN}{name={GRN},description={Gene regulatory network}}
+\newglossaryentry{RPMA}{name={RPMA},description={Reverse phase Protein lysate MicroArray}}
+\newglossaryentry{SDS-PAGE}{name={SDS-PAGE},description={Sodium Dodecyl Sulfate - Polyacrylamide Gel Electrophoresis}}
+\newglossaryentry{ELISA}{name={ELISA},description={Enzymatic Immunoassay}}
+\newglossaryentry{SIF}{name={SIF},description={Standard Interchange Format}}
+\newglossaryentry{IG}{name={IG},description={Interaction Graph}}
+\newglossaryentry{STG}{name={STG},description={State Transition Graph}}
+\newglossaryentry{MAP}{name={MAP},description={Mitogen Activated Protein}}
+
+%\setcitestyle{round,aysep={}} 		% Indizierg. in runden Klammern, zw. Autor u. Jahr
+\setcitestyle{square}
+%\usepackage[latin1]{inputenc} 		% Umlaute im Text
+%\usepackage{ngerman}				% Rechtschreibg.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}				% Schriftfamilie
+\usepackage{microtype}				% f�r die Mikrotypografie (besseres Schriftbild)
+\usepackage[headsepline,footsepline]{scrpage2}
+%\usepackage{subcaption} 
+\usepackage[english]{babel}
+
+\usepackage{graphicx} 				% Grafiken einf�gen (pdf,png - aber jpg vermeiden)
+\graphicspath{{./Bilder/}}          % Pfad zu den Bildern
+\usepackage[export]{adjustbox}		% Positionieren von Bildern Tabellen
+\usepackage{subfigure}				% L�sst Bilder nebeneinander darstellen
+\usepackage{varwidth}
+\usepackage{url}					% URL's formatieren (z.B. in Literatur) 
+\usepackage[colorlinks,linkcolor=black,citecolor=black,urlcolor=black]{hyperref} 				% f�r Hyperlinks in PDF-Dokumenten
+\usepackage{wrapfig}   
+  
+\usepackage{tabularx} 				% bessere Gestaltung von Tabellen
+\usepackage{longtable} 		
+\usepackage{multicol}				
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage{float}
+\usepackage{framed}
+\usepackage[labelfont=bf]{caption}
+\captionsetup{format=plain, font=small, labelfont=bf}
+\usepackage{rotating}
+%\usepackage{floatrow}
+\usepackage{sidecap}
+\sidecaptionvpos{figure}{t}
+
+\usepackage[table]{xcolor}
+
+		
+\usepackage[active]{srcltx}
+
+\usepackage{listings}				% Algorithmen
+
+\usepackage{mdwlist}				% Listen
+
+\usepackage{setspace} 				% Zeileneinstellung
+\newtheorem{mydef}{Merksatz}  		% Falls Beispiele, Merks�tze m. fortl. Nr. gebr. werden
+\newtheorem{bsp}{Beispiel}
+
+\usepackage{todonotes}				% zum Erstellen von ToDos im Editor
+
+\usepackage{lscape}					% zum Rotieren von Seiten
+
+\usepackage{amsmath}				% zum Schreiben von mathematischen Formeln
+
+\usepackage{calc}
+
+\usepackage{scrpage2}
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+\pagestyle{scrheadings}
+
+%\usepackage{fancyhdr}
+
+\usepackage{footnote}				% Fu�noten
+\usepackage{tablefootnote}			% Fu�noten in Tabellen
+\usepackage{amssymb}
+%\clubpenalty = 10000
+%\widowpenalty = 10000 \displaywidowpenalty = 10000
+
+\hyphenation{voll-st\"andigen}		% Worttrennungen global definieren
+
+\setcounter{tocdepth}{3}			% Ebenen, die im Inhaltsverzeichnis angezeigt werden
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[chapter] % reset theorem numbering for each chapter
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition} % definition numbers are dependent on theorem numbers
+\newtheorem{exmp}[thm]{Example} % same for example numbers
+
+% Document
+% -----------------------------------
+\begin{document}
+\parindent 0pt
+
+\frontmatter 
+    \include{./Titel/titel} 			% Titelblatt
+    \input{./Kapitel/erklaerung}
+    \newpage
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+ 
+
+    \onehalfspacing        
+              	% Zeilenabstand ab hier 1.5 zeilig
+    \tableofcontents 					% Inhaltsverzeichnis
+    \clearpage{\pagestyle{empty}\cleardoublepage} 
+  
+    
+    \listoffigures 					 	% Abbildungsverzeichnis
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    
+    \listoftables						% Tabellenverzeichnis rein
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    
+    \onehalfspacing
+	\printglossary[title={List of Abbreviations}]
+
+	\include{./Kapitel/abstract_eng}
+	\newpage
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+
+% -----------------------------------
+\mainmatter 							% die einzelnen Kapitel
+ 	\input{./Kapitel/introduction}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    %\input{./Kapitel/background}
+    %\clearpage{\pagestyle{empty}\cleardoublepage}		% l�scht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
+    \input{./Kapitel/materialsandmethods}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/applicationOfThePipeline}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    %\input{./Kapitel/results}
+    %\clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/discussion}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+
+% -----------------------------------
+%\backmatter 
+%\bibliographystyle{abbrv}
+\renewcommand{\bibname}{References}
+\bibliographystyle{unsrt}				% bei natbib in deutsch
+{\footnotesize\bibliography{./Literatur/quellen4}}		% Literaturquellen einbinden  			
+\input{./Kapitel/appendix}
+
+\end{document}

@@ -1,0 +1,24 @@
+\appendix
+
+\chapter{Appendices}
+\section{DREAM8-Challenge scoring priciples}
+
+For determining the Receiver-Operating-Characteristic-Curve a True-Positive-Rate (TPR) and a False-Positive-Rate (FPR) is calculated.\\
+\begin{defn}\textbf{True-Positive-Rate (TPR).}\\
+\textit{The TPR values are for the y-axis of the ROC.}
+\begin{equation}
+TPR=\frac{TP}{TP+FN}
+\end{equation}
+\end{defn}
+\begin{defn}
+\textbf{False-Positive-Rate (FPR).}\\
+\textit{The FPR values are for the x-axis of the ROC.}
+\begin{equation}
+FPR=\frac{FP}{FP+TN}
+\end{equation}
+\end{defn}
+
+Threfore, a threshold $\tau$ is set and the confidence scores are classified by this threshold.  Confidence scores below this threshold take a value of $0$ indicating an edge is less likely to occur and a confidence score above $\tau$ is taking a value of $1$ indicating an edge is potential. By increasing the threshold $\tau\in[0,1]$ the amount false positve decrases and false negative increase. 
+Resulting calasses are put into a context of True Positive Rate ($TPR=\frac{TP}{TP+FN}$) and False Negative Rate ($FPR=\frac{FP}{FP+TN}$). This yields a set of values returning a value of the area under the receiver operating characteristic curve (AUROC).\\\\   
+Similar to balanced accuracy the AUPR (area under the precision recall curve) metric is used for imbalanced classes in the confusion matrix taking precision and recall in relationship by shifting $\tau$.
+

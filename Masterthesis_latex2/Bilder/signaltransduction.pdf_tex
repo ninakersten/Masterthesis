@@ -1,0 +1,61 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'signaltransduction.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{595.27559055bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.41428571)%
+    \put(0.38013606,1.28247921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Signal}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{signaltransduction.pdf}}%
+    \put(0.34312733,0.98077229){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Reception}}}%
+    \put(0.32157333,0.65161318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Transduction}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{signaltransduction.pdf}}%
+    \put(0.0132294,0.84360692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Amplification}}}%
+    \put(0.33643365,0.39133958){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Response(s)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{signaltransduction.pdf}}%
+  \end{picture}%
+\endgroup%

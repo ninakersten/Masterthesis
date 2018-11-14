@@ -1,0 +1,37 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Raw pipeline}}{3}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Transcriptional Signal Cascade}}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Metabolic Network for cell respiration}}{5}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Transcriptional Signale Cascade of RTKs}}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces RPMA: Antibody binding and fluorometric detection}}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Directed Graph \textit {G}}}{10}{figure.caption.16}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Interaction graph \textit {G}}}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Interaction Graph}}{12}{figure.caption.18}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Synchronous and Asynchronous State Transition Graph}}{13}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Extended Pipeline}}{15}{figure.caption.20}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Runtime of Boolean Network Inference algorithms}}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cell cycle}}{17}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Causal edges}}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Data Collection of the DREAM8 Challenge data set}}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Principle of error assessment}}{27}{figure.caption.38}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Precision,Recall and Accuracy}}{29}{figure.caption.40}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces $CSV$ to $TXT$}}{32}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Boolean Network to Interaction Graph}}{34}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pipeline \textit {in silico}}}{35}{figure.caption.47}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {In-degree}:Mean Accuracy}}{36}{figure.caption.49}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Precision and Recall: Number of sample points}}{37}{figure.caption.51}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Balanced Accuracy: Number of sample points}}{38}{figure.caption.52}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Performance considering cluster depth \textit {d}}}{39}{figure.caption.54}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Pipeline DREAM8-Challenge}}{41}{figure.caption.55}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Imbalanced classes (1)}}{44}{figure.caption.60}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Imbalanced classes (2)}}{45}{figure.caption.61}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Recall: Prediction versus Aggregated/Prior Network}}{46}{figure.caption.62}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces New Ranking Balanced Accuracy}}{48}{figure.caption.65}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces New Ranking: Matthew correlation coefficient}}{49}{figure.caption.66}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces New Ranking: Precision and Recall}}{50}{figure.caption.67}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

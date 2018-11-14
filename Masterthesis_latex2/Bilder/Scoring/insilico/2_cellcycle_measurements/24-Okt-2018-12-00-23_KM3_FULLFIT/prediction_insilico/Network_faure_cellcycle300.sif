@@ -1,0 +1,13 @@
+Rb 1 CycA
+Rb -1 CycB
+Rb 1 cdh1
+CycD -1 CycB
+CycB -1 CycE
+CycB -1 UbcH10
+CycE 1 p27
+CycE 1 cdh1
+CycA -1 E2F
+CycA 1 CycD
+cdh1 1 Cdc20
+cdh1 1 CycA
+p27 -1 Rb

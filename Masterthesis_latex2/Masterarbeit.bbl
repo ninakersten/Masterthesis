@@ -1,0 +1,399 @@
+\begin{thebibliography}{10}
+
+\bibitem{Berestovsky.2013}
+Natalie Berestovsky and Luay Nakhleh.
+\newblock An evaluation of methods for inferring boolean networks from
+  time-series data.
+\newblock {\em PloS one}, 8(6):e66031, 2013.
+
+\bibitem{Saadatpour.2013}
+Assieh Saadatpour and R{\'e}ka Albert.
+\newblock Boolean modeling of biological regulatory networks: a methodology
+  tutorial.
+\newblock {\em Methods (San Diego, Calif.)}, 62(1):3--12, 2013.
+
+\bibitem{Barman.2017}
+Shohag Barman and Yung-Keun Kwon.
+\newblock A novel mutual information-based boolean network inference method
+  from time-series gene expression data.
+\newblock {\em PloS one}, 12(2):e0171097, 2017.
+
+\bibitem{Friedman.2000}
+N.~Friedman, M.~Linial, I.~Nachman, and D.~Pe'er.
+\newblock Using bayesian networks to analyze expression data.
+\newblock {\em Journal of computational biology : a journal of computational
+  molecular cell biology}, 7(3-4):601--620, 2000.
+
+\bibitem{aboutdream}
+{DREAM Challenges}.
+\newblock About dream: The dream challenges are crowdsourcing challenges
+  examining questions in biology and medicine, 02.10.2014.
+
+\bibitem{Bender.2016}
+Eric Bender.
+\newblock Challenges: Crowdsourced solutions.
+\newblock {\em Nature}, 533(7602):S62--4, 2016.
+
+\bibitem{U.S.DepartmentofEnergyOfficeofScience.April2001}
+{U.S. Department of Energy Office of Science}.
+\newblock Genomes to life program roadmap, 2001.
+
+\bibitem{Kestler.2008}
+Hans~A. Kestler, Christian Wawra, Barbara Kracher, and Michael K{\"u}hl.
+\newblock Network modeling of signal transduction: establishing the global
+  view.
+\newblock {\em BioEssays : news and reviews in molecular, cellular and
+  developmental biology}, 30(11-12):1110--1125, 2008.
+
+\bibitem{Oates.2012}
+Chris~J. Oates, Bryan~T. Hennessy, Yiling Lu, Gordon~B. Mills, and Sach
+  Mukherjee.
+\newblock Network inference using steady-state data and goldbeter-koshland
+  kinetics. corrected.
+\newblock {\em Bioinformatics (Oxford, England)}, 28(18):2342--2348, 2012.
+
+\bibitem{Shmulevich.2002}
+I.~Shmulevich, E.~R. Dougherty, S.~Kim, and W.~Zhang.
+\newblock Probabilistic boolean networks: a rule-based uncertainty model for
+  gene regulatory networks.
+\newblock {\em Bioinformatics}, 18(2):261--274, 2002.
+
+\bibitem{Shmulevich.2003}
+Ilya Shmulevich, Ilya Gluhovsky, Ronaldo~F. Hashimoto, Edward~R. Dougherty, and
+  Wei Zhang.
+\newblock Steady-state analysis of genetic regulatory networks modelled by
+  probabilistic boolean networks.
+\newblock {\em Comparative and functional genomics}, 4(6):601--608, 2003.
+
+\bibitem{cellrespiration}
+RBPAonline.
+\newblock Cell energy flow chart photosynthesis and cellular respiration key,
+  2018.
+
+\bibitem{Karlebach.2008}
+Guy Karlebach and Ron Shamir.
+\newblock Modelling and analysis of gene regulatory networks.
+\newblock {\em Nature reviews. Molecular cell biology}, 9(10):770--780, 2008.
+
+\bibitem{LasRivas.2010}
+Javier de~{Las Rivas} and Celia Fontanillo.
+\newblock Protein--protein interactions essentials: Key concepts to building
+  and analyzing interactome networks.
+\newblock {\em PLoS Computational Biology}, 6(6), 2010.
+
+\bibitem{Pellegrini.2004}
+Matteo Pellegrini, David Haynor, and Jason~M. Johnson.
+\newblock Protein interaction networks.
+\newblock {\em Expert review of proteomics}, 1(2):239--249, 2004.
+
+\bibitem{MullerEsterl.2009}
+Werner M{\"u}ller-Esterl and Ulrich Brandt.
+\newblock {\em Biochemie: Eine Einf{\"u}hrung f{\"u}r Mediziner und
+  Naturwissenschaftler}.
+\newblock {Spektrum Akad. Verl.}, Heidelberg, korrigierter nachdr. 2009 der 1.
+  aufl. 2004 edition, 2009.
+
+\bibitem{NRG1}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Nrg1 neuregulin 1 [homo sapiens(human)], 04.11.2018.
+
+\bibitem{IGF1}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Igf insulin like growth factor [homo sapiens (human)], 28.10.2018.
+
+\bibitem{HGF}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Hgf hepatocyte growth factor [ homo sapiens (human) ], 05.11.2018.
+
+\bibitem{FGF1}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Fgf1 fibroblast growth factor 1 [ homo sapiens (human) ], 04.11.2018.
+
+\bibitem{Insulin}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Irs1 insulin receptor substrate 1 [ homo sapiens (human) ],
+  04.11.2018.
+
+\bibitem{EGF}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Egf epidermal growth factor [ homo sapiens (human) ], 21.20.2018.
+
+\bibitem{PBS}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Tspo translocator protein [ homo sapiens (human) ], 02.10.2018.
+
+\bibitem{Serum}
+{National Center for Biotechnology Information, U.S. National Library of
+  Medicine}.
+\newblock Srf serum response factor [ mus musculus (house mouse) ], 08.10.2018.
+
+\bibitem{authornamenotavailable.}
+{author name not available}.
+\newblock Hpn-dream breast cancer network inference challenge.
+
+\bibitem{AlTubuly.2000}
+A.~A. Al-Tubuly.
+\newblock Sds-page and western blotting.
+\newblock {\em Methods in molecular medicine}, 40:391--405, 2000.
+
+\bibitem{Boellner.2015}
+Stefanie Boellner and Karl-Friedrich Becker.
+\newblock Reverse phase protein arrays-quantitative assessment of multiple
+  biomarkers in biopsies for clinical use.
+\newblock {\em Microarrays (Basel, Switzerland)}, 4(2):98--114, 2015.
+
+\bibitem{Ramaswamy.2005}
+Anitha Ramaswamy, E.~Lin, Iou Chen, Rahul Mitra, Joel Morrisett, Kevin Coombes,
+  Zhenlin Ju, and Mini Kapoor.
+\newblock Application of protein lysate microarrays to molecular marker
+  verification and quantification.
+\newblock {\em Proteome science}, 3:9, 2005.
+
+\bibitem{Sheehan.2005}
+Katherine~M. Sheehan, Valerie~S. Calvert, Elaine~W. Kay, Yiling Lu, David
+  Fishman, Virginia Espina, Joy Aquino, Runa Speer, Robyn Araujo, Gordon~B.
+  Mills, Lance~A. Liotta, Emanuel~F. Petricoin, and Julia~D. Wulfkuhle.
+\newblock Use of reverse phase protein microarrays and reference standard
+  development for molecular network analysis of metastatic ovarian carcinoma.
+\newblock {\em Molecular {\&} cellular proteomics : MCP}, 4(4):346--355, 2005.
+
+\bibitem{Liotta.2003}
+Lance~A. Liotta, Virginia Espina, Arpita~I. Mehta, Valerie Calvert, Kevin
+  Rosenblatt, David Geho, Peter~J. Munson, Lynn Young, Julia Wulfkuhle, and
+  Emanuel~F. Petricoin.
+\newblock Protein microarrays: Meeting analytical challenges for clinical
+  applications.
+\newblock {\em Cancer cell}, 3(4):317--325, 2003.
+
+\bibitem{HannesKlarner.November2014}
+{Hannes Klarner}.
+\newblock {\em Contributions to the Analysis of Qualitative Models of
+  Regulatory Networks}.
+\newblock Dissertation, {Freie Universit{\"a}t Berlin}, Berlin, November 2014.
+
+\bibitem{Lahdesmaki.2003}
+Harri L{\"a}hdesm{\"a}ki.
+\newblock On learning gene regulatory networks under the boolean network model.
+\newblock {\em Machine Learning}, 52(1/2):147--167, 2003.
+
+\bibitem{Pavlopoulos.2011}
+Georgios~A. Pavlopoulos, Maria Secrier, Charalampos~N. Moschopoulos,
+  Theodoros~G. Soldatos, Sophia Kossida, Jan Aerts, Reinhard Schneider, and
+  Pantelis~G. Bagos.
+\newblock Using graph theory to analyze biological networks.
+\newblock {\em BioData Mining}, 4:10, 2011.
+
+\bibitem{Hopfensitz.2012}
+Martin Hopfensitz, Christoph Mussel, Christian Wawra, Markus Maucher, Michael
+  Kuhl, Heiko Neumann, and Hans~A. Kestler.
+\newblock Multiscale binarization of gene expression data for reconstructing
+  boolean networks.
+\newblock {\em IEEE/ACM transactions on computational biology and
+  bioinformatics}, 9(2):487--498, 2012.
+
+\bibitem{Liang.1998}
+S.~Liang, S.~Fuhrman, and R.~Somogyi.
+\newblock Reveal, a general reverse engineering algorithm for inference of
+  genetic network architectures.
+\newblock {\em Pacific Symposium on Biocomputing. Pacific Symposium on
+  Biocomputing}, pages 18--29, 1998.
+
+\bibitem{Albert.2008}
+Istv{\'a}n Albert, Juilee Thakar, Song Li, Ranran Zhang, and R{\'e}ka Albert.
+\newblock Boolean network simulations for life scientists.
+\newblock {\em Source Code for Biology and Medicine}, 3:16, 2008.
+
+\bibitem{Lee.2002}
+Lee et~al.
+\newblock Transcriptional regulatory networks in saccharomyces cerevisiae.
+\newblock {\em Science (New York, N.Y.)}, 298(5594):799--804, 2002.
+
+\bibitem{Remy.2008}
+{\'E}lisabeth Remy, Paul Ruet, and Denis Thieffry.
+\newblock Graphic requirements for multistability and attractive cycles in a
+  boolean dynamical framework.
+\newblock {\em Advances in Applied Mathematics}, 41(3):335--350, 2008.
+
+\bibitem{WarrenS.Sarle.17.05.2002}
+{Warren S. Sarle, Cary, NC}.
+\newblock What are the population, sample, training set, design set, validation
+  set, and test set?, 17.05.2002.
+
+\bibitem{Barab&aacute.1999}
+Barab{\&}aacute and A.~si.
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science}, 286(5439):509--512, 1999.
+
+\bibitem{Schaffter.2011}
+Thomas Schaffter, Daniel Marbach, and Dario Floreano.
+\newblock Genenetweaver: in silico benchmark generation and performance
+  profiling of network inference methods.
+\newblock {\em Bioinformatics (Oxford, England)}, 27(16):2263--2270, 2011.
+
+\bibitem{Klarner.2017}
+Hannes Klarner, Adam Streck, and Heike Siebert.
+\newblock Pyboolnet: a python package for the generation, analysis and
+  visualization of boolean networks.
+\newblock {\em Bioinformatics (Oxford, England)}, 33(5):770--772, 2017.
+
+\bibitem{Faure.2006}
+Adrien Faur{\'e}, Aur{\'e}lien Naldi, Claudine Chaouiya, and Denis Thieffry.
+\newblock Dynamical analysis of a generic boolean model for the control of the
+  mammalian cell cycle.
+\newblock {\em Bioinformatics (Oxford, England)}, 22(14):e124--31, 2006.
+
+\bibitem{CooperGM.2000}
+{Cooper GM}.
+\newblock The cell: A molecular approach: Tumor suppressor genes, 2000.
+
+\bibitem{Hill.2016}
+Hill et~al.
+\newblock Inferring causal molecular networks: empirical assessment through a
+  community-based effort.
+\newblock {\em Nature methods}, 13(4):310--318, 2016.
+
+\bibitem{Neve.2006}
+Neve et~al.
+\newblock A collection of breast cancer cell lines for the study of
+  functionally distinct cancer subtypes.
+\newblock {\em Cancer cell}, 10(6):515--527, 2006.
+
+\bibitem{Garnett.2012}
+Garnett et~al.
+\newblock Systematic identification of genomic markers of drug sensitivity in
+  cancer cells.
+\newblock {\em Nature}, 483(7391):570--575, 2012.
+
+\bibitem{Barretina.2012}
+Barretina et~al.
+\newblock The cancer cell line encyclopedia enables predictive modelling of
+  anticancer drug sensitivity.
+\newblock {\em Nature}, 483(7391):603--607, 2012.
+
+\bibitem{Hennessy.2010}
+Hennessy et~al.
+\newblock A technical assessment of the utility of reverse phase protein arrays
+  for the study of the functional proteome in non-microdissected human breast
+  cancers.
+\newblock {\em Clinical proteomics}, 6(4):129--151, 2010.
+
+\bibitem{AdamLund.2018}
+Mark~Lund {Adam Lund}.
+\newblock Measures of central tendency, 2018.
+
+\bibitem{Aksoy.2001}
+Selim Aksoy and Robert~M. Haralick.
+\newblock Feature normalization and likelihood-based similarity measures for
+  image retrieval.
+\newblock {\em Pattern Recognition Letters}, 22(5):563--582, 2001.
+
+\bibitem{Liu.2014}
+Wenbin Liu, Zhenlin Ju, Yiling Lu, Gordon~B. Mills, and Rehan Akbani.
+\newblock A comprehensive comparison of normalization methods for loading
+  control and variance stabilization of reverse-phase protein array data.
+\newblock {\em Cancer informatics}, 13:109--117, 2014.
+
+\bibitem{MacQueen.1967}
+{J. MacQueen}.
+\newblock Some methods for classification and analysis of multivariate
+  observations.
+\newblock {\em University and California Press, Los Angeles}, (volume
+  1):281--297, 1967.
+
+\bibitem{Han.2014}
+Shengtong Han, Raymond K.~W. Wong, Thomas C.~M. Lee, Linghao Shen, Shuo-Yen~R.
+  Li, and Xiaodan Fan.
+\newblock A full bayesian approach for boolean genetic network inference.
+\newblock {\em PloS one}, 9(12):e115806, 2014.
+
+\bibitem{Zoppoli.2010}
+Pietro Zoppoli, Sandro Morganella, and Michele Ceccarelli.
+\newblock Timedelay-aracne: Reverse engineering of gene networks from
+  time-course data by an information theoretic approach.
+\newblock {\em BMC bioinformatics}, 11:154, 2010.
+
+\bibitem{Villaverde.2014}
+Alejandro~F. Villaverde, John Ross, Federico Mor{\'a}n, and Julio~R. Banga.
+\newblock Mider: network inference with mutual information distance and entropy
+  reduction.
+\newblock {\em PloS one}, 9(5):e96732, 2014.
+
+\bibitem{Kim.2007}
+Haseong Kim, Jae~K. Lee, and Taesung Park.
+\newblock Boolean networks using the chi-square test for inferring large-scale
+  gene regulatory networks.
+\newblock {\em BMC bioinformatics}, 8:37, 2007.
+
+\bibitem{Faith.2007}
+Jeremiah~J. Faith, Boris Hayete, Joshua~T. Thaden, Ilaria Mogno, Jamey
+  Wierzbowski, Guillaume Cottarel, Simon Kasif, James~J. Collins, and
+  Timothy~S. Gardner.
+\newblock Large-scale mapping and validation of escherichia coli
+  transcriptional regulation from a compendium of expression profiles.
+\newblock {\em PLoS biology}, 5(1):e8, 2007.
+
+\bibitem{Zhang.2012}
+Xiujun Zhang, Xing-Ming Zhao, Kun He, {Le Lu}, Yongwei Cao, Jingdong Liu,
+  Jin-Kao Hao, Zhi-Ping Liu, and Luonan Chen.
+\newblock Inferring gene regulatory networks from gene expression data by path
+  consistency algorithm based on conditional mutual information.
+\newblock {\em Bioinformatics (Oxford, England)}, 28(1):98--104, 2012.
+
+\bibitem{Battiti.1994}
+R.~Battiti.
+\newblock Using mutual information for selecting features in supervised neural
+  net learning.
+\newblock {\em IEEE transactions on neural networks}, 5(4):537--550, 1994.
+
+\bibitem{Brodersen.23.08.201026.08.2010}
+Kay~Henning Brodersen, Cheng~Soon Ong, Klaas~Enno Stephan, and Joachim~M.
+  Buhmann.
+\newblock The balanced accuracy and its posterior distribution.
+\newblock In {\em 2010 20th International Conference on Pattern Recognition},
+  pages 3121--3124. IEEE, 23.08.2010 - 26.08.2010.
+
+\bibitem{Boughorbel.2017}
+Sabri Boughorbel, Fethi Jarray, and Mohammed El-Anbari.
+\newblock Optimal classifier for imbalanced data using matthews correlation
+  coefficient metric.
+\newblock {\em PloS one}, 12(6), 2017.
+
+\bibitem{.01.10.2018}
+GoogleDevelopers.
+\newblock Classification: Thresholding ~|~ machine learning crash course ~|~
+  google developers, 01.10.2018.
+
+\bibitem{Anand.2010}
+Ashish Anand, Ganesan Pugalenthi, Gary~B. Fogel, and P.~N. Suganthan.
+\newblock An approach for classification of highly imbalanced data using
+  weighting and undersampling.
+\newblock {\em Amino acids}, 39(5):1385--1391, 2010.
+
+\bibitem{Cokelaer.2015}
+Cokelaer et~al.
+\newblock Dreamtools: a python package for scoring collaborative challenges.
+\newblock {\em F1000Research}, 4:1030, 2015.
+
+\bibitem{authornamenotavailable}
+{author name not available}.
+\newblock Hpn-dream breast cancer network inference challenge.
+
+\bibitem{Davis.2006}
+Jesse Davis and Mark Goadrich.
+\newblock The relationship between precision-recall and roc curves.
+\newblock In William Cohen, editor, {\em Proceedings of the 23rd international
+  conference on Machine learning}, pages 233--240, New York, NY, 2006. ACM.
+
+\bibitem{Albert.2002}
+R{\'e}ka Albert and Albert-L{\'a}szl{\'o} Barab{\'a}si.
+\newblock Statistical mechanics of complex networks.
+\newblock {\em Reviews of Modern Physics}, 74(1):47--97, 2002.
+
+\end{thebibliography}

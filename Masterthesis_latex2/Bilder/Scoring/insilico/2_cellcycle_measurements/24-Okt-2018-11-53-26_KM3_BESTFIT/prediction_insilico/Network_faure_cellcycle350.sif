@@ -1,0 +1,10 @@
+CycD 1 CycE
+CycD 1 CycA
+CycE -1 CycB
+CycE 1 E2F
+Cdc20 1 p27
+Cdc20 1 Cdc20
+E2F -1 Rb
+Rb -1 UbcH10
+cdh1 -1 CycD
+cdh1 1 cdh1

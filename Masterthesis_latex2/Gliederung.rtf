@@ -1,0 +1,132 @@
+﻿11.06.2018:
+
+Wie stelle ich mir den roten Faden meiner Arbeit vor:
+
+Einleitung: Fragestellung der MA formulieren!Was ist mein Ziel?Wie gehe ich vor? Wie sieht mein Ablauf aus ein Netzwerk zu erstellen und dann zu analysieren.
+
+1.Kapitel: Grundlagen
+
+1.1  Über welche biologischen Zusammenhänge lässt sich ein Netzwerk erstellen? (Input-data erklären)
+1.2 Diskretisierung und Normalisierung der Daten:Welche Diskretisierungsmöglichkeiten gibt es?(Dimitrova_etal_2010_)
+1.3 MachineLearning: Test and Training, Goldstandard
+1.4 Boolsche Netzwerke: Kurze Einleitung was Inferenzalgorithmen sind, was sie machen, welche es gibt und warum man hier den Boolschen Ansatz gewählt hat! Was ist ein Boolsches Netzwerk?Definition?Dynamik Boolscher Netzwerke und deren Topology. Wie ist kann ein Boolsches Netzwerk dargestellt werden?(Chai_etal_2014_inference_)(An Evaluation of Methods for Inferring Boolean Networks from Time-Series Data)
+
+	Mathematische Definition
+	Kurze wörtliche Erklärung der Defintion
+	Beispiel
+
+1.5 BoolschenInferenzalgorithmen (siehe E-Mail: defence_talk_kirsten.pdf)
+1.5 Interaktionsgraph: Was ist das?Wie wird er erstellt? (Remy_etal_graphic_)
+1.6 State Transition Graph: Defintion, Synchron und asynchrones Update
+1.7 Scoring: Accurancy, Precision und Recall,ROC, AUC (AUROC) definieren
+(https://developers.google.com/machine-learning/crash-course/classification/thresholding )
+
+Conclusion: Genauere Problemdefinition
+
+2. Kapitel: Methoden und Materialien
+
+2.1 Erklären der verschiedenen Algorthmen um ein Netzwerk zu erzeugen. Welche Möglichkeiten gibt es (Regression, Boolean approach…..)Warum verwenden wir hier den Boolean Approach. Kurz auf die Diskretisierungsalgorithmen eingehen (Two clusters k-means binarization und Iterative k-means binarization)
+2.1.1 Reveal
+2.1.2 Bestfit
+2.1.3 Fullfit
+
+
+Abschließend: Analysierung durch AUC,Prior-Knowledge und PyBoolNet….Im folgenden wird gezeigt wie die Methoden verwendet etc...
+
+3. Kapitel: Anwendung  der Methoden
+
+3.1. Toy-Example: Einmal das selbsterzeugte von Robert und cellCycle.txt
+
+- Erklären wie der Datensatz aufgebaut ist
+
+1. Beispieldatensatz einer kleinen gene-gene interaction als microarray-Datensatz wird mit TS2B (Reveal, Bestfit, Fullfit und K-means) ein Netzwerk erzeugt. Dieses Netzwerk wird mit einem Goldstandard verglichen und ergibt einen AUC-Wert. (Wenn reale Gene-Gene Interaction geommen wird, kann resultierendes Netzwerk mit Prior-Knowledge aus Papern optisch/ oder mit PyBoolNet analysiert und verglichen werden).
+
+1PyBoolNet: Attractors finden ist ein NP-hard problem. Difficult for networks bigger than 20 nodes. With prior knowledge the networks are reduced s.t. attractor can be found. 
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5055661/)
+
+3.2 Real-life time-course data: HPN8 Breast-Cancer Challenge
+
+- Wieso fiel die Entscheidung auf diesen Datensatz?Wo kommen die Daten her: Dream Challenge erklären (Labor). Wie sieht ein Datensatz aus?(siehe unten→LaborDatengewinnung genauer*)
+- Was sind die Inhibitoren und die Stimuli und was bewirken sie auf molekularer Ebene.Warum werden diese eingesetzt um eine Netzwerk zu erzeugen?
+
+-Vorgehensweise der der Datenprozessierung bei der DreamChallenge:
+1. net1_expression_date_avg.tsv. Diskretisieren (Daten wurden bereits normalisiert)
+2. Abhängigkeiten der Gene untereinander ermitteln
+3. A B 0,657685 # GenA beeinflusst GenB mit einer Confidence von  0,657685
+4. Classification: Thresholding
+4. Scoring: Testen wie gut der Classifier ist. Overall Score (Overall Accuracy), AUPR und AUROC berechnen mit den anderen Gruppierungen vergleichen
+(https://stats.stackexchange.com/questions/10501/calculating-aupr-in-r , http://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html , http://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html )	
+
+2. HPN8 Breast-Cancer Challenge 1A: Inference of 32 Networks of the experimental training main dataset. Erklären warum gerade DREAM8.
+
+Was ist der Goldstandard bzw. wie erzeuge ich ihn selbst?
+Kann ich das Test-datenset als Goldstandard nehmen?
+
+HPN-DREAM Challenge paper: Hill et al. Inferring causal molecular networks: empirical assessment through a community-based effort. Nature Methods 13, 310–318 (2016).
+Primary reference for the RPPA data: Hill et al. Context specificity in causal signaling networks revealed by phosphoprotein profiling. Cell Systems 4, 73–83.e10 (2017).
+
+3. Resultate und Diskussion:
+- Was sind die Batch-Effects (Bias): Fehler bei dem erstellen datensatzes im Labor (siehe oben)
+- die Wahl der richtigen Lern-Methoden
+- die Wahl des richtigen Diskretisierungsverfahren
+- Problem bei der Anwendung der Analyse des Toyexamples auf den realen Datensatz.
+- Verbesserungen: DREAMChallenge könnte mehr Algorithmen offen legen.
+
+
+
+
+
+
+
+
+*Genauer Erklärung der Datenerhebung im Labor:
+
+Dataset: HPN-Dream-Breast Cancer Challenge
+
+- Batch Effects (Bias by mistakes in the laberatory: http://genomicsclass.github.io/book/pages/intro_to_batch_effects.html)
+- Data Collection technique: RPPA (Reverse phase protein array): Since 2001 https://www.youtube.com/watch?v=KtgOKjc8RPs 
+
+Sample collection:
+For time course studies,a stimulant (inhibitor or stimulus in form of drugs) is added to a set of flasks at the same time and the flasks are then processed at different time points.
+Cell Lysis:
+Cell fragments are lysed with a cell lysis buffer to obtain high protein concentration. (The choice of a buffer decides the quatity of proteins can be lysed out of the cell= batch effect)
+other  batch-effects: reasons for low protein yields:little or poor quality of starting material, long storage time, 
+Dilution: Dilution of the cell lysed probes.
+Antibody screening:
+The lysates are pooled and resolved by SDS-PAGE followed by western blotting on a nitrocellulose membrane (e.g. nitrocellulosed coated glas slides). (The membrane is cut into fourmillimeter strips)Each slide is probed  with a different antibody. (It may be useful to avoid batch effects by validating the antibody performance with a smaller sample size under identical conditions before starting with the actual sample collection.)
+Primary + Secondary Antibody
+Fluorometric detection:
+Primary and secondary antibody are diluted (often by a TBST buffer).Detection reagent is put on each slide. Signal Amplification and detection by optical flatbed scanner if colometric detection technique is used or by laser scanning.
+Data analysis:
+-check outliers and look for missing data points
+-different total protein amounts could bias the experiment: the results are normalized to the total protein, therefore
+
+- use Spyro Ruby stained slides
+- analyze as antibody stained slides
+- save results as total protein data
+- this reference slide is used for each slide in the same experiment
+
+Strengths vs. Weakness of RPMA:
+
+Strength: High throughput, ulta-sensitive detection of proteins from extremly small numbers of input material which is not possible for western blotting and ELISA. The small spot size on the microarray, ranging in diameter from 85 to 200 micrometres, enables the analysis of thousands of samples with the same antibody in one experiment.The high sensitivity of RPMAs allows for the detection of low abundance proteins or biomarkers such as phosphorylated signaling proteins from very small amounts of starting material such as biopsy samples, which are often contaminated with normal tissue like in this case of the breast cancer challenge. A great improvement of RPMAs over traditional forward phase protein arrays is a reduction in the number of antibodies needed to detect a protein. The protein isn‘t detected directly which helps to preserve the proteins. Antibodies, especially phospho-specific reagents, often detect linear peptide sequences that may be masked due to the three-dimensional conformation of the protein.[15] This problem is overcome with RPMAs as the samples can be denatured, revealing any concealed epitopes.
+
+Weakness (Batch Effects):
+
+Dependence on antibodies for detection. Currently the number of signaling proteins for which antibodies exist to get an analyzable signal is small. 
+
+
+
+Alternative Glierungen: 
+
+- Introduction schreiben:	- Was habe ich vor, was ist meine Ziel?
+- Was ist Netzwerkinference?
+
+Mögliche Gliederung: 1.Kapitel: Grundlagen...nicht Graphentheorie grundlegend beschreiben
+2. Kapitel: Inferenzmethoden
+
+oder….
+
+1. Kapitel: Datenaufbereitung
+2. Kapitel: Methoden und Toyexample
+3. Kapitel: Methoden auf reales Beispiel angewandt, Probleme…
+4. Kapitel: Diskussion: zB. Prior-Knowledgenetzwerk inference

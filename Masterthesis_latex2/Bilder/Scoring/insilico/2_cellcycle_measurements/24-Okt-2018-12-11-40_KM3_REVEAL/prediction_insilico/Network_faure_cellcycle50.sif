@@ -1,0 +1,6 @@
+CycB -1 Rb
+Rb 1 p27
+UbcH10 1 CycE
+UbcH10 -1 cdh1
+UbcH10 1 UbcH10
+CycE 1 CycB

@@ -1,0 +1,6 @@
+CycD , ! CycB
+E2F , Rb
+UbcH10 , E2F
+CycE , ! CycB
+Rb , E2F & ! CycA
+CycB , CycA | ! CycD

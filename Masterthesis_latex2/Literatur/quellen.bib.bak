@@ -1,0 +1,421 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Other{,
+  Comment                  = {Cellular respiration Fermentation Metabolism BMR},
+  Crossref                 = {Cellular respiration Fermentation Metabolism BMR},
+  Doi                      = {Cellular respiration Fermentation Metabolism BMR},
+  Keywords                 = {Cellular respiration Fermentation Metabolism BMR},
+  Owner                    = {slideplayer},
+  Timestamp                = {2018.10.01},
+  Url                      = {https://slideplayer.com/slide/4957949/}
+}
+
+@Article{AGATONOVICKUSTRIN2000717,
+  Title                    = {Basic concepts of artificial neural network (ANN) modeling and its application in pharmaceutical research},
+  Author                   = {S Agatonovic-Kustrin and R Beresford},
+  Journal                  = {Journal of Pharmaceutical and Biomedical Analysis},
+  Year                     = {2000},
+  Number                   = {5},
+  Pages                    = {717 - 727},
+  Volume                   = {22},
+
+  Doi                      = {https://doi.org/10.1016/S0731-7085(99)00272-1},
+  ISSN                     = {0731-7085},
+  Keywords                 = {Artificial neural network (ANN), Pharmaceutical research, Artificial intelligence (AI)},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0731708599002721}
+}
+
+@Article{RevModPhys.74.47,
+  Title                    = {Statistical mechanics of complex networks},
+  Author                   = {Albert, R\'eka and Barab\'asi, Albert-L\'aszl\'o},
+  Journal                  = {Rev. Mod. Phys.},
+  Year                     = {2002},
+
+  Month                    = {Jan},
+  Pages                    = {47--97},
+  Volume                   = {74},
+
+  Doi                      = {10.1103/RevModPhys.74.47},
+  Issue                    = {1},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society},
+  Url                      = {https://link.aps.org/doi/10.1103/RevModPhys.74.47}
+}
+
+@Article{10.1371/journal.pone.0171097,
+  Title                    = {A novel mutual information-based Boolean network inference method from time-series gene expression data},
+  Author                   = {Barman, Shohag AND Kwon, Yung-Keun},
+  Journal                  = {PLOS ONE},
+  Year                     = {2017},
+
+  Month                    = {02},
+  Number                   = {2},
+  Pages                    = {1-19},
+  Volume                   = {12},
+
+  Abstract                 = {Background Inferring a gene regulatory network from time-series gene expression data in systems biology is a challenging problem. Many methods have been suggested, most of which have a scalability limitation due to the combinatorial cost of searching a regulatory set of genes. In addition, they have focused on the accurate inference of a network structure only. Therefore, there is a pressing need to develop a network inference method to search regulatory genes efficiently and to predict the network dynamics accurately. Results In this study, we employed a Boolean network model with a restricted update rule scheme to capture coarse-grained dynamics, and propose a novel mutual information-based Boolean network inference (MIBNI) method. Given time-series gene expression data as an input, the method first identifies a set of initial regulatory genes using mutual information-based feature selection, and then improves the dynamics prediction accuracy by iteratively swapping a pair of genes between sets of the selected regulatory genes and the other genes. Through extensive simulations with artificial datasets, MIBNI showed consistently better performance than six well-known existing methods, REVEAL, Best-Fit, RelNet, CST, CLR, and BIBN in terms of both structural and dynamics prediction accuracy. We further tested the proposed method with two real gene expression datasets for an Escherichia coli gene regulatory network and a fission yeast cell cycle network, and also observed better results using MIBNI compared to the six other methods. Conclusions Taken together, MIBNI is a promising tool for predicting both the structure and the dynamics of a gene regulatory network.},
+  Doi                      = {10.1371/journal.pone.0171097},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pone.0171097}
+}
+
+@Article{10.1371/journal.pone.0066031,
+  Title                    = {An Evaluation of Methods for Inferring Boolean Networks from Time-Series Data},
+  Author                   = {Berestovsky, Natalie AND Nakhleh, Luay},
+  Journal                  = {PLOS ONE},
+  Year                     = {2013},
+
+  Month                    = {06},
+  Number                   = {6},
+  Pages                    = {1-9},
+  Volume                   = {8},
+
+  Abstract                 = {Regulatory networks play a central role in cellular behavior and decision making. Learning these regulatory networks is a major task in biology, and devising computational methods and mathematical models for this task is a major endeavor in bioinformatics. Boolean networks have been used extensively for modeling regulatory networks. In this model, the state of each gene can be either ‘on’ or ‘off’ and that next-state of a gene is updated, synchronously or asynchronously, according to a Boolean rule that is applied to the current-state of the entire system. Inferring a Boolean network from a set of experimental data entails two main steps: first, the experimental time-series data are discretized into Boolean trajectories, and then, a Boolean network is learned from these Boolean trajectories. In this paper, we consider three methods for data discretization, including a new one we propose, and three methods for learning Boolean networks, and study the performance of all possible nine combinations on four regulatory systems of varying dynamics complexities. We find that employing the right combination of methods for data discretization and network learning results in Boolean networks that capture the dynamics well and provide predictive power. Our findings are in contrast to a recent survey that placed Boolean networks on the low end of the “faithfulness to biological reality” and “ability to model dynamics” spectra. Further, contrary to the common argument in favor of Boolean networks, we find that a relatively large number of time points in the time-series data is required to learn good Boolean networks for certain data sets. Last but not least, while methods have been proposed for inferring Boolean networks, as discussed above, missing still are publicly available implementations thereof. Here, we make our implementation of the methods available publicly in open source at http://bioinfo.cs.rice.edu/.},
+  Doi                      = {10.1371/journal.pone.0066031},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pone.0066031}
+}
+
+@Article{CHAI201455,
+  Title                    = {A review on the computational approaches for gene regulatory network construction},
+  Author                   = {Lian En Chai and Swee Kuan Loh and Swee Thing Low and Mohd Saberi Mohamad and Safaai Deris and Zalmiyah Zakaria},
+  Journal                  = {Computers in Biology and Medicine},
+  Year                     = {2014},
+  Pages                    = {55 - 65},
+  Volume                   = {48},
+
+  Doi                      = {https://doi.org/10.1016/j.compbiomed.2014.02.011},
+  ISSN                     = {0010-4825},
+  Keywords                 = {Gene regulatory network, Computational approaches, Gene expression data, Bayesian network, Dynamic Bayesian network, Boolean network, Probabilistic Boolean network, Ordinary differential equation, Neural network},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0010482514000420}
+}
+
+@Article{10.1371/journal.pcbi.1000807,
+  Title                    = {Protein–Protein Interactions Essentials: Key Concepts to Building and Analyzing Interactome Networks},
+  Author                   = {De Las Rivas, Javier AND Fontanillo, Celia},
+  Journal                  = {PLOS Computational Biology},
+  Year                     = {2010},
+
+  Month                    = {06},
+  Number                   = {6},
+  Pages                    = {1-8},
+  Volume                   = {6},
+
+  Doi                      = {10.1371/journal.pcbi.1000807},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pcbi.1000807}
+}
+
+@Article{DISCRETIZATION,
+  Title                    = {Discretization of Time Series Data},
+  Author                   = {Elena S. Dimitrova, M. Paola Vera Licona, JohnMcGee,and Reinhard Laubenbacher},
+  Journal                  = {Journal of Computational Biology},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {853 - 868},
+
+  Doi                      = {http://doi.org/10.1089/cmb.2008.0023},
+  ISSN                     = {1046-2023},
+  Keywords                 = {gene networks, genetic algorithms, linear algebra, reverse engineering, time discrete dynamical systems},
+  Url                      = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3203514/}
+}
+
+@Electronic{GRN,
+  Title                    = {Genomes to Life Program Roadmap},
+
+  Address                  = {U.S.},
+  Author                   = {Department of Energy Office of Science},
+  Month                    = {April},
+  Note                     = {DOE/SC-0036},
+  Year                     = {2001},
+
+  Timestamp                = {2018.11.01}
+}
+
+@Article{doi:10.1093/bioinformatics/btl210,
+  Title                    = {Dynamical analysis of a generic Boolean model for the control of the mammalian cell cycle},
+  Author                   = {Fauré, Adrien and Naldi, Aurélien and Chaouiya, Claudine and Thieffry, Denis},
+  Journal                  = {Bioinformatics},
+  Year                     = {2006},
+  Number                   = {14},
+  Pages                    = {e124-e131},
+  Volume                   = {22},
+
+  Doi                      = {10.1093/bioinformatics/btl210},
+  Eprint                   = {/oup/backfile/content_public/journal/bioinformatics/22/14/10.1093/bioinformatics/btl210/2/btl210.pdf},
+  Url                      = {http://dx.doi.org/10.1093/bioinformatics/btl210}
+}
+
+@Article{article,
+  Title                    = {Using Bayesian Networks to Analyze Expression Data},
+  Author                   = {Friedman, Nir and Linial, Michal and Nachman, Iftach and Pe'er, Dana},
+  Year                     = {2000},
+
+  Month                    = {01},
+  Pages                    = {601-620},
+  Volume                   = {7},
+
+  Booktitle                = {Journal of Computational Biology}
+}
+
+@Article{HATZIMANIKATIS2004300,
+  Title                    = {Metabolic networks: enzyme function and metabolite structure},
+  Author                   = {Vassily Hatzimanikatis and Chunhui Li and Justin A Ionita and Linda J Broadbelt},
+  Journal                  = {Current Opinion in Structural Biology},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {300 - 306},
+  Volume                   = {14},
+
+  Doi                      = {https://doi.org/10.1016/j.sbi.2004.04.004},
+  ISSN                     = {0959-440X},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0959440X04000715}
+}
+
+@Article{BIES:BIES20834,
+  Title                    = {Network modeling of signal transduction: establishing the global view},
+  Author                   = {Kestler, Hans A. and Wawra, Christian and Kracher, Barbara and Kuehl, Michael},
+  Journal                  = {BioEssays},
+  Year                     = {2008},
+  Number                   = {11-12},
+  Pages                    = {1110--1125},
+  Volume                   = {30},
+
+  Doi                      = {10.1002/bies.20834},
+  ISSN                     = {1521-1878},
+  Publisher                = {Wiley Subscription Services, Inc., A Wiley Company},
+  Url                      = {http://dx.doi.org/10.1002/bies.20834}
+}
+
+@Article{Kitano1662,
+  Title                    = {Systems Biology: A Brief Overview},
+  Author                   = {Kitano, Hiroaki},
+  Journal                  = {Science},
+  Year                     = {2002},
+  Number                   = {5560},
+  Pages                    = {1662--1664},
+  Volume                   = {295},
+
+  Abstract                 = {To understand biology at the system level, we must examine the structure and dynamics of cellular and organismal function, rather than the characteristics of isolated parts of a cell or organism. Properties of systems, such as robustness, emerge as central issues, and understanding these properties may have an impact on the future of medicine. However, many breakthroughs in experimental devices, advanced software, and analytical methods are required before the achievements of systems biology can live up to their much-touted potential.},
+  Doi                      = {10.1126/science.1069492},
+  Eprint                   = {http://science.sciencemag.org/content/295/5560/1662.full.pdf},
+  ISSN                     = {0036-8075},
+  Publisher                = {American Association for the Advancement of Science},
+  Url                      = {http://science.sciencemag.org/content/295/5560/1662}
+}
+
+@InProceedings{Klarner2015ContributionsTT,
+  Author                   = {Hannes Klarner},
+  Booktitle                = {Contributions to the Analysis of Qualitative Models of Regulatory Networks},
+  Year                     = {2015}
+}
+
+@Article{doi:10.1093/bioinformatics/btw682,
+  Title                    = {PyBoolNet: a python package for the generation, analysis and visualization of boolean networks},
+  Author                   = {Klarner, Hannes and Streck, Adam and Siebert, Heike},
+  Journal                  = {Bioinformatics},
+  Year                     = {2017},
+  Number                   = {5},
+  Pages                    = {770-772},
+  Volume                   = {33},
+
+  Doi                      = {10.1093/bioinformatics/btw682},
+  Eprint                   = {/oup/backfile/content_public/journal/bioinformatics/33/5/10.1093_bioinformatics_btw682/3/btw682.pdf},
+  Url                      = {http://dx.doi.org/10.1093/bioinformatics/btw682}
+}
+
+@Article{Krumsiek2010,
+  Title                    = {Odefy - From discrete to continuous models},
+  Author                   = {Krumsiek, Jan
+and P{\"o}lsterl, Sebastian
+and Wittmann, Dominik M.
+and Theis, Fabian J.},
+  Journal                  = {BMC Bioinformatics},
+  Year                     = {2010},
+
+  Month                    = {May},
+  Number                   = {1},
+  Pages                    = {233},
+  Volume                   = {11},
+
+  Abstract                 = {Phenomenological information about regulatory interactions is frequently available and can be readily converted to Boolean models. Fully quantitative models, on the other hand, provide detailed insights into the precise dynamics of the underlying system. In order to connect discrete and continuous modeling approaches, methods for the conversion of Boolean systems into systems of ordinary differential equations have been developed recently. As biological interaction networks have steadily grown in size and complexity, a fully automated framework for the conversion process is desirable.},
+  Day                      = {07},
+  Doi                      = {10.1186/1471-2105-11-233},
+  ISSN                     = {1471-2105},
+  Url                      = {https://doi.org/10.1186/1471-2105-11-233}
+}
+
+@Article{Lähdesmäki2003,
+  Title                    = {On Learning Gene Regulatory Networks Under the Boolean Network Model},
+  Author                   = {L{\"a}hdesm{\"a}ki, Harri
+and Shmulevich, Ilya
+and Yli-Harja, Olli},
+  Journal                  = {Machine Learning},
+  Year                     = {2003},
+
+  Month                    = {Jul},
+  Number                   = {1},
+  Pages                    = {147--167},
+  Volume                   = {52},
+
+  Abstract                 = {Boolean networks are a popular model class for capturing the interactions of genes and global dynamical behavior of genetic regulatory networks. Recently, a significant amount of attention has been focused on the inference or identification of the model structure from gene expression data. We consider the Consistency as well as Best-Fit Extension problems in the context of inferring the networks from data. The latter approach is especially useful in situations when gene expression measurements are noisy and may lead to inconsistent observations. We propose simple efficient algorithms that can be used to answer the Consistency Problem and find one or all consistent Boolean networks relative to the given examples. The same method is extended to learning gene regulatory networks under the Best-Fit Extension paradigm. We also introduce a simple and fast way of finding all Boolean networks having limited error size in the Best-Fit Extension Problem setting. We apply the inference methods to a real gene expression data set and present the results for a selected set of genes.},
+  Day                      = {01},
+  Doi                      = {10.1023/A:1023905711304},
+  ISSN                     = {1573-0565},
+  Url                      = {https://doi.org/10.1023/A:1023905711304}
+}
+
+@Article{Lee799,
+  Title                    = {Transcriptional Regulatory Networks in Saccharomyces cerevisiae},
+  Author                   = {Lee, Tong Ihn and Rinaldi, Nicola J. and Robert, Fran{\c c}ois and Odom, Duncan T. and Bar-Joseph, Ziv and Gerber, Georg K. and Hannett, Nancy M. and Harbison, Christopher T. and Thompson, Craig M. and Simon, Itamar and Zeitlinger, Julia and Jennings, Ezra G. and Murray, Heather L. and Gordon, D. Benjamin and Ren, Bing and Wyrick, John J. and Tagne, Jean-Bosco and Volkert, Thomas L. and Fraenkel, Ernest and Gifford, David K. and Young, Richard A.},
+  Journal                  = {Science},
+  Year                     = {2002},
+  Number                   = {5594},
+  Pages                    = {799--804},
+  Volume                   = {298},
+
+  Abstract                 = {We have determined how most of the transcriptional regulators encoded in the eukaryote Saccharomyces cerevisiaeassociate with genes across the genome in living cells. Just as maps of metabolic networks describe the potential pathways that may be used by a cell to accomplish metabolic processes, this network of regulator-gene interactions describes potential pathways yeast cells can use to regulate global gene expression programs. We use this information to identify network motifs, the simplest units of network architecture, and demonstrate that an automated process can use motifs to assemble a transcriptional regulatory network structure. Our results reveal that eukaryotic cellular functions are highly connected through networks of transcriptional regulators that regulate other transcriptional regulators.},
+  Doi                      = {10.1126/science.1075090},
+  Eprint                   = {http://science.sciencemag.org/content/298/5594/799.full.pdf},
+  ISSN                     = {0036-8075},
+  Publisher                = {American Association for the Advancement of Science},
+  Url                      = {http://science.sciencemag.org/content/298/5594/799}
+}
+
+@Article{NALDI20112207,
+  Title                    = {Dynamically consistent reduction of logical regulatory graphs},
+  Author                   = {Aurélien Naldi and Elisabeth Remy and Denis Thieffry and Claudine Chaouiya},
+  Journal                  = {Theoretical Computer Science},
+  Year                     = {2011},
+  Note                     = {Selected Papers from the 7th International Conference on Computational Methods in Systems Biology},
+  Number                   = {21},
+  Pages                    = {2207 - 2218},
+  Volume                   = {412},
+
+  Doi                      = {https://doi.org/10.1016/j.tcs.2010.10.021},
+  ISSN                     = {0304-3975},
+  Keywords                 = {Regulatory networks, Logical modelling, Model reduction, Decision diagrams, Attractors, Drosophila segmentation},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0304397510005839}
+}
+
+@Article{104(6):1777-1782,
+  Title                    = {Global reconstruction of the human metabolic network based on genomic and bibliomic data},
+  Author                   = {Duarte NC and Becker SA and Jamshidi N, et al.},
+  Journal                  = {Proceedings of the National Academy of Sciences of the United States of America},
+  Year                     = {2007},
+  Number                   = {6},
+  Pages                    = {1777-1782},
+  Volume                   = {104},
+
+  Doi                      = {doi:10.1073/pnas.0610772104},
+  Owner                    = {nina},
+  Timestamp                = {2018.03.21},
+  Url                      = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794290/}
+}
+
+@Article{doi:10.1586/14789450.1.2.239,
+  Title                    = {Protein Interaction Networks},
+  Author                   = {Matteo Pellegrini and David Haynor and Jason M Johnson},
+  Journal                  = {Expert Review of Proteomics},
+  Year                     = {2004},
+  Note                     = {PMID: 15966818},
+  Number                   = {2},
+  Pages                    = {239-249},
+  Volume                   = {1},
+
+  Doi                      = {10.1586/14789450.1.2.239},
+  Eprint                   = { 
+ https://doi.org/10.1586/14789450.1.2.239
+ 
+},
+  Publisher                = {Taylor \& Francis},
+  Url                      = { 
+ https://doi.org/10.1586/14789450.1.2.239
+ 
+}
+}
+
+@Article{REMY2008335,
+  Title                    = {Graphic requirements for multistability and attractive cycles in a Boolean dynamical framework},
+  Author                   = {Élisabeth Remy and Paul Ruet and Denis Thieffry},
+  Journal                  = {Advances in Applied Mathematics},
+  Year                     = {2008},
+  Number                   = {3},
+  Pages                    = {335 - 350},
+  Volume                   = {41},
+
+  Doi                      = {https://doi.org/10.1016/j.aam.2007.11.003},
+  ISSN                     = {0196-8858},
+  Keywords                 = {Discrete dynamical systems, Boolean networks, Regulatory networks, Genetic regulation, Differentiation, Homeostasis, Thomas' rules, Discrete Jacobian matrix, Jacobian conjecture},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0196885808000146}
+}
+
+@Article{SAADATPOUR20133,
+  Title                    = {Boolean modeling of biological regulatory networks: A methodology tutorial},
+  Author                   = {Assieh Saadatpour and Réka Albert},
+  Journal                  = {Methods},
+  Year                     = {2013},
+  Note                     = {Modeling Gene Expression},
+  Number                   = {1},
+  Pages                    = {3 - 12},
+  Volume                   = {62},
+
+  Doi                      = {https://doi.org/10.1016/j.ymeth.2012.10.012},
+  ISSN                     = {1046-2023},
+  Keywords                 = {Biological regulatory networks, Boolean models, Structural analysis, Dynamic analysis, segment polarity gene network},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1046202312002770}
+}
+
+@Article{doi:10.1093/bioinformatics/btr373,
+  Title                    = {GeneNetWeaver: in silico benchmark generation and performance profiling of network inference methods},
+  Author                   = {Schaffter, Thomas and Marbach, Daniel and Floreano, Dario},
+  Journal                  = {Bioinformatics},
+  Year                     = {2011},
+  Number                   = {16},
+  Pages                    = {2263-2270},
+  Volume                   = {27},
+
+  Doi                      = {10.1093/bioinformatics/btr373},
+  Eprint                   = {/oup/backfile/content_public/journal/bioinformatics/27/16/10.1093_bioinformatics_btr373/2/btr373.pdf},
+  Url                      = {http://dx.doi.org/10.1093/bioinformatics/btr373}
+}
+
+@Article{10.1371/journal.pone.0096732,
+  Title                    = {MIDER: Network Inference with Mutual Information Distance and Entropy Reduction},
+  Author                   = {Villaverde, Alejandro F. AND Ross, John AND Morán, Federico AND Banga, Julio R.},
+  Journal                  = {PLOS ONE},
+  Year                     = {2014},
+
+  Month                    = {05},
+  Number                   = {5},
+  Pages                    = {1-15},
+  Volume                   = {9},
+
+  Abstract                 = {The prediction of links among variables from a given dataset is a task referred to as network inference or reverse engineering. It is an open problem in bioinformatics and systems biology, as well as in other areas of science. Information theory, which uses concepts such as mutual information, provides a rigorous framework for addressing it. While a number of information-theoretic methods are already available, most of them focus on a particular type of problem, introducing assumptions that limit their generality. Furthermore, many of these methods lack a publicly available implementation. Here we present MIDER, a method for inferring network structures with information theoretic concepts. It consists of two steps: first, it provides a representation of the network in which the distance among nodes indicates their statistical closeness. Second, it refines the prediction of the existing links to distinguish between direct and indirect interactions and to assign directionality. The method accepts as input time-series data related to some quantitative features of the network nodes (such as e.g. concentrations, if the nodes are chemical species). It takes into account time delays between variables, and allows choosing among several definitions and normalizations of mutual information. It is general purpose: it may be applied to any type of network, cellular or otherwise. A Matlab implementation including source code and data is freely available (http://www.iim.csic.es/~gingproc/mider.html). The performance of MIDER has been evaluated on seven different benchmark problems that cover the main types of cellular networks, including metabolic, gene regulatory, and signaling. Comparisons with state of the art information–theoretic methods have demonstrated the competitive performance of MIDER, as well as its versatility. Its use does not demand any a priori knowledge from the user; the default settings and the adaptive nature of the method provide good results for a wide range of problems without requiring tuning.},
+  Doi                      = {10.1371/journal.pone.0096732},
+  Publisher                = {Public Library of Science},
+  Url                      = {https://doi.org/10.1371/journal.pone.0096732}
+}
+
+@Article{Zoppoli2010,
+  Title                    = {TimeDelay-ARACNE: Reverse engineering of gene networks from time-course data by an information theoretic approach},
+  Author                   = {Zoppoli, Pietro
+and Morganella, Sandro
+and Ceccarelli, Michele},
+  Journal                  = {BMC Bioinformatics},
+  Year                     = {2010},
+
+  Month                    = {Mar},
+  Number                   = {1},
+  Pages                    = {154},
+  Volume                   = {11},
+
+  Abstract                 = {One of main aims of Molecular Biology is the gain of knowledge about how molecular components interact each other and to understand gene function regulations. Using microarray technology, it is possible to extract measurements of thousands of genes into a single analysis step having a picture of the cell gene expression. Several methods have been developed to infer gene networks from steady-state data, much less literature is produced about time-course data, so the development of algorithms to infer gene networks from time-series measurements is a current challenge into bioinformatics research area. In order to detect dependencies between genes at different time delays, we propose an approach to infer gene regulatory networks from time-series measurements starting from a well known algorithm based on information theory.},
+  Day                      = {25},
+  Doi                      = {10.1186/1471-2105-11-154},
+  ISSN                     = {1471-2105},
+  Url                      = {https://doi.org/10.1186/1471-2105-11-154}
+}
+

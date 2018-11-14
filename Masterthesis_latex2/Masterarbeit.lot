@@ -1,0 +1,19 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces List of growth factors (stimuli) of DREAM8 Challenge\relax }}{7}{table.1.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Training data: CSV structure\relax }}{20}{table.caption.28}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Transition table $B$\relax }}{23}{table.caption.32}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Left: Table of initial possible states for the variable set A,B,C. Right: Table of states after one transition step $(t+1)$ for the variable A',B',C'\relax }}{24}{table.caption.33}
+\contentsline {table}{\numberline {2.4}{\ignorespaces \relax }}{25}{table.caption.34}
+\contentsline {table}{\numberline {2.5}{\ignorespaces \relax }}{25}{table.caption.34}
+\contentsline {table}{\numberline {2.6}{\ignorespaces \relax }}{25}{table.caption.35}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Confusion matrix\relax }}{28}{table.caption.39}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Confusion matrix displaying all four possible outcomes.\relax }}{30}{table.caption.41}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Settings: Pipeline \textit {in silico} and network properties \relax }}{34}{table.caption.44}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Network properties\relax }}{43}{table.caption.58}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Ranking of the prediction\relax }}{47}{table.caption.64}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

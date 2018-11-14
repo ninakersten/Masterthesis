@@ -1,0 +1,11 @@
+clusterdepth,Networkname,BESTFIT,FULLFIT,REVEAL
+1,Network_faure_cellcycleKM1.sif,0.72,0.72,0.76
+2,Network_faure_cellcycleKM2.sif,0.68,0.74,0.74
+3,Network_faure_cellcycleKM3.sif,0.76,0.7,0.68
+4,Network_faure_cellcycleKM4.sif,0.72,0.7,0.68
+5,Network_faure_cellcycleKM5.sif,0.66,0.68,0.74
+6,Network_faure_cellcycleKM6.sif,0.69,0.72,0.7
+7,Network_faure_cellcycleKM7.sif,0.7,0.71,0.68
+8,Network_faure_cellcycleKM8.sif,0.72,0.7,0.69
+9,Network_faure_cellcycleKM9.sif,0.68,0.71,0.7
+10,Network_faure_cellcycleKM10.sif,0.7,0.68,0.7
